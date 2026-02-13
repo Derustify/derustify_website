@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Derustify - Offline AI photo restoration for Windows and Android. Remove noise, restore colors, and bring old photos back to life.">
+  <meta name="keywords" content="photo restoration, AI colorization, denoise, old photos, image enhancement">
+  <title>Derustify - AI Photo Restoration</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/icons/favicon.png">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="#" class="logo">
+        <img src="assets/icons/logo_transparent.webp" alt="Derustify Logo" data-i18n-alt="Global.LogoAlt">
+        <span data-i18n="Global.Brand">Derustify</span>
+      </a>
+      
+      <nav class="nav">
+        <ul class="nav-links">
+          <li><a href="#features" class="nav-link" data-i18n="Navigation.Features">Why Derustify?</a></li>
+          <li><a href="#showcase" class="nav-link" data-i18n="Navigation.Showcase">Gallery</a></li>
+          <li><a href="#faq" class="nav-link" data-i18n="Navigation.FAQ">Common Questions</a></li>
+        </ul>
+
+        <div class="language-selector" id="language-selector">
+          <button class="lang-trigger" aria-label="Select Language" aria-expanded="false" id="lang-trigger">
+            <div class="lang-flag-wrapper">
+              <img src="assets/flags/us.svg" alt="" class="lang-flag-img" id="current-flag">
+            </div>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" class="lang-chevron">
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </button>
+          <div class="lang-dropdown" id="lang-dropdown">
+            <button class="lang-option" data-lang="en">
+              <img src="assets/flags/us.svg" alt="" class="option-flag-img">
+              <span class="option-label">English</span>
+            </button>
+            <button class="lang-option" data-lang="de">
+              <img src="assets/flags/de.svg" alt="" class="option-flag-img">
+              <span class="option-label">Deutsch</span>
+            </button>
+            <button class="lang-option" data-lang="es">
+              <img src="assets/flags/es.svg" alt="" class="option-flag-img">
+              <span class="option-label">Español</span>
+            </button>
+            <button class="lang-option" data-lang="fr">
+              <img src="assets/flags/fr.svg" alt="" class="option-flag-img">
+              <span class="option-label">Français</span>
+            </button>
+            <button class="lang-option" data-lang="ja">
+              <img src="assets/flags/jp.svg" alt="" class="option-flag-img">
+              <span class="option-label">日本語</span>
+            </button>
+            <button class="lang-option" data-lang="nb">
+              <img src="assets/flags/no.svg" alt="" class="option-flag-img">
+              <span class="option-label">Norsk</span>
+            </button>
+            <button class="lang-option" data-lang="pt">
+              <img src="assets/flags/br.svg" alt="" class="option-flag-img">
+              <span class="option-label">Português</span>
+            </button>
+            <button class="lang-option" data-lang="zh">
+              <img src="assets/flags/cn.svg" alt="" class="option-flag-img">
+              <span class="option-label">简体中文</span>
+            </button>
+          </div>
+        </div>
+        
+        <div class="nav-cta">
+          <a href="#download" class="btn btn-primary" data-i18n="Navigation.Download">Get Started</a>
+        </div>
+        
+        <button class="mobile-menu-btn" aria-label="Toggle menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero section">
+    <div class="container hero-inner">
+      <div class="hero-content fade-in">
+        <h1 class="heading-xl hero-title" data-i18n="Hero.Title">
+          100% private photo restoration.
+        </h1>
+        
+        <p class="hero-description" data-i18n="Hero.Description">
+          Stop paying monthly fees to big tech just to see your own photos. Derustify is the professional-grade photo restorer that runs 100% on your hardware. One payment. Yours forever.
+        </p>
+        
+        <div class="hero-buttons">
+          <a href="#" class="btn btn-primary">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M3 20.5v-17c0-.84 1.01-1.28 1.62-.7l12.01 8.5c.5.35.5 1.05 0 1.4l-12 8.5c-.62.58-1.63.14-1.63-.7z"/>
+            </svg>
+            <span data-i18n="Hero.Buttons.GooglePlay">Android App</span>
+          </a>
+          <a href="#" class="btn btn-secondary">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="3" width="20" height="14" rx="2"></rect>
+              <path d="M8 21h8"></path>
+              <path d="M12 17v4"></path>
+            </svg>
+            <span data-i18n="Hero.Buttons.Windows">Windows</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="hero-visual fade-in">
+        <div class="hero-showcase" id="hero-showcase">
+          <!-- Slide 1: Riverfront -->
+          <div class="hero-slide active">
+            <div class="comparison-slider" data-hero-slider>
+              <img class="comparison-img comparison-img-after" src="assets/images/Riverfront_color.png" alt="Restored New York Riverfront 1931" data-i18n-alt="Hero.Slides.Riverfront.Alt">
+              <img class="comparison-img comparison-img-before" src="assets/images/Riverfront.jpg" alt="Original New York Riverfront 1931" data-i18n-alt="Hero.Slides.Riverfront.AltBefore">
+              
+              <div class="comparison-handle">
+                <div class="comparison-grip">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15,18 9,12 15,6"></polyline></svg>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9,18 15,12 9,6"></polyline></svg>
+                </div>
+              </div>
+              
+              <div class="comparison-label comparison-label-before" data-i18n="Hero.Comparison.Original">Aged Photo</div>
+              <div class="comparison-label comparison-label-after" data-i18n="Hero.Comparison.Restored">Derustified</div>
+            </div>
+          </div>
+
+          <!-- Slide 2: Old Man -->
+          <div class="hero-slide">
+            <div class="comparison-slider" data-hero-slider>
+              <img class="comparison-img comparison-img-after" src="assets/images/OldMan_color.png" alt="Restored photo of an old man" data-i18n-alt="Hero.Slides.OldMan.Alt">
+              <img class="comparison-img comparison-img-before" src="assets/images/OldMan.jpg" alt="Original photo of an old man" data-i18n-alt="Hero.Slides.OldMan.AltBefore">
+              
+              <div class="comparison-handle">
+                <div class="comparison-grip">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15,18 9,12 15,6"></polyline></svg>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9,18 15,12 9,6"></polyline></svg>
+                </div>
+              </div>
+              
+              <div class="comparison-label comparison-label-before" data-i18n="Hero.Comparison.Original">Aged Photo</div>
+              <div class="comparison-label comparison-label-after" data-i18n="Hero.Comparison.Restored">Derustified</div>
+            </div>
+          </div>
+
+          <!-- Slide 3: Showcase 1 -->
+          <div class="hero-slide">
+            <div class="comparison-slider" data-hero-slider>
+              <img class="comparison-img comparison-img-after" src="assets/images/Showcase1_color.png" alt="Restored historical scene 1" data-i18n-alt="Hero.Slides.Showcase1.Alt">
+              <img class="comparison-img comparison-img-before" src="assets/images/Showcase1.jpg" alt="Original historical scene 1" data-i18n-alt="Hero.Slides.Showcase1.AltBefore">
+              
+              <div class="comparison-handle">
+                <div class="comparison-grip">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15,18 9,12 15,6"></polyline></svg>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9,18 15,12 9,6"></polyline></svg>
+                </div>
+              </div>
+              
+              <div class="comparison-label comparison-label-before" data-i18n="Hero.Comparison.Original">Aged Photo</div>
+              <div class="comparison-label comparison-label-after" data-i18n="Hero.Comparison.Restored">Derustified</div>
+            </div>
+          </div>
+
+          <!-- Slide 4: Showcase 2 -->
+          <div class="hero-slide">
+            <div class="comparison-slider" data-hero-slider>
+              <img class="comparison-img comparison-img-after" src="assets/images/Showcase2_color.png" alt="Restored historical scene 2" data-i18n-alt="Hero.Slides.Showcase2.Alt">
+              <img class="comparison-img comparison-img-before" src="assets/images/Showcase2.jpg" alt="Original historical scene 2" data-i18n-alt="Hero.Slides.Showcase2.AltBefore">
+              
+              <div class="comparison-handle">
+                <div class="comparison-grip">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15,18 9,12 15,6"></polyline></svg>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9,18 15,12 9,6"></polyline></svg>
+                </div>
+              </div>
+              
+              <div class="comparison-label comparison-label-before" data-i18n="Hero.Comparison.Original">Aged Photo</div>
+              <div class="comparison-label comparison-label-after" data-i18n="Hero.Comparison.Restored">Derustified</div>
+            </div>
+          </div>
+
+          <!-- Carousel Controls -->
+          <div class="showcase-dots">
+            <div class="showcase-dot active" data-slide="0"></div>
+            <div class="showcase-dot" data-slide="1"></div>
+            <div class="showcase-dot" data-slide="2"></div>
+            <div class="showcase-dot" data-slide="3"></div>
+          </div>
+        </div>
+        
+        <div class="hero-badge" data-i18n="Hero.Badge">
+          · Subscription free · Works offline · No registration · Just Yours
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features section" id="features">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2 class="heading-lg" data-i18n="FeatureSection.Header.Title">Built for your memories, not for profit.</h2>
+        <p data-i18n="FeatureSection.Header.Subtitle">Most apps rent you your own photos. We give you the tools to own them.</p>
+      </div>
+      
+      <div class="features-grid stagger-children">
+        <div class="feature-card fade-in">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 3v18"></path>
+              <path d="M3 12h18"></path>
+              <circle cx="12" cy="12" r="9"></circle>
+            </svg>
+          </div>
+          <h3 data-i18n="FeatureSection.Cards.Denoising.Title">Wipe away the grain</h3>
+          <p data-i18n="FeatureSection.Cards.Denoising.Description">Remove decades of digital 'rust' and 'sandiness' instantly. We make blurry faces crisp again so you can see the person, not the pixels.</p>
+        </div>
+        
+        <div class="feature-card fade-in">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="5"></circle>
+              <path d="M12 1v2"></path>
+              <path d="M12 21v2"></path>
+              <path d="M4.22 4.22l1.42 1.42"></path>
+              <path d="M18.36 18.36l1.42 1.42"></path>
+              <path d="M1 12h2"></path>
+              <path d="M21 12h2"></path>
+              <path d="M4.22 19.78l1.42-1.42"></path>
+              <path d="M18.36 5.64l1.42-1.42"></path>
+            </svg>
+          </div>
+          <h3 data-i18n="FeatureSection.Cards.Colorization.Title">Vibrant, lifelike color</h3>
+          <p data-i18n="FeatureSection.Cards.Colorization.Description">Breathe life back into black-and-white family history. Our AI understands your photos and adds colors that look real, not painted.</p>
+        </div>
+        
+        <div class="feature-card fade-in">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="2" width="20" height="20" rx="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </div>
+          <h3 data-i18n="FeatureSection.Cards.Batch.Title">Revive your entire album</h3>
+          <p data-i18n="FeatureSection.Cards.Batch.Description">Don't do it one-by-one. Drop in a folder of 500 photos and let the app work through the night. Your computer does the work, you get the results.</p>
+        </div>
+        
+        <div class="feature-card fade-in">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+          </div>
+          <h3 data-i18n="FeatureSection.Cards.Privacy.Title">Absolute Privacy</h3>
+          <p data-i18n="FeatureSection.Cards.Privacy.Description">Your family photos never leave your device. We don't have servers. We don't have accounts. Your private moments stay exactly where they belong: with you.</p>
+        </div>
+        
+        <div class="feature-card fade-in">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+              <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+              <line x1="12" y1="22.08" x2="12" y2="12"></line>
+            </svg>
+          </div>
+          <h3 data-i18n="FeatureSection.Cards.Performance.Title">Native Speed</h3>
+          <p data-i18n="FeatureSection.Cards.Performance.Description">Built with high-performance technology that won't slow you down. No long uploads, no waiting lists. Just instant results on your screen.</p>
+        </div>
+        
+        <div class="feature-card fade-in">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+            </svg>
+          </div>
+          <h3 data-i18n="FeatureSection.Cards.Safety.Title">Your originals are safe</h3>
+          <p data-i18n="FeatureSection.Cards.Safety.Description">We never touch your original files. Compare, tweak, and experiment freely knowing that your digital heirlooms are perfectly preserved.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Showcase Section -->
+  <section class="section" id="showcase">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2 class="heading-lg" data-i18n="ShowcaseSection.Header.Title">See the magic unfold</h2>
+        <p data-i18n="ShowcaseSection.Header.Subtitle">Drag the slider to see how we peel back the years from these historic moments.</p>
+      </div>
+      
+      <div class="showcase-grid stagger-children">
+        <!-- Item 1: Showcase 3 -->
+        <div class="showcase-item fade-in">
+          <div class="comparison-slider" data-slider>
+            <img class="comparison-img comparison-img-after" src="assets/images/Showcase3_color.png" alt="Restored historical scene 3" data-i18n-alt="ShowcaseSection.Items.Showcase3.Alt">
+            <img class="comparison-img comparison-img-before" src="assets/images/Showcase3.jpg" alt="Original age-worn photo" data-i18n-alt="ShowcaseSection.Items.Showcase3.AltBefore">
+            <div class="comparison-handle">
+              <div class="comparison-grip">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15,18 9,12 15,6"></polyline></svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9,18 15,12 9,6"></polyline></svg>
+              </div>
+            </div>
+            <div class="comparison-label comparison-label-before" data-i18n="Hero.Comparison.Original">Aged Photo</div>
+            <div class="comparison-label comparison-label-after" data-i18n="Hero.Comparison.Restored">Derustified</div>
+          </div>
+          <div class="showcase-caption">
+            <h3 data-i18n="ShowcaseSection.Items.Showcase3.Title">Dusty Memories</h3>
+            <p data-i18n="ShowcaseSection.Items.Showcase3.Caption">Restoring the grit and detail of 20th century life.</p>
+          </div>
+        </div>
+
+        <!-- Item 2: Showcase 4 -->
+        <div class="showcase-item fade-in">
+          <div class="comparison-slider" data-slider>
+            <img class="comparison-img comparison-img-after" src="assets/images/Showcase4_color.png" alt="Restored historical photo" data-i18n-alt="ShowcaseSection.Items.Showcase4.Alt">
+            <img class="comparison-img comparison-img-before" src="assets/images/Showcase4.jpg" alt="Original faded photo" data-i18n-alt="ShowcaseSection.Items.Showcase4.AltBefore">
+            <div class="comparison-handle">
+              <div class="comparison-grip">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15,18 9,12 15,6"></polyline></svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9,18 15,12 9,6"></polyline></svg>
+              </div>
+            </div>
+            <div class="comparison-label comparison-label-before" data-i18n="Hero.Comparison.Original">Aged Photo</div>
+            <div class="comparison-label comparison-label-after" data-i18n="Hero.Comparison.Restored">Derustified</div>
+          </div>
+          <div class="showcase-caption">
+            <h3 data-i18n="ShowcaseSection.Items.Showcase4.Title">Human Resilience</h3>
+            <p data-i18n="ShowcaseSection.Items.Showcase4.Caption">Bringing focus and color to iconic moments.</p>
+          </div>
+        </div>
+
+        <!-- Item 3: Showcase 5 (Migrant Mother) -->
+        <div class="showcase-item fade-in">
+          <div class="comparison-slider" data-slider>
+            <img class="comparison-img comparison-img-after" src="assets/images/Showcase5_color.png" alt="Restored migrant mother" data-i18n-alt="ShowcaseSection.Items.Showcase5.Alt">
+            <img class="comparison-img comparison-img-before" src="assets/images/Showcase5.jpg" alt="Original faded portrait" data-i18n-alt="ShowcaseSection.Items.Showcase5.AltBefore">
+            <div class="comparison-handle">
+              <div class="comparison-grip">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15,18 9,12 15,6"></polyline></svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9,18 15,12 9,6"></polyline></svg>
+              </div>
+            </div>
+            <div class="comparison-label comparison-label-before" data-i18n="Hero.Comparison.Original">Aged Photo</div>
+            <div class="comparison-label comparison-label-after" data-i18n="Hero.Comparison.Restored">Derustified</div>
+          </div>
+          <div class="showcase-caption">
+            <h3 data-i18n="ShowcaseSection.Items.Showcase5.Title">A Mother's Strength</h3>
+            <p data-i18n="ShowcaseSection.Items.Showcase5.Caption">Iconic Dust Bowl portraits, restored for the next century.</p>
+          </div>
+        </div>
+
+        <!-- Item 4: Showcase 6 -->
+        <div class="showcase-item fade-in">
+          <div class="comparison-slider" data-slider>
+            <img class="comparison-img comparison-img-after" src="assets/images/Showcase6_color.png" alt="Restored historical scene 6" data-i18n-alt="ShowcaseSection.Items.Showcase6.Alt">
+            <img class="comparison-img comparison-img-before" src="assets/images/Showcase6.jpg" alt="Original historical scene" data-i18n-alt="ShowcaseSection.Items.Showcase6.AltBefore">
+            <div class="comparison-handle">
+              <div class="comparison-grip">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15,18 9,12 15,6"></polyline></svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9,18 15,12 9,6"></polyline></svg>
+              </div>
+            </div>
+            <div class="comparison-label comparison-label-before" data-i18n="Hero.Comparison.Original">Aged Photo</div>
+            <div class="comparison-label comparison-label-after" data-i18n="Hero.Comparison.Restored">Derustified</div>
+          </div>
+          <div class="showcase-caption">
+            <h3 data-i18n="ShowcaseSection.Items.Showcase6.Title">The Great Depression</h3>
+            <p data-i18n="ShowcaseSection.Items.Showcase6.Caption">Preserving the depth of historical struggle in color.</p>
+          </div>
+        </div>
+
+        <!-- Item 5: Louis Armstrong -->
+        <div class="showcase-item fade-in">
+          <div class="comparison-slider" data-slider>
+            <img class="comparison-img comparison-img-after" src="assets/images/Louis_color.png" alt="Restored Louis Armstrong" data-i18n-alt="ShowcaseSection.Items.Louis.Alt">
+            <img class="comparison-img comparison-img-before" src="assets/images/Louis.jpg" alt="Original aged photo" data-i18n-alt="ShowcaseSection.Items.Louis.AltBefore">
+            <div class="comparison-handle">
+              <div class="comparison-grip">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15,18 9,12 15,6"></polyline></svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9,18 15,12 9,6"></polyline></svg>
+              </div>
+            </div>
+            <div class="comparison-label comparison-label-before" data-i18n="Hero.Comparison.Original">Aged Photo</div>
+            <div class="comparison-label comparison-label-after" data-i18n="Hero.Comparison.Restored">Derustified</div>
+          </div>
+          <div class="showcase-caption">
+            <h3 data-i18n="ShowcaseSection.Items.Louis.Title">Legendary Clarity</h3>
+            <p data-i18n="ShowcaseSection.Items.Louis.Caption">Louis Armstrong's 1946 dressing room, restored in vivid detail.</p>
+          </div>
+        </div>
+
+        <!-- Item 6: Broadway -->
+        <div class="showcase-item fade-in">
+          <div class="comparison-slider" data-slider>
+            <img class="comparison-img comparison-img-after" src="assets/images/Broadway_color.png" alt="Restored Broadway" data-i18n-alt="ShowcaseSection.Items.Broadway.Alt">
+            <img class="comparison-img comparison-img-before" src="assets/images/Broadway.jpg" alt="Original black and white photo" data-i18n-alt="ShowcaseSection.Items.Broadway.AltBefore">
+            <div class="comparison-handle">
+              <div class="comparison-grip">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15,18 9,12 15,6"></polyline></svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9,18 15,12 9,6"></polyline></svg>
+              </div>
+            </div>
+            <div class="comparison-label comparison-label-before" data-i18n="Hero.Comparison.Original">Aged Photo</div>
+            <div class="comparison-label comparison-label-after" data-i18n="Hero.Comparison.Restored">Derustified</div>
+          </div>
+          <div class="showcase-caption">
+            <h3 data-i18n="ShowcaseSection.Items.Broadway.Title">A Walk through Time</h3>
+            <p data-i18n="ShowcaseSection.Items.Broadway.Caption">Bringing 1931 Broadway back in vivid, accurate color.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2 class="heading-lg" data-i18n="FAQSection.Header.Title">The honest truth</h2>
+        <p data-i18n="FAQSection.Header.Subtitle">Everything you need to know about how we're different from the giants.</p>
+      </div>
+      
+      <div class="faq-list fade-in">
+        <div class="faq-item">
+          <button class="faq-question">
+            <span data-i18n="FAQSection.Questions.Q1.Q">Why is there no subscription?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="12" y1="5" x2="12" y2="19"></line>
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p data-i18n="FAQSection.Questions.Q1.A">Because you shouldn't have to 'rent' software to look at your own photos. Modern companies use subscriptions to cover expensive cloud processing. Since Derustify runs on YOUR computer or phone, we have no server costs to pass on to you. You buy it, you own it. Period.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <button class="faq-question">
+            <span data-i18n="FAQSection.Questions.Q2.Q">Is it really private?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="12" y1="5" x2="12" y2="19"></line>
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p data-i18n="FAQSection.Questions.Q2.A">Yes. 100%. We physically cannot see your photos. All the AI magic happens inside your device's memory. No internet connection is required to restore images.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <button class="faq-question">
+            <span data-i18n="FAQSection.Questions.Q3.Q">Will it work on my device?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="12" y1="5" x2="12" y2="19"></line>
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p data-i18n="FAQSection.Questions.Q3.A">Derustify is built for modern Windows (10/11) and Android (8.0+). If you have a decent phone or a computer with a graphics card, it will be incredibly fast. If your device is older, it still works—it just takes a few extra seconds to 'clean' each photo.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <button class="faq-question">
+            <span data-i18n="FAQSection.Questions.Q4.Q">What's the catch with the Free version?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="12" y1="5" x2="12" y2="19"></line>
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p data-i18n="FAQSection.Questions.Q4.A">The free version has all the power of the Pro version. We just add a small watermark to the corner of your exported images. Upgrading to Pro removes the watermark and unlocks batch processing for those large boxes of family photos in the attic.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <button class="faq-question">
+            <span data-i18n="FAQSection.Questions.Q5.Q">Can I use it as a gift?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="12" y1="5" x2="12" y2="19"></line>
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p data-i18n="FAQSection.Questions.Q5.A">Absolutely. It's the perfect gift for the family historian. Purchase it once, install it on the family PC, and spend an afternoon rescuing the family archives together.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span data-i18n="FAQSection.Questions.Q6.Q">Are the recolored images historically accurate?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="12" y1="5" x2="12" y2="19"></line>
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p data-i18n="FAQSection.Questions.Q6.A">No, the recolored images may have historical inaccuracies. The AI models are trained to restore color or to upscale images based on large samples of training data and often succeeds in correct output. Inaccurecies or inadequate coloring of images may occur, and Derustify does not gurarantee perfect results for all images.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta section" id="download">
+    <div class="container">
+      <h2 class="heading-lg fade-in" data-i18n="CTASection.Title">Don't let your memories fade away.</h2>
+      <p class="fade-in" data-i18n="CTASection.Subtitle">Download Derustify today. Own the technology. Keep the memories.</p>
+      <div class="cta-buttons fade-in">
+        <a href="#" class="btn btn-secondary">
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M3 20.5v-17c0-.84 1.01-1.28 1.62-.7l12.01 8.5c.5.35.5 1.05 0 1.4l-12 8.5c-.62.58-1.63.14-1.63-.7z"/>
+          </svg>
+          <span data-i18n="CTASection.Buttons.GooglePlay">Download for Android</span>
+        </a>
+        <a href="#" class="btn btn-secondary">
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="2" y="3" width="20" height="14" rx="2"></rect>
+            <path d="M8 21h8"></path>
+            <path d="M12 17v4"></path>
+          </svg>
+          <span data-i18n="CTASection.Buttons.Windows">Download for Windows</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-links">
+        <a href="privacy.html" class="footer-link" data-i18n="Footer.Links.Privacy">Privacy Policy</a>
+        <a href="terms.html" class="footer-link" data-i18n="Footer.Links.Terms">Terms of Service</a>
+        <a href="mailto:contact@derustify.com" class="footer-link" data-i18n="Footer.Links.Contact">Contact Support</a>
+      </div>
+      <p class="footer-copy" data-i18n="Footer.Copy">© 2026 Derustify. A product of passion and privacy.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,169 @@
+{
+  "Global": {
+    "Brand": "Derustify",
+    "LogoAlt": "Derustify Logo",
+    "Meta": {
+      "Title": "Derustify - Professionelle Offline KI-Fotorestaurierung",
+      "Description": "Retten Sie Ihre wertvollen Erinnerungen mit Derustify. 100% offline KI-Fotorestaurierung. Einmaliger Kauf. Keine Cloud, kein Abo, nur Privatsphäre."
+    }
+  },
+  "Navigation": {
+    "Features": "Warum Derustify?",
+    "Showcase": "Galerie",
+    "FAQ": "Häufige Fragen",
+    "Download": "Loslegen"
+  },
+  "Hero": {
+    "Badge": "· Ohne Abo   · Funktioniert offline   · Keine Registrierung   · Ganz Privat",
+    "Title": "Private Fotorestaurierung",
+    "Description": "Hören Sie auf, monatliche Gebühren zu zahlen oder mit Ihren Daten zu bezahlen, um Ihre eigenen Fotos zu sehen. Derustify restauriert Ihre Bilder mit KI direkt auf dem Gerät und hält Ihre Erinnerungen 100% privat. Kostenlos nutzen oder einmalig zahlen für verbesserte Qualität und Funktionen.",
+    "Buttons": {
+      "GooglePlay": "Android App",
+      "Windows": "Windows Desktop"
+    },
+    "Comparison": {
+      "Original": "Altes Foto",
+      "Restored": "Restauriert"
+    },
+    "Slides": {
+      "Riverfront": { "Alt": "Kolorierte New Yorker Uferpromenade von 1931", "AltBefore": "Originales Schwarz-Weiß-Foto der New Yorker Uferpromenade" },
+      "OldMan": { "Alt": "Restauriertes Foto eines nachdenklichen alten Mannes", "AltBefore": "Originales verblasstes Foto eines alten Mannes" },
+      "Showcase1": { "Alt": "Restaurierte historische Straßenszene", "AltBefore": "Originales beschädigtes Foto" },
+      "Showcase2": { "Alt": "Restauriertes historisches Porträt", "AltBefore": "Originales verblasstes Foto" }
+    }
+  },
+  "FeatureSection": {
+    "Header": {
+      "Title": "Gebaut für Ihre Erinnerungen, nicht für Ihre Daten.",
+      "Subtitle": "Die meisten Apps vermieten Ihnen Ihre eigenen Fotos. Wir geben Ihnen die Werkzeuge, sie zu besitzen."
+    },
+    "Cards": {
+      "Denoising": {
+        "Title": "Wipe away the grain",
+        "Description": "Remove decades of digital 'rust' and 'sandiness' instantly. We make blurry faces crisp again so you can see the person, not the pixels."
+      },
+      "Colorization": {
+        "Title": "Vibrant, lifelike color",
+        "Description": "Breathe life back into black-and-white family history. Our AI understands your photos and adds colors that look real, not painted."
+      },
+      "Batch": {
+        "Title": "Revive your entire album",
+        "Description": "Don't do it one-by-one. Drop in a folder of 500 photos and let the app work through the night. Your computer does the work, you get the results."
+      },
+      "Privacy": {
+        "Title": "Absolute Privacy",
+        "Description": "Your family photos never leave your device. We don't have servers. We don't have accounts. Your private moments stay exactly where they belong: with you."
+      },
+      "Performance": {
+        "Title": "Native Speed",
+        "Description": "Built with high-performance technology that won't slow you down. No long uploads, no waiting lists. Just instant results on your screen."
+      },
+      "Safety": {
+        "Title": "Your originals are safe",
+        "Description": "We never touch your original files. Compare, tweak, and experiment freely knowing that your digital heirlooms are perfectly preserved."
+      }
+    }
+  },
+  "ShowcaseSection": {
+    "Header": {
+      "Title": "See the magic unfold",
+      "Subtitle": "Drag the slider to see how we peel back the years from these historic moments."
+    },
+    "Items": {
+      "Showcase3": {
+        "Title": "Dusty Memories",
+        "Caption": "Restoring the grit and detail of 20th century life.",
+        "Alt": "Colorized historical scene",
+        "AltBefore": "Original age-worn photo"
+      },
+      "Showcase4": {
+        "Title": "Human Resilience",
+        "Caption": "Bringing focus and color to iconic moments.",
+        "Alt": "Restored historical photo",
+        "AltBefore": "Original faded photo"
+      },
+      "Showcase6": {
+        "Title": "The Great Depression",
+        "Caption": "Preserving the depth of historical struggle in color.",
+        "Alt": "Colorized historical scene",
+        "AltBefore": "Original black and white photo"
+      },
+      "Showcase5": {
+        "Title": "A Mother's Strength",
+        "Caption": "Iconic Dust Bowl portraits, restored for the next century.",
+        "Alt": "Restored portrait of a migrant mother",
+        "AltBefore": "Original faded portrait"
+      },
+      "Louis": {
+        "Title": "Legendary Clarity",
+        "Caption": "Louis Armstrong's 1946 dressing room, restored in vivid detail.",
+        "Alt": "Restored photo of Louis Armstrong",
+        "AltBefore": "Original aged photo"
+      },
+      "Broadway": {
+        "Title": "A Walk through Time",
+        "Caption": "Bringing 1931 Broadway back in vivid, accurate color.",
+        "Alt": "Colorized historic Broadway",
+        "AltBefore": "Original black and white photo"
+      }
+    }
+  },
+  "FAQSection": {
+    "Header": {
+      "Title": "Die ehrliche Wahrheit",
+      "Subtitle": "Alles, was Sie wissen müssen, um zu verstehen, wie wir uns von den Riesen unterscheiden."
+    },
+    "Questions": {
+      "Q1": {
+        "Q": "Warum gibt es kein Abonnement?",
+        "A": "Weil Sie Software nicht 'mieten' müssen sollten, um Ihre eigenen Fotos anzusehen. Moderne Unternehmen nutzen Abonnements, um teure Cloud-Verarbeitung zu finanzieren. Da Derustify auf IHREM Computer oder Handy läuft, haben wir keine Serverkosten, die wir an Sie weitergeben müssen. Einmal kaufen, für immer besitzen. Punkt."
+      },
+      "Q2": {
+        "Q": "Ist es wirklich privat?",
+        "A": "Ja. Zu 100%. Wir können Ihre Fotos physisch nicht sehen. Die gesamte KI-Magie findet im Speicher Ihres Geräts statt. Es ist keine Internetverbindung erforderlich, um Bilder zu restaurieren."
+      },
+      "Q3": {
+        "Q": "Wird es auf meinem Gerät funktionieren?",
+        "A": "Derustify ist für modernes Windows (10/11) und Android (8.0+) konzipiert. Wenn Sie ein ordentliches Handy oder einen Computer mit Grafikkarte haben, wird es unglaublich schnell sein. Wenn Ihr Gerät älter ist, funktioniert es trotzdem – es dauert nur ein paar Sekunden länger, um jedes Foto zu 'reinigen'."
+      },
+      "Q4": {
+        "Q": "Was ist der Haken bei der kostenlosen Version?",
+        "A": "Die kostenlose Version hat die gleiche Leistung wie die Pro-Version. Wir fügen lediglich ein kleines Wasserzeichen in der Ecke Ihrer exportierten Bilder hinzu. Das Upgrade auf Pro entfernt das Wasserzeichen und schaltet die Batch-Verarbeitung für die großen Kisten mit Familienfotos auf dem Dachboden frei."
+      },
+      "Q5": {
+        "Q": "Kann ich es als Geschenk verwenden?",
+        "A": "Absolut. Es ist das perfekte Geschenk für den Familienhistoriker, für Ihre Großeltern oder jeden in der Familie, der restaurierte Erinnerungen zu schätzen weiß. Einmal kaufen, auf dem Familien-PC installieren und einen Nachmittag damit verbringen, das Familienarchiv gemeinsam zu retten."
+      },
+      "Q6": {
+        "Q": "Sind die neu eingefärbten Bilder historisch korrekt?",
+        "A": "Nein, die neu eingefärbten Bilder können historische Ungenauigkeiten aufweisen. Die KI-Modelle sind darauf trainiert, Farben wiederherzustellen oder Bilder basierend auf großen Mengen an Trainingsdaten zu skalieren und erzielen oft korrekte Ergebnisse. Ungenauigkeiten oder unzureichende Einfärbung von Bildern können vorkommen, und Derustify garantiert keine perfekten Ergebnisse für alle Bilder."
+      }
+    }
+  },
+  "CTASection": {
+    "Title": "Lassen Sie Ihre Erinnerungen nicht verblassen.",
+    "Subtitle": "Laden Sie Derustify heute herunter. Besitzen Sie die Technologie. Behalten Sie die Erinnerungen.",
+    "Buttons": {
+      "GooglePlay": "Download für Android",
+      "Windows": "Download für Windows"
+    }
+  },
+  "Footer": {
+    "Links": {
+      "Privacy": "Datenschutzerklärung",
+      "Terms": "Nutzungsbedingungen",
+      "Contact": "Support kontaktieren"
+    },
+    "Copy": "© 2026 Derustify. Ein Produkt aus Leidenschaft und Diskretion."
+  },
+  "Legal": {
+    "Privacy": {
+      "Title": "Datenschutzerklärung",
+      "Notice": "Ihre Familienfotos verlassen nie Ihr Gerät. Wir haben keine Server. Wir haben keine Konten."
+    },
+    "EULA": {
+      "Title": "Lizenzvereinbarung",
+      "Notice": "Standard-Lizenz für den persönlichen Gebrauch von Derustify."
+    }
+  }
+}

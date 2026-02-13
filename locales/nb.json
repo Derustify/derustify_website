@@ -1,0 +1,169 @@
+{
+  "Global": {
+    "Brand": "Derustify",
+    "LogoAlt": "Derustify Logo",
+    "Meta": {
+      "Title": "Derustify - Profesjonell Offline AI Fotorestaurering",
+      "Description": "Gjenopprett dine dyrebare minner med Derustify. 100 % offline AI-fotorestaurering. Engangskjøp. Ingen sky, ingen abonnementer, bare personvern."
+    }
+  },
+  "Navigation": {
+    "Features": "Hvorfor Derustify?",
+    "Showcase": "Galleri",
+    "FAQ": "Vanlige spørsmål",
+    "Download": "Kom i gang"
+  },
+  "Hero": {
+    "Badge": "· Uten abonnement   · Fungerer offline   · Ingen registrering   · Bare dine",
+    "Title": "Privat fotorestaurering",
+    "Description": "Slutt å betale månedlige gebyrer eller med dine data for å se dine egne bilder. Derustify gjenoppretter bildene dine med AI direkte på enheten, og holder minnene dine 100 % private og dine alene. Bruk det gratis, eller betal én gang for å få forbedret kvalitet og funksjoner.",
+    "Buttons": {
+      "GooglePlay": "Android App",
+      "Windows": "Windows Desktop"
+    },
+    "Comparison": {
+      "Original": "Gammelt bilde",
+      "Restored": "Restaurert"
+    },
+    "Slides": {
+      "Riverfront": { "Alt": "Fargelagt New York Riverfront fra 1931", "AltBefore": "Originalt svart-hvitt bilde av New York Riverfront" },
+      "OldMan": { "Alt": "Restaurert bilde av en tenkende gammel mann", "AltBefore": "Originalt falmet bilde av en gammel mann" },
+      "Showcase1": { "Alt": "Restaurert historisk gatescene", "AltBefore": "Originalt skadet bilde" },
+      "Showcase2": { "Alt": "Restaurert historisk portrett", "AltBefore": "Originalt falmet bilde" }
+    }
+  },
+  "FeatureSection": {
+    "Header": {
+      "Title": "Bygget for dine minner, ikke for dine data.",
+      "Subtitle": "De fleste apper leier deg dine egne bilder. Vi gir deg verktøyene til å eie dem."
+    },
+    "Cards": {
+      "Denoising": {
+        "Title": "Fjern korn og støy",
+        "Description": "Fjern tiår med digital 'rust' og korn umiddelbart. Vi gjør uklare ansikter skarpe igjen, slik at du ser personen, ikke pikslene."
+      },
+      "Colorization": {
+        "Title": "Levende, naturtro farger",
+        "Description": "Pust liv i svart-hvitt familiehistorie. Vår AI forstår bildene dine og legger til farger som ser ekte ut, ikke malte."
+      },
+      "Batch": {
+        "Title": "Gjenopprett hele albumet ditt",
+        "Description": "Ikke gjør det ett-for-ett. Slipp inn en mappe med 500 bilder og la appen jobbe gjennom natten. Datamaskinen din gjør jobben, du får resultatene."
+      },
+      "Privacy": {
+        "Title": "Total personvern",
+        "Description": "Familiebildene dine forlater aldri enheten din. Vi har ikke servere. Vi har ikke kontoer. Dine private øyeblikk forblir nøyaktig der de hører hjemme: hos deg."
+      },
+      "Performance": {
+        "Title": "Nativ hastighet",
+        "Description": "Bygget med høyytelsesteknologi som ikke vil bremse deg. Ingen lange opplastinger, ingen ventelister. Bare umiddelbare resultater på skjermen din."
+      },
+      "Safety": {
+        "Title": "Originalene dine er trygge",
+        "Description": "Vi rører aldri originalfilene dine. Sammenlign, juster og eksperimenter fritt i visshet om at dine digitale arvestykker er perfekt bevart."
+      }
+    }
+  },
+  "ShowcaseSection": {
+    "Header": {
+      "Title": "Se magien utfolde seg",
+      "Subtitle": "Dra i glideren for å se hvordan vi skreller av årene fra disse historiske øyeblikkene."
+    },
+    "Items": {
+      "Showcase3": {
+        "Title": "Støvete minner",
+        "Caption": "Gjenoppretter tekstur og detaljer fra det 20. århundre.",
+        "Alt": "Fargelagt historisk scene",
+        "AltBefore": "Originalt alderspreget bilde"
+      },
+      "Showcase4": {
+        "Title": "Menneskelig utholdenhet",
+        "Caption": "Bringer fokus og farge til ikoniske øyeblikk.",
+        "Alt": "Restaurert historisk bilde",
+        "AltBefore": "Originalt falmet bilde"
+      },
+      "Showcase6": {
+        "Title": "Den store depresjonen",
+        "Caption": "Bevarer dybden i historisk kamp i farger.",
+        "Alt": "Fargelagt historisk scene",
+        "AltBefore": "Originalt svart-hvitt bilde"
+      },
+      "Showcase5": {
+        "Title": "En mors styrke",
+        "Caption": "Ikoniske Dust Bowl-portretter, restaurert for det neste århundret.",
+        "Alt": "Restaurert portrett av en migrantmor",
+        "AltBefore": "Originalt falmet portrett"
+      },
+      "Louis": {
+        "Title": "Legendær klarhet",
+        "Caption": "Louis Armstrongs garderobe i 1946, restaurert i levende detaljer.",
+        "Alt": "Restaurert bilde av Louis Armstrong",
+        "AltBefore": "Originalt eldet bilde"
+      },
+      "Broadway": {
+        "Title": "En vandring gjennom tiden",
+        "Caption": "Bringer 1931 Broadway tilbake i levende, nøyaktige farger.",
+        "Alt": "Fargelagt historisk Broadway",
+        "AltBefore": "Originalt svart-hvitt bilde"
+      }
+    }
+  },
+  "FAQSection": {
+    "Header": {
+      "Title": "Den ærlige sannheten",
+      "Subtitle": "Alt du trenger å vite om hvordan vi skiller oss fra gigantene."
+    },
+    "Questions": {
+      "Q1": {
+        "Q": "Hvorfor er det ingen abonnement?",
+        "A": "Fordi du ikke skal trenge å 'leie' programvare for å se på dine egne bilder. Moderne selskaper bruker abonnementer for å dekke dyre skybehandlingskostnader. Siden Derustify kjører på DIN datamaskin eller telefon, har vi ingen serverkostnader å sende videre til deg. Du kjøper den, du eier den. Punktum."
+      },
+      "Q2": {
+        "Q": "Er det virkelig privat?",
+        "A": "Ja. 100 %. Vi kan fysisk ikke se bildene dine. All AI-magien skjer inne i enhetens minne. Ingen internettforbindelse er nødvendig for å restaurere bilder."
+      },
+      "Q3": {
+        "Q": "Vil det fungere på min enhet?",
+        "A": "Derustify er bygget for moderne Windows (10/11) og Android (8.0+). Hvis du har en grei telefon eller en datamaskin med grafikkort, vil det være utrolig raskt. Hvis enheten din er eldre, fungerer det fortsatt – det tar bare noen ekstra sekunder å 'rense' hvert bilde."
+      },
+      "Q4": {
+        "Q": "Hva er haken med gratisversjonen?",
+        "A": "Gratisversjonen har all kraften til Pro-versjonen. Vi legger bare til et lite vannmerke i hjørnet av dine eksporterte bilder. Oppgradering til Pro fjerner vannmerket og låser opp batchbehandling for de store boksene med familiebilder på loftet."
+      },
+      "Q5": {
+        "Q": "Kan jeg bruke det som en gave?",
+        "A": "Absolutt. Det er den perfekte gaven til familiehistorikeren, til besteforeldrene dine eller alle i familien som ville sette pris på restaurerte minner. Kjøp det én gang, installer det på familiens PC, og tilbring en ettermiddag med å redde familiearkivene sammen."
+      },
+      "Q6": {
+        "Q": "Er de fargelagte bildene historisk nøyaktige?",
+        "A": "Nei, de fargelagte bildene kan ha historiske unøyaktigheter. AI-modellene er trent til å gjenopprette farge eller oppskalere bilder basert på store mengder treningsdata og lykkes ofte med korrekt resultat. Unøyaktigheter eller utilstrekkelig fargelegging av bilder kan forekomme, og Derustify garanterer ikke perfekte resultater for alle bilder."
+      }
+    }
+  },
+  "CTASection": {
+    "Title": "Ikke la minnene dine falme bort.",
+    "Subtitle": "Last ned Derustify i dag. Eier teknologien. Behold minnene.",
+    "Buttons": {
+      "GooglePlay": "Last ned for Android",
+      "Windows": "Last ned for Windows"
+    }
+  },
+  "Footer": {
+    "Links": {
+      "Privacy": "Personvernerklæring",
+      "Terms": "Brukervilkår",
+      "Contact": "Kontakt Support"
+    },
+    "Copy": "© 2026 Derustify. Et produkt skapt med lidenskap og fokus på personvern."
+  },
+  "Legal": {
+    "Privacy": {
+      "Title": "Personvernerklæring",
+      "Notice": "Familiebildene dine forlater aldri enheten din. Vi har ikke servere. Vi har ikke kontoer."
+    },
+    "EULA": {
+      "Title": "Lisensavtale",
+      "Notice": "Standard personlig brukslisens for Derustify."
+    }
+  }
+}
