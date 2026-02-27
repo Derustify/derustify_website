@@ -11,16 +11,17 @@
     "Features": "Pourquoi Derustify ?",
     "Showcase": "Galerie",
     "FAQ": "Questions courantes",
-    "Download": "Commencer"
+    "Download": "Bientôt"
   },
   "Hero": {
     "Badge": "· Sans abonnement   · Fonctionne hors ligne   · Sans inscription   · Rien qu'à vous",
-    "Title": "Restauration photo privée",
-    "Description": "Arrêtez de payer des frais mensuels ou avec vos données pour voir vos propres photos. Derustify restaure vos images avec l'IA directement sur l'appareil, gardant vos souvenirs 100% privés et à vous seul. Utilisez-le gratuitement, ou payez une fois pour obtenir une qualité et des fonctionnalités améliorées.",
+    "Title": "Restauration de photos privée",
+    "Description": "Arrêtez de payer des frais mensuels ou avec vos données pour voir vos propres photos. Derustify restaure vos images avec l'IA directement sur l'appareil, gardant vos souvenirs 100 % privés et à vous seul. Utilisez-le gratuitement, ou payez une fois pour obtenir une qualité et des fonctionnalités améliorées.",
     "Buttons": {
-      "GooglePlay": "App Android",
-      "Windows": "Windows Bureau"
+      "GooglePlay": "Android (Bientôt)",
+      "Windows": "Windows (Bientôt)"
     },
+    "ComingSoonBadge": "Bientôt",
     "Comparison": {
       "Original": "Vieille photo",
       "Restored": "Restaurée"
@@ -40,33 +41,33 @@
     "Cards": {
       "Denoising": {
         "Title": "Effacez le grain",
-        "Description": "Supprimez instantanément des décennies de 'rouille' numérique et de grain. Nous rendons les visages flous à nouveau nets pour que vous puissiez voir la personne, pas les pixels."
+        "Description": "Supprimez instantanément des décennies de 'rouille' numérique et de granulosité. Nous redonnons de la netteté aux visages flous pour que vous puissiez voir la personne, pas les pixels. Les utilisateurs de Derustify+ bénéficient d'une qualité de sortie supérieure."
       },
       "Colorization": {
-        "Title": "Couleurs vibrantes et réalistes",
+        "Title": "Des couleurs éclatantes et réalistes",
         "Description": "Redonnez vie à l'histoire familiale en noir et blanc. Notre IA comprend vos photos et ajoute des couleurs qui ont l'air réelles, pas peintes."
       },
       "Batch": {
         "Title": "Faites revivre tout votre album",
-        "Description": "Ne le faites pas une par une. Déposez un dossier de 500 photos et laissez l'application travailler toute la nuit. Votre ordinateur fait le travail, vous obtenez les résultats."
+        "Description": "Numérisez d'anciennes photos directement depuis votre mur ou votre album de famille avec l'appareil photo de l'appareil, ou importiez des photos déjà numérisées depuis votre galerie. Ajoutez plusieurs images à la fois et laissez l'application faire le travail."
       },
       "Privacy": {
-        "Title": "Confidentialité absolue",
+        "Title": "Confidentialité Absolue",
         "Description": "Vos photos de famille ne quittent jamais votre appareil. Nous n'avons pas de serveurs. Nous n'avons pas de comptes. Vos moments privés restent exactement là où ils doivent être : avec vous."
       },
       "Performance": {
-        "Title": "Vitesse native",
-        "Description": "Construit avec une technologie haute performance qui ne vous ralentira pas. Pas de longs chargements, pas de listes d'attente. Juste des résultats instantanés sur votre écran."
+        "Title": "Vitesse Native",
+        "Description": "Conçu avec une technologie haute performance qui ne vous ralentira pas. Des résultats directement sur votre écran, même sans internet ou en mode avion."
       },
       "Safety": {
-        "Title": "Vos originaux sont en sécurité",
-        "Description": "Nous ne touchons jamais à vos fichiers originaux. Comparez, ajustez et expérimentez librement en sachant que votre patrimoine numérique est parfaitement préservé."
+        "Title": "Traitement Intelligent",
+        "Description": "Notre application choisit individuellement la meilleure méthode de traitement pour chaque photo. Les utilisateurs de Derustify+ bénéficient d'un contrôle total sur les réglages et peuvent affiner le résultat parfait."
       }
     }
   },
   "ShowcaseSection": {
     "Header": {
-      "Title": "Regardez la magie opérer",
+      "Title": "Découvrez la magie qui opère",
       "Subtitle": "Faites glisser le curseur pour voir comment nous effaçons les années de ces moments historiques."
     },
     "Items": {
@@ -78,31 +79,31 @@
       },
       "Showcase4": {
         "Title": "Résilience humaine",
-        "Caption": "Apporter de la netteté et de la couleur à des moments iconiques.",
+        "Caption": "Apporter du netteté et de la couleur à des moments emblématiques.",
         "Alt": "Photo historique restaurée",
-        "AltBefore": "Photo originale délavée"
+        "AltBefore": "Photo originale décolorée"
       },
       "Showcase6": {
         "Title": "La Grande Dépression",
-        "Caption": "Préserver la profondeur de la lutte historique en couleur.",
+        "Caption": "Préserver en couleur la profondeur de la lutte historique.",
         "Alt": "Scène historique colorisée",
         "AltBefore": "Photo originale en noir et blanc"
       },
       "Showcase5": {
         "Title": "La force d'une mère",
-        "Caption": "Portraits iconiques du Dust Bowl, restaurés pour le siècle prochain.",
+        "Caption": "Portraits emblématiques de la Dust Bowl, restaurés pour le siècle prochain.",
         "Alt": "Portrait restauré d'une mère migrante",
-        "AltBefore": "Portrait original délavé"
+        "AltBefore": "Portrait original décoloré"
       },
       "Louis": {
         "Title": "Clarté légendaire",
-        "Caption": "La loge de Louis Armstrong en 1946, restaurée avec des détails éclatants.",
-        "Alt": "Photo restaurée de Louis Armstrong",
-        "AltBefore": "Vieille photo originale"
+        "Caption": "La loge de Louis Armstrong en 1946, restaurée dans les moindres détails.",
+        "Alt": "Retrait restauré de Louis Armstrong",
+        "AltBefore": "Photo originale vieillie"
       },
       "Broadway": {
-        "Title": "Un voyage dans le temps",
-        "Caption": "Ramener le Broadway de 1931 dans des couleurs vives et précises.",
+        "Title": "Une promenade dans le temps",
+        "Caption": "Faire revivre Broadway en 1931 dans des couleurs vives et précises.",
         "Alt": "Broadway historique colorisé",
         "AltBefore": "Photo originale en noir et blanc"
       }
@@ -142,10 +143,10 @@
   },
   "CTASection": {
     "Title": "Ne laissez pas vos souvenirs s'effacer.",
-    "Subtitle": "Téléchargez Derustify dès aujourd'hui. Possédez la technologie. Gardez les souvenirs.",
+    "Subtitle": "Derustify arrive bientôt sur Windows et Android. Pas de cloud, pas d'abonnement, juste vos souvenirs.",
     "Buttons": {
-      "GooglePlay": "Télécharger pour Android",
-      "Windows": "Télécharger pour Windows"
+      "GooglePlay": "Bientôt sur Android",
+      "Windows": "Bientôt sur Windows"
     }
   },
   "Footer": {

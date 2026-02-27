@@ -11,16 +11,17 @@
     "Features": "Hvorfor Derustify?",
     "Showcase": "Galleri",
     "FAQ": "Vanlige spørsmål",
-    "Download": "Kom i gang"
+    "Download": "Kommer snart"
   },
   "Hero": {
     "Badge": "· Uten abonnement   · Fungerer offline   · Ingen registrering   · Bare dine",
-    "Title": "Privat fotorestaurering",
-    "Description": "Slutt å betale månedlige gebyrer eller med dine data for å se dine egne bilder. Derustify gjenoppretter bildene dine med AI direkte på enheten, og holder minnene dine 100 % private og dine alene. Bruk det gratis, eller betal én gang for å få forbedret kvalitet og funksjoner.",
+    "Title": "Privat bilde-restaurering",
+    "Description": "Oppleve fremtidens fotorestaurering. Derustify kommer snart til din enhet.",
     "Buttons": {
-      "GooglePlay": "Android App",
-      "Windows": "Windows Desktop"
+      "GooglePlay": "Android (Snart)",
+      "Windows": "Windows (Snart)"
     },
+    "ComingSoonBadge": "Kommer snart",
     "Comparison": {
       "Original": "Gammelt bilde",
       "Restored": "Restaurert"
@@ -39,52 +40,52 @@
     },
     "Cards": {
       "Denoising": {
-        "Title": "Fjern korn og støy",
-        "Description": "Fjern tiår med digital 'rust' og korn umiddelbart. Vi gjør uklare ansikter skarpe igjen, slik at du ser personen, ikke pikslene."
+        "Title": "Tørk bort korn",
+        "Description": "Fjern tiår med digital 'rust' og 'sandhet' umiddelbart. Vi gjør uklare ansikter skarpe igjen, slik at du kan se personen, ikke pikslene. Derustify+-brukere får ekstra kvalitetsutgang."
       },
       "Colorization": {
         "Title": "Levende, naturtro farger",
         "Description": "Pust liv i svart-hvitt familiehistorie. Vår AI forstår bildene dine og legger til farger som ser ekte ut, ikke malte."
       },
       "Batch": {
-        "Title": "Gjenopprett hele albumet ditt",
-        "Description": "Ikke gjør det ett-for-ett. Slipp inn en mappe med 500 bilder og la appen jobbe gjennom natten. Datamaskinen din gjør jobben, du får resultatene."
+        "Title": "Gjenoppliv hele albumet ditt",
+        "Description": "Skann gamle bilder direkte fra veggen eller familiealbumet med enhetskameraet, eller importer forhåndsskannede bilder fra galleriet ditt. Legg til flere bilder samtidig og la appen gjøre jobben."
       },
       "Privacy": {
-        "Title": "Total personvern",
+        "Title": "Absolutt personvern",
         "Description": "Familiebildene dine forlater aldri enheten din. Vi har ikke servere. Vi har ikke kontoer. Dine private øyeblikk forblir nøyaktig der de hører hjemme: hos deg."
       },
       "Performance": {
         "Title": "Nativ hastighet",
-        "Description": "Bygget med høyytelsesteknologi som ikke vil bremse deg. Ingen lange opplastinger, ingen ventelister. Bare umiddelbare resultater på skjermen din."
+        "Description": "Bygget med høyytelsesteknologi som ikke vil bremse deg. Resultater direkte på skjermen, selv uten internett eller i flymodus."
       },
       "Safety": {
-        "Title": "Originalene dine er trygge",
-        "Description": "Vi rører aldri originalfilene dine. Sammenlign, juster og eksperimenter fritt i visshet om at dine digitale arvestykker er perfekt bevart."
+        "Title": "Smart prosessering",
+        "Description": "Appen vår velger individuelt den beste prosesseringsmetoden for hvert bilde. Derustify+-brukere får full kontroll over innstillinger og kan finjustere det perfekte resultatet."
       }
     }
   },
   "ShowcaseSection": {
     "Header": {
       "Title": "Se magien utfolde seg",
-      "Subtitle": "Dra i glideren for å se hvordan vi skreller av årene fra disse historiske øyeblikkene."
+      "Subtitle": "Dra glidebryteren for å se hvordan vi skreller tilbake årene fra disse historiske øyeblikkene."
     },
     "Items": {
       "Showcase3": {
         "Title": "Støvete minner",
-        "Caption": "Gjenoppretter tekstur og detaljer fra det 20. århundre.",
+        "Caption": "Gjenoppretter særpreget og detaljene fra livet i det 20. århundre.",
         "Alt": "Fargelagt historisk scene",
-        "AltBefore": "Originalt alderspreget bilde"
+        "AltBefore": "Originalt tidsslitt bilde"
       },
       "Showcase4": {
-        "Title": "Menneskelig utholdenhet",
-        "Caption": "Bringer fokus og farge til ikoniske øyeblikk.",
+        "Title": "Menneskelig robusthet",
+        "Caption": "Bring fokus og farge til ikoniske øyeblikk.",
         "Alt": "Restaurert historisk bilde",
         "AltBefore": "Originalt falmet bilde"
       },
       "Showcase6": {
         "Title": "Den store depresjonen",
-        "Caption": "Bevarer dybden i historisk kamp i farger.",
+        "Caption": "Bevare dybden i historisk kamp i farger.",
         "Alt": "Fargelagt historisk scene",
         "AltBefore": "Originalt svart-hvitt bilde"
       },
@@ -95,14 +96,14 @@
         "AltBefore": "Originalt falmet portrett"
       },
       "Louis": {
-        "Title": "Legendær klarhet",
-        "Caption": "Louis Armstrongs garderobe i 1946, restaurert i levende detaljer.",
-        "Alt": "Restaurert bilde av Louis Armstrong",
+        "Title": "Legendarisk klarhet",
+        "Caption": "Louis Armstrongs garderobe fra 1946, restaurert i levende detaljer.",
+        "Alt": "Restaurert portrett av Louis Armstrong",
         "AltBefore": "Originalt eldet bilde"
       },
       "Broadway": {
-        "Title": "En vandring gjennom tiden",
-        "Caption": "Bringer 1931 Broadway tilbake i levende, nøyaktige farger.",
+        "Title": "En tur gjennom tiden",
+        "Caption": "Bring Broadway fra 1931 tilbake i levende, nøyaktige farger.",
         "Alt": "Fargelagt historisk Broadway",
         "AltBefore": "Originalt svart-hvitt bilde"
       }
@@ -142,10 +143,10 @@
   },
   "CTASection": {
     "Title": "Ikke la minnene dine falme bort.",
-    "Subtitle": "Last ned Derustify i dag. Eier teknologien. Behold minnene.",
+    "Subtitle": "Derustify kommer snart til Windows og Android. Ingen sky, ingen månedlige gebyrer, bare dine minner.",
     "Buttons": {
-      "GooglePlay": "Last ned for Android",
-      "Windows": "Last ned for Windows"
+      "GooglePlay": "Kommer snart til Android",
+      "Windows": "Kommer snart til Windows"
     }
   },
   "Footer": {

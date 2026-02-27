@@ -11,16 +11,17 @@
     "Features": "¿Por qué Derustify?",
     "Showcase": "Galería",
     "FAQ": "Preguntas comunes",
-    "Download": "Empezar"
+    "Download": "Próximamente"
   },
   "Hero": {
     "Badge": "· Sin suscripción   · Funciona sin conexión   · Sin registro   · Solo tuyos",
     "Title": "Restauración de fotos privada",
-    "Description": "Deja de pagar cuotas mensuales o con tus datos para ver tus propias fotos. Derustify restaura tus imágenes con IA directamente en el dispositivo, manteniendo tus recuerdos 100% privados y solo para ti. Úsalo gratis o paga una vez para obtener calidad y funciones mejoradas.",
+    "Description": "Deja de pagar cuotas mensuales o con tus datos para ver tus propias fotos. Derustify restaura tus imágenes con IA directamente en el dispositivo, manteniendo tus recuerdos 100 % privados y solo tuyos. Úsalo gratis, o paga una vez para obtener calidad y funciones mejoradas.",
     "Buttons": {
-      "GooglePlay": "App para Android",
-      "Windows": "Escritorio para Windows"
+      "GooglePlay": "Android (Próximamente)",
+      "Windows": "Windows (Próximamente)"
     },
+    "ComingSoonBadge": "Próximamente",
     "Comparison": {
       "Original": "Foto antigua",
       "Restored": "Restaurada"
@@ -39,8 +40,8 @@
     },
     "Cards": {
       "Denoising": {
-        "Title": "Elimina el ruido",
-        "Description": "Elimina décadas de 'óxido' digital y granuosidad al instante. Hacemos que los rostros borrosos vuelvan a ser nítidos para que veas a la persona, no a los píxeles."
+        "Title": "Limpia el grano",
+        "Description": "Elimina décadas de 'óxido' digital y granuosidad al instante. Hacemos que los rostros borrosos vuelvan a ser nítidos para que puedas ver a la persona, no los píxeles. Los usuarios de Derustify+ obtienen una salida de calidad extra."
       },
       "Colorization": {
         "Title": "Color vibrante y realista",
@@ -48,26 +49,26 @@
       },
       "Batch": {
         "Title": "Revive todo tu álbum",
-        "Description": "No lo hagas una por una. Suelta una carpeta de 500 fotos y deja que la app trabaje durante la noche. Tu ordenador hace el trabajo, tú obtienes los resultados."
+        "Description": "Escanea fotos antiguas directamente desde tu pared o álbum familiar con la cámara del dispositivo, o importa fotos preescaneadas desde tu galería. Añade varias imágenes a la vez y deja que la aplicación haga el trabajo."
       },
       "Privacy": {
-        "Title": "Privacidad absoluta",
-        "Description": "Tus fotos familiares nunca salen de tu dispositivo. No tenemos servidores. No tenemos cuentas. Tus momentos privados se quedan exactamente donde pertenecen: contigo."
+        "Title": "Privacidad Absoluta",
+        "Description": "Tus fotos familiares nunca salen de tu dispositivo. No tenemos servidores. No tenemos cuentas. Tus momentos privados se quedan exactamente donde deben: contigo."
       },
       "Performance": {
-        "Title": "Velocidad nativa",
-        "Description": "Construido con tecnología de alto rendimiento que no te ralentizará. Sin largas subidas, sin listas de espera. Solo resultados instantáneos en tu pantalla."
+        "Title": "Velocidad Nativa",
+        "Description": "Construido con tecnología de alto rendimiento que no te ralentizará. Resultados directamente en tu pantalla, incluso sin internet o en modo avión."
       },
       "Safety": {
-        "Title": "Tus originales están a salvo",
-        "Description": "Nunca tocamos tus archivos originales. Compara, ajusta y experimenta libremente sabiendo que tus tesoros digitales están perfectamente preservados."
+        "Title": "Procesamiento Inteligente",
+        "Description": "Nuestra aplicación elige individualmente el mejor método de procesamiento para cada foto. Los usuarios de Derustify+ obtienen un control total sobre los ajustes y pueden ajustar el resultado perfecto."
       }
     }
   },
   "ShowcaseSection": {
     "Header": {
-      "Title": "Mira cómo ocurre la magia",
-      "Subtitle": "Arrastra el deslizador para ver cómo quitamos los años de estos momentos históricos."
+      "Title": "Mira cómo se despliega la magia",
+      "Subtitle": "Arrastra el control deslizante para ver cómo quitamos los años de estos momentos históricos."
     },
     "Items": {
       "Showcase3": {
@@ -80,7 +81,7 @@
         "Title": "Resiliencia humana",
         "Caption": "Aportando enfoque y color a momentos icónicos.",
         "Alt": "Foto histórica restaurada",
-        "AltBefore": "Foto original desvanecida"
+        "AltBefore": "Foto original descolorida"
       },
       "Showcase6": {
         "Title": "La Gran Depresión",
@@ -90,19 +91,19 @@
       },
       "Showcase5": {
         "Title": "La fuerza de una madre",
-        "Caption": "Retratos icónicos del Dust Bowl, restaurados para el próximo siglo.",
+        "Caption": "Portratos icónicos del Dust Bowl, restaurados para el próximo siglo.",
         "Alt": "Retrato restaurado de una madre migrante",
-        "AltBefore": "Retrato original desvanecido"
+        "AltBefore": "Retrato original descolorido"
       },
       "Louis": {
         "Title": "Claridad legendaria",
         "Caption": "El camerino de Louis Armstrong en 1946, restaurado con detalles vívidos.",
-        "Alt": "Foto restaurada de Louis Armstrong",
-        "AltBefore": "Foto antigua original"
+        "Alt": "Retrato restaurado de Louis Armstrong",
+        "AltBefore": "Foto original envejecida"
       },
       "Broadway": {
         "Title": "Un paseo por el tiempo",
-        "Caption": "Trayendo de vuelta el Broadway de 1931 en un color vívido y preciso.",
+        "Caption": "Trayendo el Broadway de 1931 de vuelta en color vívido y preciso.",
         "Alt": "Broadway histórico coloreado",
         "AltBefore": "Foto original en blanco y negro"
       }
@@ -142,10 +143,10 @@
   },
   "CTASection": {
     "Title": "No dejes que tus recuerdos se desvanezcan.",
-    "Subtitle": "Descarga Derustify hoy mismo. Sé el dueño de la tecnología. Conserva los recuerdos.",
+    "Subtitle": "Derustify llegará pronto a Windows y Android. Sin la nube, sin cuotas mensuales, solo tus recuerdos.",
     "Buttons": {
-      "GooglePlay": "Descargar para Android",
-      "Windows": "Descargar para Windows"
+      "GooglePlay": "Próximamente en Android",
+      "Windows": "Próximamente en Windows"
     }
   },
   "Footer": {

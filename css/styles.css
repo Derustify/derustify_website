@@ -434,6 +434,28 @@ a {
   flex-direction: column;
 }
 
+.coming-soon-badge {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  background: var(--accent-gradient);
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-radius: var(--radius-full);
+  margin-bottom: 1rem;
+  box-shadow: var(--shadow-md);
+  animation: badge-float 3s ease-in-out infinite;
+}
+
+@keyframes badge-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
 .hero-badge {
   display: flex;
   align-items: center;

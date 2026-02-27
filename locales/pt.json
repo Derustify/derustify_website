@@ -11,16 +11,17 @@
     "Features": "Por que o Derustify?",
     "Showcase": "Galeria",
     "FAQ": "Perguntas comuns",
-    "Download": "Começar"
+    "Download": "Em breve"
   },
   "Hero": {
     "Badge": "· Sem assinatura   · Funciona offline   · Sem registro   · Apenas suas",
     "Title": "Restauração de fotos privada",
-    "Description": "Pare de pagar taxas mensais ou com seus dados para ver suas próprias fotos. O Derustify restaura suas imagens com IA diretamente no dispositivo, mantendo suas memórias 100% privadas e apenas suas. Use-o gratuitamente ou pague uma vez para obter qualidade e recursos aprimorados.",
+    "Description": "O futuro da restauração de fotos está chegando. O Derustify estará disponível em breve para seus dispositivos.",
     "Buttons": {
-      "GooglePlay": "App Android",
-      "Windows": "Windows Desktop"
+      "GooglePlay": "Android (Em breve)",
+      "Windows": "Windows (Em breve)"
     },
+    "ComingSoonBadge": "Em breve",
     "Comparison": {
       "Original": "Foto antiga",
       "Restored": "Restaurada"
@@ -39,53 +40,53 @@
     },
     "Cards": {
       "Denoising": {
-        "Title": "Remova o granulado",
-        "Description": "Remova décadas de 'ferrugem' digital e granulação instantaneamente. Tornamos rostos borrados nítidos novamente para que você veja a pessoa, não os pixels."
+        "Title": "Limpe o granulado",
+        "Description": "Remova décadas de 'ferrugem' digital e granulação instantaneamente. Tornamos os rostos borrados nítidos novamente para que você possa ver a pessoa, não os pixels. Os usuários do Derustify+ obtêm uma saída de qualidade extra."
       },
       "Colorization": {
-        "Title": "Cores vibrantes e realistas",
+        "Title": "Cor vibrante e realista",
         "Description": "Dê vida nova à história da família em preto e branco. Nossa IA entende suas fotos e adiciona cores que parecem reais, não pintadas."
       },
       "Batch": {
-        "Title": "Restaure todo o seu álbum",
-        "Description": "Não faça uma por uma. Arraste uma pasta com 500 fotos e deixe o app trabalhar durante a noite. Seu computador faz o trabalho, você obtia os resultados."
+        "Title": "Reviva todo o seu álbum",
+        "Description": "Digitalize fotos antigas diretamente da sua parede ou álbum de família com a câmera do dispositivo, ou importe fotos pré-digitalizadas da sua galeria. Adicione várias imagens de uma só vez e deixe o aplicativo fazer o trabalho."
       },
       "Privacy": {
-        "Title": "Privacidade absoluta",
+        "Title": "Privacidade Absoluta",
         "Description": "Suas fotos de família nunca saem do seu dispositivo. Não temos servidores. Não temos contas. Seus momentos privados ficam exatamente onde pertencem: com você."
       },
       "Performance": {
-        "Title": "Velocidade nativa",
-        "Description": "Construído com tecnologia de alto desempenho que não vai te deixar lento. Sem uploads demorados, sem listas de espera. Apenas resultados instantâneos na sua tela."
+        "Title": "Velocidade Nativa",
+        "Description": "Construído com tecnologia de alto desempenho que não o deixará lento. Resultados diretamente na sua tela, mesmo sem internet ou em modo avião."
       },
       "Safety": {
-        "Title": "Suas originais estão seguras",
-        "Description": "Nós nunca tocamos em seus arquivos originais. Compare, ajuste e experimente livremente sabendo que suas relíquias digitais estão perfeitamente preservadas."
+        "Title": "Processamento Inteligente",
+        "Description": "Nosso aplicativo escolhe individualmente o melhor método de processamento para cada foto. Os usuários do Derustify+ têm controle total sobre as configurações e podem ajustar o resultado perfeito."
       }
     }
   },
   "ShowcaseSection": {
     "Header": {
-      "Title": "Veja a mágica acontecer",
-      "Subtitle": "Arraste o controle para ver como removemos os anos desses momentos históricos."
+      "Title": "Veja a magia acontecer",
+      "Subtitle": "Arraste o controle deslizante para ver como removemos os anos desses momentos históricos."
     },
     "Items": {
       "Showcase3": {
         "Title": "Memórias empoeiradas",
-        "Caption": "Restaurando a textura e os detalhes da vida do século XX.",
-        "Alt": "Cena histórica colorizada",
+        "Caption": "Restaurando a textura e os detalhes da vida no século XX.",
+        "Alt": "Cena histórica colorida",
         "AltBefore": "Foto original desgastada pelo tempo"
       },
       "Showcase4": {
         "Title": "Resiliência humana",
-        "Caption": "Trazendo foco e cor para momentos icônicos.",
+        "Caption": "Trazendo nitidez e cor para momentos icônicos.",
         "Alt": "Foto histórica restaurada",
         "AltBefore": "Foto original desbotada"
       },
       "Showcase6": {
         "Title": "A Grande Depressão",
         "Caption": "Preservando a profundidade da luta histórica em cores.",
-        "Alt": "Cena histórica colorizada",
+        "Alt": "Cena histórica colorida",
         "AltBefore": "Foto original em preto e branco"
       },
       "Showcase5": {
@@ -96,14 +97,14 @@
       },
       "Louis": {
         "Title": "Clareza lendária",
-        "Caption": "O camarim de Louis Armstrong em 1946, restaurado com detalhes vívidos.",
-        "Alt": "Foto restaurada de Louis Armstrong",
-        "AltBefore": "Foto antiga original"
+        "Caption": "O camarim de Louis Armstrong em 1946, restaurado em detalhes vívidos.",
+        "Alt": "Retrato restaurado de Louis Armstrong",
+        "AltBefore": "Foto original envelhecida"
       },
       "Broadway": {
         "Title": "Um passeio pelo tempo",
-        "Caption": "Trazendo o Broadway de 1931 de volta em cores vibrantes e precisas.",
-        "Alt": "Broadway histórico colorizada",
+        "Caption": "Trazendo a Broadway de 1931 de volta em cores vibrantes e precisas.",
+        "Alt": "Broadway histórica colorida",
         "AltBefore": "Foto original em preto e branco"
       }
     }
@@ -142,10 +143,10 @@
   },
   "CTASection": {
     "Title": "Não deixe suas memórias desaparecerem.",
-    "Subtitle": "Baixe o Derustify hoje mesmo. Seja dono da tecnologia. Guarde as memórias.",
+    "Subtitle": "O Derustify chegará em breve para Windows e Android. Sem nuvem, sem taxas mensais, apenas suas memórias.",
     "Buttons": {
-      "GooglePlay": "Download para Android",
-      "Windows": "Download para Windows"
+      "GooglePlay": "Em breve para Android",
+      "Windows": "Em breve para Windows"
     }
   },
   "Footer": {

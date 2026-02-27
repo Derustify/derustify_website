@@ -11,16 +11,17 @@
     "Features": "Warum Derustify?",
     "Showcase": "Galerie",
     "FAQ": "Häufige Fragen",
-    "Download": "Loslegen"
+    "Download": "Demnächst"
   },
   "Hero": {
     "Badge": "· Ohne Abo   · Funktioniert offline   · Keine Registrierung   · Ganz Privat",
     "Title": "Private Fotorestaurierung",
-    "Description": "Hören Sie auf, monatliche Gebühren zu zahlen oder mit Ihren Daten zu bezahlen, um Ihre eigenen Fotos zu sehen. Derustify restauriert Ihre Bilder mit KI direkt auf dem Gerät und hält Ihre Erinnerungen 100% privat. Kostenlos nutzen oder einmalig zahlen für verbesserte Qualität und Funktionen.",
+    "Description": "Hören Sie auf, monatliche Gebühren zu zahlen oder mit Ihren Daten zu bezahlen, um Ihre eigenen Fotos zu sehen. Derustify restauriert Ihre Bilder mit KI direkt auf dem Gerät, wodurch Ihre Erinnerungen zu 100 % privat und allein Ihr Eigentum bleiben. Nutzen Sie es kostenlos oder zahlen Sie einmalig, um verbesserte Qualität und Funktionen zu erhalten.",
     "Buttons": {
-      "GooglePlay": "Android App",
-      "Windows": "Windows Desktop"
+      "GooglePlay": "Android (Demnächst)",
+      "Windows": "Windows (Demnächst)"
     },
+    "ComingSoonBadge": "Demnächst",
     "Comparison": {
       "Original": "Altes Foto",
       "Restored": "Restauriert"
@@ -39,72 +40,72 @@
     },
     "Cards": {
       "Denoising": {
-        "Title": "Wipe away the grain",
-        "Description": "Remove decades of digital 'rust' and 'sandiness' instantly. We make blurry faces crisp again so you can see the person, not the pixels."
+        "Title": "Körnung wegwischen",
+        "Description": "Entfernen Sie jahrzehntelangen digitalen „Rost“ und „Sandigkeit“ sofort. Wir machen verschwommene Gesichter wieder scharf, damit Sie die Person sehen, nicht die Pixel. Derustify+-Nutzer erhalten eine zusätzliche Qualitätsausgabe."
       },
       "Colorization": {
-        "Title": "Vibrant, lifelike color",
-        "Description": "Breathe life back into black-and-white family history. Our AI understands your photos and adds colors that look real, not painted."
+        "Title": "Lebendige, naturgetreue Farben",
+        "Description": "Hauchen Sie der schwarz-weißen Familiengeschichte neues Leben ein. Unsere KI versteht Ihre Fotos und fügt Farben hinzu, die echt aussehen, nicht gemalt."
       },
       "Batch": {
-        "Title": "Revive your entire album",
-        "Description": "Don't do it one-by-one. Drop in a folder of 500 photos and let the app work through the night. Your computer does the work, you get the results."
+        "Title": "Beleben Sie Ihr gesamtes Album",
+        "Description": "Scannen Sie alte Fotos direkt von Ihrer Wand oder Ihrem Familienalbum mit der Gerätekamera, oder importieren Sie vorab gescannte Fotos aus Ihrer Galerie. Fügen Sie mehrere Bilder gleichzeitig hinzu und lassen Sie die App die Arbeit machen."
       },
       "Privacy": {
-        "Title": "Absolute Privacy",
-        "Description": "Your family photos never leave your device. We don't have servers. We don't have accounts. Your private moments stay exactly where they belong: with you."
+        "Title": "Absolute Privatsphäre",
+        "Description": "Ihre Familienfotos verlassen niemals Ihr Gerät. Wir haben keine Server. Wir haben keine Konten. Ihre privaten Momente bleiben genau dort, wo sie hingehören: bei Ihnen."
       },
       "Performance": {
-        "Title": "Native Speed",
-        "Description": "Built with high-performance technology that won't slow you down. No long uploads, no waiting lists. Just instant results on your screen."
+        "Title": "Native Geschwindigkeit",
+        "Description": "Entwickelt mit Hochleistungstechnologie, die Sie nicht ausbremst. Ergebnisse direkt auf Ihrem Bildschirm, auch ohne Internet oder im Flugmodus."
       },
       "Safety": {
-        "Title": "Your originals are safe",
-        "Description": "We never touch your original files. Compare, tweak, and experiment freely knowing that your digital heirlooms are perfectly preserved."
+        "Title": "Intelligente Verarbeitung",
+        "Description": "Unsere App wählt individuell die beste Verarbeitungsmethode für jedes Foto aus. Derustify+-Nutzer haben die volle Kontrolle über die Einstellungen und können das perfekte Ergebnis feinabstimmen."
       }
     }
   },
   "ShowcaseSection": {
     "Header": {
-      "Title": "See the magic unfold",
-      "Subtitle": "Drag the slider to see how we peel back the years from these historic moments."
+      "Title": "Sehen Sie, wie sich die Magie entfaltet",
+      "Subtitle": "Ziehen Sie den Schieberegler, um zu sehen, wie wir die Jahre von diesen historischen Momenten abstreifen."
     },
     "Items": {
       "Showcase3": {
-        "Title": "Dusty Memories",
-        "Caption": "Restoring the grit and detail of 20th century life.",
-        "Alt": "Colorized historical scene",
-        "AltBefore": "Original age-worn photo"
+        "Title": "Staubige Erinnerungen",
+        "Caption": "Wiederherstellung des Mutes und der Details des Lebens im 20. Jahrhundert.",
+        "Alt": "Kolorierte historische Szene",
+        "AltBefore": "Originales altersschwaches Foto"
       },
       "Showcase4": {
-        "Title": "Human Resilience",
-        "Caption": "Bringing focus and color to iconic moments.",
-        "Alt": "Restored historical photo",
-        "AltBefore": "Original faded photo"
+        "Title": "Menschliche Resilienz",
+        "Caption": "Fokus und Farbe in ikonische Momente bringen.",
+        "Alt": "Restauriertes historisches Foto",
+        "AltBefore": "Originales verblasstes Foto"
       },
       "Showcase6": {
-        "Title": "The Great Depression",
-        "Caption": "Preserving the depth of historical struggle in color.",
-        "Alt": "Colorized historical scene",
-        "AltBefore": "Original black and white photo"
+        "Title": "Die Weltwirtschaftskrise",
+        "Caption": "Die Tiefe des historischen Kampfes in Farbe bewahren.",
+        "Alt": "Kolorierte historische Szene",
+        "AltBefore": "Originales Schwarz-Weiß-Foto"
       },
       "Showcase5": {
-        "Title": "A Mother's Strength",
-        "Caption": "Iconic Dust Bowl portraits, restored for the next century.",
-        "Alt": "Restored portrait of a migrant mother",
-        "AltBefore": "Original faded portrait"
+        "Title": "Die Stärke einer Mutter",
+        "Caption": "Ikonische Porträts der Dust Bowl, restauriert für das nächste Jahrhundert.",
+        "Alt": "Restauriertes Porträt einer Migrantenmutter",
+        "AltBefore": "Originales verblasstes Porträt"
       },
       "Louis": {
-        "Title": "Legendary Clarity",
-        "Caption": "Louis Armstrong's 1946 dressing room, restored in vivid detail.",
-        "Alt": "Restored photo of Louis Armstrong",
-        "AltBefore": "Original aged photo"
+        "Title": "Legendäre Klarheit",
+        "Caption": "Louis Armstrongs Umkleidekabine von 1946, in lebendigen Details restauriert.",
+        "Alt": "Restauriertes Foto von Louis Armstrong",
+        "AltBefore": "Originales gealtertes Foto"
       },
       "Broadway": {
-        "Title": "A Walk through Time",
-        "Caption": "Bringing 1931 Broadway back in vivid, accurate color.",
-        "Alt": "Colorized historic Broadway",
-        "AltBefore": "Original black and white photo"
+        "Title": "Ein Spaziergang durch die Zeit",
+        "Caption": "Bringt den Broadway von 1931 in lebendigen, präzisen Farben zurück.",
+        "Alt": "Kolorierter historischer Broadway",
+        "AltBefore": "Originales Schwarz-Weiß-Foto"
       }
     }
   },
@@ -142,10 +143,10 @@
   },
   "CTASection": {
     "Title": "Lassen Sie Ihre Erinnerungen nicht verblassen.",
-    "Subtitle": "Laden Sie Derustify heute herunter. Besitzen Sie die Technologie. Behalten Sie die Erinnerungen.",
+    "Subtitle": "Derustify erscheint in Kürze für Windows und Android. Keine Cloud, keine Abos, nur Ihre Erinnerungen.",
     "Buttons": {
-      "GooglePlay": "Download für Android",
-      "Windows": "Download für Windows"
+      "GooglePlay": "Demnächst für Android",
+      "Windows": "Demnächst für Windows"
     }
   },
   "Footer": {

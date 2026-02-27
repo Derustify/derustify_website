@@ -11,16 +11,17 @@
     "Features": "Why Derustify?",
     "Showcase": "Gallery",
     "FAQ": "Common Questions",
-    "Download": "Get Started"
+    "Download": "Coming Soon"
   },
   "Hero": {
     "Badge": "· Subscription free   · Works offline   · No registration   · Just Yours",
     "Title": "Private photo restoration",
     "Description": "Stop paying monthly fees or with your data to see your own photos. Derustify restores your images with AI directly on device, keeping your memories 100% private and yours alone. Use it for free, or pay once to get enhanced quality and features.",
     "Buttons": {
-      "GooglePlay": "Android App",
-      "Windows": "Windows Desktop"
+      "GooglePlay": "Android (Soon)",
+      "Windows": "Windows (Soon)"
     },
+    "ComingSoonBadge": "Coming Soon",
     "Comparison": {
       "Original": "Aged Photo",
       "Restored": "Derustified"
@@ -142,10 +143,10 @@
   },
   "CTASection": {
     "Title": "Don't let your memories fade away.",
-    "Subtitle": "Download Derustify today. Own the technology. Keep the memories.",
+    "Subtitle": "Derustify is coming soon to Windows and Android. No cloud, no monthly fees, just your memories.",
     "Buttons": {
-      "GooglePlay": "Download for Android",
-      "Windows": "Download for Windows"
+      "GooglePlay": "Coming Soon to Android",
+      "Windows": "Coming Soon to Windows"
     }
   },
   "Footer": {
