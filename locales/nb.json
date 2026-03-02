@@ -28,7 +28,7 @@
     },
     "Slides": {
       "Riverfront": { "Alt": "Fargelagt New York Riverfront fra 1931", "AltBefore": "Originalt svart-hvitt bilde av New York Riverfront" },
-      "OldMan": { "Alt": "Restaurert bilde av en tenkende gammel mann", "AltBefore": "Originalt falmet bilde av en gammel mann" },
+      "BoyPortrait": { "Alt": "Restaurert gutt-portrett med naturtro farger", "AltBefore": "Originalt skadet bilde av en gutt" },
       "Showcase1": { "Alt": "Restaurert historisk gatescene", "AltBefore": "Originalt skadet bilde" },
       "Showcase2": { "Alt": "Restaurert historisk portrett", "AltBefore": "Originalt falmet bilde" }
     }
@@ -40,28 +40,40 @@
     },
     "Cards": {
       "Denoising": {
-        "Title": "Tørk bort korn",
-        "Description": "Fjern tiår med digital 'rust' og 'sandhet' umiddelbart. Vi gjør uklare ansikter skarpe igjen, slik at du kan se personen, ikke pikslene. Derustify+-brukere får ekstra kvalitetsutgang."
+        "Title": "High-Fidelity Støyreduksjon",
+        "Description": "Fjern tiår med digital 'rust' og filmkorn mens fine detaljer bevares. Vår adaptive AI sikrer et rent, naturlig utseende uten 'vokseffekten'."
       },
       "Colorization": {
-        "Title": "Levende, naturtro farger",
-        "Description": "Pust liv i svart-hvitt familiehistorie. Vår AI forstår bildene dine og legger til farger som ser ekte ut, ikke malte."
+        "Title": "Naturtro Fargellegging",
+        "Description": "Pust liv i svart-hvitt familiehistorie. Vår AI forstår bildene dine og legger til farger som ser ekte ut, ikke kunstige."
+      },
+      "ScratchRemoval": {
+        "Title": "Heal Riper & Rifter",
+        "Description": "Slutt å betale månedlige avgifter. Derustify gjenoppretter bildene dine —skjerper ansikter, fjerner riper og legger til naturtro farger— direkte på enheten din."
+      },
+      "FaceRestoration": {
+        "Title": "Ultra-Skarp Ansiktsgjenoppretting",
+        "Description": "Avansert deteksjon og forbedring gir klarhet tilbake til ansikter som er uklare eller falmede, og gjenoppretter tapte uttrykk med profesjonell presisjon."
+      },
+      "PhotoScanner": {
+        "Title": "Smart Perspektiv-Skanner",
+        "Description": "Gjør telefonen din om til en avansert flatbed-skanner. Oppdag bildekanter automatisk og korriger linseforvrengning for perfekt digital arkivering."
       },
       "Batch": {
-        "Title": "Gjenoppliv hele albumet ditt",
-        "Description": "Skann gamle bilder direkte fra veggen eller familiealbumet med enhetskameraet, eller importer forhåndsskannede bilder fra galleriet ditt. Legg til flere bilder samtidig og la appen gjøre jobben."
+        "Title": "Gjenoppliv Hele Album",
+        "Description": "Ikke gjør det ett og ett. Slipp inn en mappe med 500 bilder og la appen jobbe. Desktop-ytelse for proff hastighet på alle dine arkiver."
       },
       "Privacy": {
-        "Title": "Absolutt personvern",
-        "Description": "Familiebildene dine forlater aldri enheten din. Vi har ikke servere. Vi har ikke kontoer. Dine private øyeblikk forblir nøyaktig der de hører hjemme: hos deg."
+        "Title": "Absolutt Personvern",
+        "Description": "Familiebildene dine forlater aldri enheten din. Vi har ikke servere eller kontoer. Minnene dine forblir nøyaktig der de hører hjemme: hos deg."
       },
       "Performance": {
-        "Title": "Nativ hastighet",
-        "Description": "Bygget med høyytelsesteknologi som ikke vil bremse deg. Resultater direkte på skjermen, selv uten internett eller i flymodus."
+        "Title": "Nativ Hastighet",
+        "Description": "Bygget med høyytelsesteknologi som utnytter din lokale NPU og GPU. Ingen lange opplastinger eller ventelister – bare umiddelbare resultater."
       },
-      "Safety": {
-        "Title": "Smart prosessering",
-        "Description": "Appen vår velger individuelt den beste prosesseringsmetoden for hvert bilde. Derustify+-brukere får full kontroll over innstillinger og kan finjustere det perfekte resultatet."
+      "PrecisionTools": {
+        "Title": "Profesjonell Kontroll",
+        "Description": "Ta full kontroll med 'Spectral Weaver' bølgeform-verktøy. Juster strukturell klarhet, detaljgjenoppretting og filmkorn manuelt."
       }
     }
   },
@@ -77,11 +89,11 @@
         "Alt": "Fargelagt historisk scene",
         "AltBefore": "Originalt tidsslitt bilde"
       },
-      "Showcase4": {
-        "Title": "Menneskelig robusthet",
-        "Caption": "Bring fokus og farge til ikoniske øyeblikk.",
-        "Alt": "Restaurert historisk bilde",
-        "AltBefore": "Originalt falmet bilde"
+      "WomanDress": {
+        "Title": "Heal Riper",
+        "Caption": "Profesjonell fjerning av fysisk skade og riper på papiret.",
+        "Alt": "Restaurert dame i kjole",
+        "AltBefore": "Originalt oppripet bilde"
       },
       "Showcase6": {
         "Title": "Den store depresjonen",
@@ -136,8 +148,12 @@
         "A": "Absolutt. Det er den perfekte gaven til familiehistorikeren, til besteforeldrene dine eller alle i familien som ville sette pris på restaurerte minner. Kjøp det én gang, installer det på familiens PC, og tilbring en ettermiddag med å redde familiearkivene sammen."
       },
       "Q6": {
-        "Q": "Er de fargelagte bildene historisk nøyaktige?",
-        "A": "Nei, de fargelagte bildene kan ha historiske unøyaktigheter. AI-modellene er trent til å gjenopprette farge eller oppskalere bilder basert på store mengder treningsdata og lykkes ofte med korrekt resultat. Unøyaktigheter eller utilstrekkelig fargelegging av bilder kan forekomme, og Derustify garanterer ikke perfekte resultater for alle bilder."
+        "Q": "Er bildene med farger historisk korrekte?",
+        "A": "Nei, bildene med farger kan ha historiske unøyaktigheter. AI-modellene er trent til å gjenopprette farger eller oppskalere bilder basert på store mengder treningsdata og lykkes ofte med korrekt utdata. Unøyaktigheter eller utilstrekkelig fargelegging av bilder kan forekomme."
+      },
+      "Q7": {
+        "Q": "Finnes det manuelle redigeringsverktøy?",
+        "A": "Ja. Utover automatisk gjenoppretting inkluderer Derustify 'Spectral Weaver'-verktøy. Disse lar deg manuelt justere detaljer, struktur og korning ved hjelp av profesjonell bølgeform-prosessering."
       }
     }
   },

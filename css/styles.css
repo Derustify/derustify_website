@@ -570,8 +570,8 @@ a {
   object-position: center top !important;
 }
 
-.hero-img-children {
-  object-position: center 20% !important;
+.hero-img-boy {
+  object-position: center 15% !important;
 }
 
 .comparison-slider {
@@ -582,7 +582,6 @@ a {
   cursor: ew-resize;
   -webkit-user-select: none;
   user-select: none;
-  -webkit-user-select: none;
   touch-action: pan-y pinch-zoom;
   background: var(--bg-secondary);
 }
@@ -672,8 +671,8 @@ a {
   top: 1rem;
   padding: 0.5rem 0.875rem;
   background: var(--glass-plate-bg);
-  backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
   border: 1px solid var(--glass-border);
   border-radius: var(--radius-full);
   font-size: 0.75rem;
@@ -764,6 +763,14 @@ a {
   overflow: hidden;
   box-shadow: var(--shadow-lg);
   border: 1px solid var(--glass-border);
+}
+
+.showcase-item.showcase-portrait .comparison-slider {
+  aspect-ratio: 1 / 1;
+}
+
+.showcase-item.showcase-portrait .comparison-img {
+  object-position: center top;
 }
 
 .showcase-caption {

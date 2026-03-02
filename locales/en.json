@@ -16,7 +16,7 @@
   "Hero": {
     "Badge": "· Subscription free   · Works offline   · No registration   · Just Yours",
     "Title": "Private photo restoration",
-    "Description": "Stop paying monthly fees or with your data to see your own photos. Derustify restores your images with AI directly on device, keeping your memories 100% private and yours alone. Use it for free, or pay once to get enhanced quality and features.",
+    "Description": "Stop paying monthly fees or with your data to see your own photos. Derustify restores your images—sharpening faces, removing scratches, and adding realistic color—directly on your device, keeping your memories 100% private.",
     "Buttons": {
       "GooglePlay": "Android (Soon)",
       "Windows": "Windows (Soon)"
@@ -28,7 +28,7 @@
     },
     "Slides": {
       "Riverfront": { "Alt": "Colorized New York Riverfront from 1931", "AltBefore": "Original black and white photo of New York Riverfront" },
-      "OldMan": { "Alt": "Restored photo of an old man thinking", "AltBefore": "Original faded photo of an old man" },
+      "BoyPortrait": { "Alt": "Restored boy portrait with lifelike color", "AltBefore": "Original damaged boy portrait" },
       "Showcase1": { "Alt": "Restored historical street scene", "AltBefore": "Original damaged photo" },
       "Showcase2": { "Alt": "Restored historical portrait", "AltBefore": "Original faded photo" }
     }
@@ -40,28 +40,40 @@
     },
     "Cards": {
       "Denoising": {
-        "Title": "Wipe away the grain",
-        "Description": "Remove decades of digital 'rust' and 'sandiness' instantly. We make blurry faces crisp again so you can see the person, not the pixels. Derustify+ users get extra quality output."
+        "Title": "High-Fidelity Denoising",
+        "Description": "Remove decades of digital 'rust' and film grain while preserving fine details. Our adaptive AI ensures a clean, natural look without the 'waxed' effect."
       },
       "Colorization": {
-        "Title": "Vibrant, lifelike color",
-        "Description": "Breathe life back into black-and-white family history. Our AI understands your photos and adds colors that look real, not painted."
+        "Title": "Lifelike Colorization",
+        "Description": "Breathe life into black-and-white family history. Our AI understands your photos and adds colors that look real, not artificial."
+      },
+      "ScratchRemoval": {
+        "Title": "Heal Scratches & Tears",
+        "Description": "Erase folds, creases, and physical damage from scanned photos. Our inpainting engine restores missing areas while intelligently cloning the original film grain."
+      },
+      "FaceRestoration": {
+        "Title": "Ultra-Sharp Face Restore",
+        "Description": "Advanced detection and enhancement bring back clarity to faces that are blurry, faded, or low-resolution, restoring lost expressions with professional precision."
+      },
+      "PhotoScanner": {
+        "Title": "Smart Perspective Scanner",
+        "Description": "Turn your phone into a high-end flatbed scanner. Detect photo edges automatically and correct lens distortion for perfect, digital-first archival."
       },
       "Batch": {
-        "Title": "Revive your entire album",
-        "Description": "Scan old photos directly from your wall or family album with device camera, or import pre-scanned photos from your gallery. Add multipe images at a time and let the app do the work."
+        "Title": "Revive Entire Albums",
+        "Description": "Don't do it one-by-one. Drop in a folder of 500 photos and let the app work. Desktop performance for pro-grade speed on all your archives."
       },
       "Privacy": {
         "Title": "Absolute Privacy",
-        "Description": "Your family photos never leave your device. We don't have servers. We don't have accounts. Your private moments stay exactly where they belong: with you."
+        "Description": "Your family photos never leave your device. We don't have servers. We don't have accounts. Your moments stay exactly where they belong: with you."
       },
       "Performance": {
         "Title": "Native Speed",
-        "Description": "Built with high-performance technology that won't slow you down. Results directly on your screen, even without internet or in flight mode."
+        "Description": "Built with high-performance technology that utilizes your local NPU and GPU. No long uploads, no waiting lists—just instant results on your screen."
       },
-      "Safety": {
-        "Title": "Smart Processing",
-        "Description": "Our app individually chooses the best processing method for each photo. Derustify+ users get full control over settings and can fine tune the perfect result."
+      "PrecisionTools": {
+        "Title": "Professional Control",
+        "Description": "Take full control with 'Spectral Weaver' wavelet tools. Manually adjust structural clarity, detail recovery, and film grain for a custom, professional finish."
       }
     }
   },
@@ -77,11 +89,11 @@
         "Alt": "Colorized historical scene",
         "AltBefore": "Original age-worn photo"
       },
-      "Showcase4": {
-        "Title": "Human Resilience",
-        "Caption": "Bringing focus and color to iconic moments.",
-        "Alt": "Restored historical photo",
-        "AltBefore": "Original faded photo"
+      "WomanDress": {
+        "Title": "Heal Scratches",
+        "Caption": "Professional-grade removal of physical damage and paper tears.",
+        "Alt": "Restored woman in dress",
+        "AltBefore": "Original scratched photo"
       },
       "Showcase6": {
         "Title": "The Great Depression",
@@ -138,6 +150,10 @@
       "Q6": {
         "Q": "Are the recolored images historically accurate?",
         "A": "No, the recolored images may have historical inaccuracies. The AI models are trained to restore color or to upscale images based on large samples of training data and often succeeds in correct output. Inaccurecies or inadequate coloring of images may occur, and Derustify does not gurarantee perfect results for all images."
+      },
+      "Q7": {
+        "Q": "Are there manual editing tools?",
+        "A": "Yes. Beyond automatic restoration, Derustify includes 'Spectral Weaver' tools. These allow you to manually adjust fine details, structure, and grain using professional wavelet-domain processing—giving you photoshop-level control over the final result."
       }
     }
   },

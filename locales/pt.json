@@ -4,7 +4,7 @@
     "LogoAlt": "Logotipo do Derustify",
     "Meta": {
       "Title": "Derustify - Restauração de fotos profissional com IA offline",
-      "Description": "Restaure suas memórias preciosas com o Derustify. Restauração de fotos com IA 100% offline. Compra única. Sem nuvem, sem assinaturas, apenas privacidade."
+      "Description": "Pare de pagar taxas mensais. Derustify restaura suas imagens —reforçando rostos, removendo riscos e adicionando cores realistas— diretamente no seu dispositivo."
     }
   },
   "Navigation": {
@@ -28,7 +28,7 @@
     },
     "Slides": {
       "Riverfront": { "Alt": "Riverfront de Nova York de 1931 colorizada", "AltBefore": "Foto original em preto e branco do Riverfront de Nova York" },
-      "OldMan": { "Alt": "Foto restaurada de um idoso pensativo", "AltBefore": "Foto original desbotada de um idoso" },
+      "BoyPortrait": { "Alt": "Retrato de menino restaurado com cores realistas", "AltBefore": "Retrato de menino original danificado" },
       "Showcase1": { "Alt": "Cena de rua histórica restaurada", "AltBefore": "Foto original danificada" },
       "Showcase2": { "Alt": "Retrato histórico restaurado", "AltBefore": "Foto original desbotada" }
     }
@@ -40,28 +40,40 @@
     },
     "Cards": {
       "Denoising": {
-        "Title": "Limpe o granulado",
-        "Description": "Remova décadas de 'ferrugem' digital e granulação instantaneamente. Tornamos os rostos borrados nítidos novamente para que você possa ver a pessoa, não os pixels. Os usuários do Derustify+ obtêm uma saída de qualidade extra."
+        "Title": "Denoising de Alta Fidelidade",
+        "Description": "Remova décadas de 'ferrugem' digital e grão de filme preservando os detalhes finos. Nossa IA adaptativa garante um visual limpo e natural."
       },
       "Colorization": {
-        "Title": "Cor vibrante e realista",
-        "Description": "Dê vida nova à história da família em preto e branco. Nossa IA entende suas fotos e adiciona cores que parecem reais, não pintadas."
+        "Title": "Colorização Realista",
+        "Description": "Dê vida nova à história da família em preto e branco. Nossa IA entende suas fotos e adiciona cores que parecem reais, não artificiais."
+      },
+      "ScratchRemoval": {
+        "Title": "Cura de Riscos e Rasgos",
+        "Description": "Apague dobras, vincos e danos físicos de fotos digitalizadas. Nosso motor de inpainting restaura áreas ausentes clonando o grão original."
+      },
+      "FaceRestoration": {
+        "Title": "Restauração de Rostos Ultra-Nítida",
+        "Description": "Detecção e aprimoramento avançados trazem de volta a clareza para rostos borrados ou desbotados, restaurando expressões com precisão profissional."
+      },
+      "PhotoScanner": {
+        "Title": "Scanner de Perspectiva Inteligente",
+        "Description": "Transforme seu telefone em um scanner de mesa de alta tecnologia. Detecte bordas automaticamente e corrija distorções de lente para um arquivo digital perfeito."
       },
       "Batch": {
-        "Title": "Reviva todo o seu álbum",
-        "Description": "Digitalize fotos antigas diretamente da sua parede ou álbum de família com a câmera do dispositivo, ou importe fotos pré-digitalizadas da sua galeria. Adicione várias imagens de uma só vez e deixe o aplicativo fazer o trabalho."
+        "Title": "Reviva Álbuns Inteiros",
+        "Description": "Não faça um por um. Solte uma pasta com 500 fotos e deixe o app trabalhar. Desempenho de desktop para velocidade profissional em todos os seus arquivos."
       },
       "Privacy": {
         "Title": "Privacidade Absoluta",
-        "Description": "Suas fotos de família nunca saem do seu dispositivo. Não temos servidores. Não temos contas. Seus momentos privados ficam exatamente onde pertencem: com você."
+        "Description": "Suas fotos de família nunca saem do seu dispositivo. Não temos servidores. Não temos contas. Seus momentos ficam exatamente onde pertencem: com você."
       },
       "Performance": {
         "Title": "Velocidade Nativa",
-        "Description": "Construído com tecnologia de alto desempenho que não o deixará lento. Resultados diretamente na sua tela, mesmo sem internet ou em modo avião."
+        "Description": "Construído com tecnologia de alto desempenho que utiliza sua NPU e GPU local. Sem esperas ou uploads longos — resultados instantâneos na sua tela."
       },
-      "Safety": {
-        "Title": "Processamento Inteligente",
-        "Description": "Nosso aplicativo escolhe individualmente o melhor método de processamento para cada foto. Os usuários do Derustify+ têm controle total sobre as configurações e podem ajustar o resultado perfeito."
+      "PrecisionTools": {
+        "Title": "Controle Profissional",
+        "Description": "Tenha controle total com as ferramentas wavelet 'Spectral Weaver'. Ajuste manualmente a clareza estrutural, a recuperação de detalhes e o grão."
       }
     }
   },
@@ -77,11 +89,11 @@
         "Alt": "Cena histórica colorida",
         "AltBefore": "Foto original desgastada pelo tempo"
       },
-      "Showcase4": {
-        "Title": "Resiliência humana",
-        "Caption": "Trazendo nitidez e cor para momentos icônicos.",
-        "Alt": "Foto histórica restaurada",
-        "AltBefore": "Foto original desbotada"
+      "WomanDress": {
+        "Title": "Cura de riscos",
+        "Caption": "Remoção de nível profissional de danos físicos e rasgos de papel.",
+        "Alt": "Mulher com vestido restaurada",
+        "AltBefore": "Foto original com riscos"
       },
       "Showcase6": {
         "Title": "A Grande Depressão",
@@ -138,6 +150,10 @@
       "Q6": {
         "Q": "As imagens recoloridas são historicamente precisas?",
         "A": "Não, as imagens recoloridas podem ter imprecisões históricas. Os modelos de IA são treinados para restaurar cores ou para aumentar a escala das imagens com base em grandes amostras de dados de treinamento e, muitas vezes, obtêm êxito no resultado correto. Podem ocorrer imprecisões ou coloração inadequada das imagens, e o Derustify não garante resultados perfeitos para todas as imagens."
+      },
+      "Q7": {
+        "Q": "Existem ferramentas de edição manual?",
+        "A": "Sim. Além da restauração automática, Derustify inclui as ferramentas 'Spectral Weaver'. Elas permitem ajustar manualmente detalhes, estrutura e grão usando processamento wavelet profissional."
       }
     }
   },

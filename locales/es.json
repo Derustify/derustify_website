@@ -16,7 +16,7 @@
   "Hero": {
     "Badge": "· Sin suscripción   · Funciona sin conexión   · Sin registro   · Solo tuyos",
     "Title": "Restauración de fotos privada",
-    "Description": "Deja de pagar cuotas mensuales o con tus datos para ver tus propias fotos. Derustify restaura tus imágenes con IA directamente en el dispositivo, manteniendo tus recuerdos 100 % privados y solo tuyos. Úsalo gratis, o paga una vez para obtener calidad y funciones mejoradas.",
+    "Description": "Deja de pagar cuotas mensuales. Derustify restaura tus imágenes —enfocando rostros, eliminando arañazos y añadiendo color realista— directamente en tu dispositivo.",
     "Buttons": {
       "GooglePlay": "Android (Próximamente)",
       "Windows": "Windows (Próximamente)"
@@ -28,7 +28,7 @@
     },
     "Slides": {
       "Riverfront": { "Alt": "Riverfront de Nueva York de 1931 coloreado", "AltBefore": "Foto original en blanco y negro del Riverfront de Nueva York" },
-      "OldMan": { "Alt": "Foto restaurada de un anciano pensando", "AltBefore": "Foto original desvanecida de un anciano" },
+      "BoyPortrait": { "Alt": "Retrato de niño restaurado con colores realistas", "AltBefore": "Retrato de niño original dañado" },
       "Showcase1": { "Alt": "Escena callejera histórica restaurada", "AltBefore": "Foto original dañada" },
       "Showcase2": { "Alt": "Retrato histórico restaurado", "AltBefore": "Foto original desvanecida" }
     }
@@ -40,28 +40,40 @@
     },
     "Cards": {
       "Denoising": {
-        "Title": "Limpia el grano",
-        "Description": "Elimina décadas de 'óxido' digital y granuosidad al instante. Hacemos que los rostros borrosos vuelvan a ser nítidos para que puedas ver a la persona, no los píxeles. Los usuarios de Derustify+ obtienen una salida de calidad extra."
+        "Title": "Eliminación de Ruido High-Fidelity",
+        "Description": "Elimina décadas de 'óxido' digital y grano de película preservando los detalles finos. Nuestra IA adaptativa garantiza un aspecto limpio y natural."
       },
       "Colorization": {
-        "Title": "Color vibrante y realista",
-        "Description": "Devuelve la vida a la historia familiar en blanco y negro. Nuestra IA entiende tus fotos y añade colores que parecen reales, no pintados."
+        "Title": "Colorización Realista",
+        "Description": "Da vida a la historia familiar en blanco y negro. Nuestra IA entiende tus fotos y añade colores que parecen reales, no artificiales."
+      },
+      "ScratchRemoval": {
+        "Title": "Cura Arañazos y Desgarros",
+        "Description": "Borra pliegues, arrugas y daños físicos de fotos escaneadas. Nuestro motor de inpainting restaura las áreas faltantes clonando el grano original."
+      },
+      "FaceRestoration": {
+        "Title": "Restauración de Rostros Ultra-Nítida",
+        "Description": "La detección y mejora avanzadas devuelven la claridad a los rostros borrosos o desvaídos, restaurando expresiones perdidas con precisión profesional."
+      },
+      "PhotoScanner": {
+        "Title": "Escáner de Perspectiva Inteligente",
+        "Description": "Convierte tu teléfono en un escáner de alta gama. Detecta bordes automáticamente y corrige la distorsión de la lente para un archivo digital perfecto."
       },
       "Batch": {
-        "Title": "Revive todo tu álbum",
-        "Description": "Escanea fotos antiguas directamente desde tu pared o álbum familiar con la cámara del dispositivo, o importa fotos preescaneadas desde tu galería. Añade varias imágenes a la vez y deja que la aplicación haga el trabajo."
+        "Title": "Revive Álbumes Completos",
+        "Description": "No lo hagas uno por uno. Suelta una carpeta con 500 fotos y deja que la app trabaje. Rendimiento de escritorio para una velocidad profesional."
       },
       "Privacy": {
         "Title": "Privacidad Absoluta",
-        "Description": "Tus fotos familiares nunca salen de tu dispositivo. No tenemos servidores. No tenemos cuentas. Tus momentos privados se quedan exactamente donde deben: contigo."
+        "Description": "Tus fotos familiares nunca salen de tu dispositivo. No tenemos servidores. No tenemos cuentas. Tus momentos permanecen donde pertenecen: contigo."
       },
       "Performance": {
         "Title": "Velocidad Nativa",
-        "Description": "Construido con tecnología de alto rendimiento que no te ralentizará. Resultados directamente en tu pantalla, incluso sin internet o en modo avión."
+        "Description": "Construido con tecnología de alto rendimiento que utiliza tu NPU y GPU local. Sin esperas ni subidas largas: resultados instantáneos en tu pantalla."
       },
-      "Safety": {
-        "Title": "Procesamiento Inteligente",
-        "Description": "Nuestra aplicación elige individualmente el mejor método de procesamiento para cada foto. Los usuarios de Derustify+ obtienen un control total sobre los ajustes y pueden ajustar el resultado perfecto."
+      "PrecisionTools": {
+        "Title": "Control Profesional",
+        "Description": "Toma el control total con las herramientas wavelet 'Spectral Weaver'. Ajusta manualmente la claridad, la recuperación de detalles y el grano."
       }
     }
   },
@@ -77,11 +89,11 @@
         "Alt": "Escena histórica coloreada",
         "AltBefore": "Foto original desgastada por el tiempo"
       },
-      "Showcase4": {
-        "Title": "Resiliencia humana",
-        "Caption": "Aportando enfoque y color a momentos icónicos.",
-        "Alt": "Foto histórica restaurada",
-        "AltBefore": "Foto original descolorida"
+      "WomanDress": {
+        "Title": "Cura arañazos",
+        "Caption": "Eliminación de nivel profesional de daños físicos y desgarros de papel.",
+        "Alt": "Mujer con vestido restaurada",
+        "AltBefore": "Foto original con arañazos"
       },
       "Showcase6": {
         "Title": "La Gran Depresión",
@@ -137,7 +149,11 @@
       },
       "Q6": {
         "Q": "¿Son históricamente precisas las imágenes coloreadas?",
-        "A": "No, las imágenes coloreadas pueden tener imprecisiones históricas. Los modelos de IA están entrenados para restaurar el color o para escalar imágenes basándose en grandes muestras de datos de entrenamiento y a menudo logran resultados correctos. Pueden ocurrir imprecisiones o una coloración inadecuada de las imágenes, y Derustify no garantiza resultados perfectos para todas las imágenes."
+        "A": "No, las imágenes coloreadas pueden tener inexactitudes históricas. Los modelos de IA están entrenados para restaurar el color o mejorar las imágenes basándose en grandes muestras de datos de entrenamiento y a menudo logran resultados correctos. Sin embargo, pueden ocurrir inexactitudes o una coloración inadecuada."
+      },
+      "Q7": {
+        "Q": "¿Hay herramientas de edición manual?",
+        "A": "Sí. Más allá de la restauración automática, Derustify incluye las herramientas 'Spectral Weaver'. Estas permiten ajustar manualmente detalles, estructura y grano mediante un procesamiento wavelet profesional."
       }
     }
   },

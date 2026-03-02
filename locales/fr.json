@@ -16,7 +16,7 @@
   "Hero": {
     "Badge": "· Sans abonnement   · Fonctionne hors ligne   · Sans inscription   · Rien qu'à vous",
     "Title": "Restauration de photos privée",
-    "Description": "Arrêtez de payer des frais mensuels ou avec vos données pour voir vos propres photos. Derustify restaure vos images avec l'IA directement sur l'appareil, gardant vos souvenirs 100 % privés et à vous seul. Utilisez-le gratuitement, ou payez une fois pour obtenir une qualité et des fonctionnalités améliorées.",
+    "Description": "Arrêtez de payer des abonnements. Derustify restaure vos images —netteté des visages, suppression des rayures et ajout de couleurs réalistes— directement sur votre appareil.",
     "Buttons": {
       "GooglePlay": "Android (Bientôt)",
       "Windows": "Windows (Bientôt)"
@@ -28,7 +28,7 @@
     },
     "Slides": {
       "Riverfront": { "Alt": "Riverfront de New York de 1931 colorisé", "AltBefore": "Photo originale en noir et blanc du Riverfront de New York" },
-      "OldMan": { "Alt": "Photo restaurée d'un vieil homme pensif", "AltBefore": "Photo originale délavée d'un vieil homme" },
+      "BoyPortrait": { "Alt": "Portrait de garçon restauré avec des couleurs réalistes", "AltBefore": "Portrait original de garçon endommagé" },
       "Showcase1": { "Alt": "Scène de rue historique restaurée", "AltBefore": "Photo originale endommagée" },
       "Showcase2": { "Alt": "Portrait historique restauré", "AltBefore": "Photo originale délavée" }
     }
@@ -40,28 +40,40 @@
     },
     "Cards": {
       "Denoising": {
-        "Title": "Effacez le grain",
-        "Description": "Supprimez instantanément des décennies de 'rouille' numérique et de granulosité. Nous redonnons de la netteté aux visages flous pour que vous puissiez voir la personne, pas les pixels. Les utilisateurs de Derustify+ bénéficient d'une qualité de sortie supérieure."
+        "Title": "Débruitage Haute Fidélité",
+        "Description": "Supprimez des décennies de 'rouille' numérique et de grain tout en préservant les détails. Notre IA assure un aspect propre et naturel sans effet 'cire'."
       },
       "Colorization": {
-        "Title": "Des couleurs éclatantes et réalistes",
-        "Description": "Redonnez vie à l'histoire familiale en noir et blanc. Notre IA comprend vos photos et ajoute des couleurs qui ont l'air réelles, pas peintes."
+        "Title": "Colorisation Réaliste",
+        "Description": "Redonnez vie à l'histoire familiale en noir et blanc. Notre IA comprend vos photos et ajoute des couleurs qui semblent réelles, pas artificielles."
+      },
+      "ScratchRemoval": {
+        "Title": "Réparez Rayures et Déchirures",
+        "Description": "Effacez les plis et les dommages physiques des photos numérisées. Notre moteur restaure les zones manquantes en clonant intelligemment le grain d'origine."
+      },
+      "FaceRestoration": {
+        "Title": "Restauration de Visage Ultra-Nette",
+        "Description": "Une détection et une amélioration avancées redonnent de la clarté aux visages flous ou décolorés, restaurant les expressions avec une précision professionnelle."
+      },
+      "PhotoScanner": {
+        "Title": "Scanner de Perspective Intelligent",
+        "Description": "Transformez votre téléphone en scanner haute performance. Détecte les bords et corrige la distorsion pour un archivage numérique parfait."
       },
       "Batch": {
-        "Title": "Faites revivre tout votre album",
-        "Description": "Numérisez d'anciennes photos directement depuis votre mur ou votre album de famille avec l'appareil photo de l'appareil, ou importiez des photos déjà numérisées depuis votre galerie. Ajoutez plusieurs images à la fois et laissez l'application faire le travail."
+        "Title": "Ranimez des Albums Entiers",
+        "Description": "Ne le faites pas un par un. Déposez un dossier de 500 photos et laissez l'application travailler. Des performances professionnelles sur tous vos écrans."
       },
       "Privacy": {
         "Title": "Confidentialité Absolue",
-        "Description": "Vos photos de famille ne quittent jamais votre appareil. Nous n'avons pas de serveurs. Nous n'avons pas de comptes. Vos moments privés restent exactement là où ils doivent être : avec vous."
+        "Description": "Vos photos de famille ne quittent jamais votre appareil. Pas de serveurs, pas de comptes. Vos moments restent là où ils doivent être : chez vous."
       },
       "Performance": {
         "Title": "Vitesse Native",
-        "Description": "Conçu avec une technologie haute performance qui ne vous ralentira pas. Des résultats directement sur votre écran, même sans internet ou en mode avion."
+        "Description": "Conçu avec une technologie exploitant votre NPU et GPU local. Pas d'attente ni de téléchargement long — des résultats instantanés sur votre écran."
       },
-      "Safety": {
-        "Title": "Traitement Intelligent",
-        "Description": "Notre application choisit individuellement la meilleure méthode de traitement pour chaque photo. Les utilisateurs de Derustify+ bénéficient d'un contrôle total sur les réglages et peuvent affiner le résultat parfait."
+      "PrecisionTools": {
+        "Title": "Contrôle Professionnel",
+        "Description": "Prenez le contrôle avec les outils 'Spectral Weaver'. Ajustez manuellement la clarté structurelle, la récupération des détails et le grain."
       }
     }
   },
@@ -77,11 +89,11 @@
         "Alt": "Scène historique colorisée",
         "AltBefore": "Photo originale usée par le temps"
       },
-      "Showcase4": {
-        "Title": "Résilience humaine",
-        "Caption": "Apporter du netteté et de la couleur à des moments emblématiques.",
-        "Alt": "Photo historique restaurée",
-        "AltBefore": "Photo originale décolorée"
+      "WomanDress": {
+        "Title": "Réparez les rayures",
+        "Caption": "Suppression de niveau professionnel des dommages physiques et des déchirures de papier.",
+        "Alt": "Femme en robe restaurée",
+        "AltBefore": "Photo originale rayée"
       },
       "Showcase6": {
         "Title": "La Grande Dépression",
@@ -136,8 +148,12 @@
         "A": "Absolument. C'est le cadeau parfait pour l'historien de la famille, pour vos grands-parents ou toute personne de la famille qui apprécierait des souvenirs restaurés. Achetez-le une fois, installez-le sur le PC familial et passez un après-midi à sauver ensemble les archives familiales."
       },
       "Q6": {
-        "Q": "Les images recolorisées sont-elles historiquement exactes ?",
-        "A": "Non, les images recolorisées peuvent présenter des inexactitudes historiques. Les modèles d'IA sont entraînés pour restaurer la couleur ou pour agrandir des images sur la base d'un grand nombre de données d'entraînement et réussissent souvent à produire un résultat correct. Des inexactitudes ou une coloration inadéquate des images peuvent se produire, et Derustify ne garantit pas des résultats parfaits pour toutes les images."
+        "Q": "Les images recolorées sont-elles historiquement exactes ?",
+        "A": "Non, les images recolorées peuvent présenter des inexactitudes historiques. Les modèles d'IA sont entraînés à restaurer les couleurs ou à mettre à l'échelle les images sur la base d'un grand nombre de données d'entraînement et parviennent souvent à un résultat correct. Des inexactitudes ou une colorisation inadéquate peuvent survenir."
+      },
+      "Q7": {
+        "Q": "Existe-t-il des outils d'édition manuelle ?",
+        "A": "Oui. Au-delà de la restauration automatique, Derustify inclut les outils 'Spectral Weaver'. Ils vous permettent d'ajuster manuellement les détails, la structure et le grain grâce à un traitement wavelet professionnel."
       }
     }
   },

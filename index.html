@@ -145,11 +145,11 @@
             </div>
           </div>
 
-          <!-- Slide 2: Old Man -->
+          <!-- Slide 2: Boy Portrait -->
           <div class="hero-slide">
             <div class="comparison-slider" data-hero-slider>
-              <img class="comparison-img comparison-img-after" src="assets/images/OldMan_color.png" alt="Restored photo of an old man" data-i18n-alt="Hero.Slides.OldMan.Alt">
-              <img class="comparison-img comparison-img-before" src="assets/images/OldMan.jpg" alt="Original photo of an old man" data-i18n-alt="Hero.Slides.OldMan.AltBefore">
+              <img class="comparison-img comparison-img-after hero-img-boy" src="assets/images/boy_portrait_color_cropped.png" alt="Restored boy portrait" data-i18n-alt="Hero.Slides.BoyPortrait.Alt">
+              <img class="comparison-img comparison-img-before hero-img-boy" src="assets/images/boy_portrait_bw_cropped.png" alt="Original damaged boy portrait" data-i18n-alt="Hero.Slides.BoyPortrait.AltBefore">
               
               <div class="comparison-handle">
                 <div class="comparison-grip">
@@ -224,6 +224,7 @@
       </div>
       
       <div class="features-grid stagger-children">
+        <!-- AI Core -->
         <div class="feature-card fade-in">
           <div class="feature-icon">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -232,10 +233,10 @@
               <circle cx="12" cy="12" r="9"></circle>
             </svg>
           </div>
-          <h3 data-i18n="FeatureSection.Cards.Denoising.Title">Wipe away the grain</h3>
-          <p data-i18n="FeatureSection.Cards.Denoising.Description">Remove decades of digital 'rust' and 'sandiness' instantly. We make blurry faces crisp again so you can see the person, not the pixels.</p>
+          <h3 data-i18n="FeatureSection.Cards.Denoising.Title">High-Fidelity Denoising</h3>
+          <p data-i18n="FeatureSection.Cards.Denoising.Description">Remove decades of digital 'rust' and film grain while preserving fine details. Our adaptive AI ensures a clean, natural look without the 'waxed' effect.</p>
         </div>
-        
+
         <div class="feature-card fade-in">
           <div class="feature-icon">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -250,10 +251,54 @@
               <path d="M18.36 5.64l1.42-1.42"></path>
             </svg>
           </div>
-          <h3 data-i18n="FeatureSection.Cards.Colorization.Title">Vibrant, lifelike color</h3>
-          <p data-i18n="FeatureSection.Cards.Colorization.Description">Breathe life back into black-and-white family history. Our AI understands your photos and adds colors that look real, not painted.</p>
+          <h3 data-i18n="FeatureSection.Cards.Colorization.Title">Lifelike Colorization</h3>
+          <p data-i18n="FeatureSection.Cards.Colorization.Description">Breathe life into black-and-white family history. Our AI understands your photos and adds colors that look real, not artificial.</p>
         </div>
-        
+
+        <div class="feature-card fade-in">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/>
+            </svg>
+          </div>
+          <h3 data-i18n="FeatureSection.Cards.ScratchRemoval.Title">Heal Scratches & Tears</h3>
+          <p data-i18n="FeatureSection.Cards.ScratchRemoval.Description">Erase folds, creases, and physical damage from scanned photos. Our inpainting engine restores missing areas while intelligently cloning the original film grain.</p>
+        </div>
+
+        <!-- Pro Tools -->
+        <div class="feature-card fade-in">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <polyline points="16 11 18 13 22 9"/>
+            </svg>
+          </div>
+          <h3 data-i18n="FeatureSection.Cards.FaceRestoration.Title">Ultra-Sharp Face Restore</h3>
+          <p data-i18n="FeatureSection.Cards.FaceRestoration.Description">Advanced detection and enhancement bring back clarity to faces that are blurry, faded, or low-resolution, restoring lost expressions with professional precision.</p>
+        </div>
+
+        <div class="feature-card fade-in">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 7V5a2 2 0 0 1 2-2h2"/><path d="M17 3h2a2 2 0 0 1 2 2v2"/><path d="M21 17v2a2 2 0 0 1-2 2h-2"/><path d="M7 21H5a2 2 0 0 1-2-2v-2"/><circle cx="12" cy="12" r="3"/>
+            </svg>
+          </div>
+          <h3 data-i18n="FeatureSection.Cards.PhotoScanner.Title">Smart Perspective Scanner</h3>
+          <p data-i18n="FeatureSection.Cards.PhotoScanner.Description">Turn your phone into a high-end flatbed scanner. Detect photo edges automatically and correct lens distortion for perfect, digital-first archival.</p>
+        </div>
+
+        <div class="feature-card fade-in">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+            </svg>
+          </div>
+          <h3 data-i18n="FeatureSection.Cards.PrecisionTools.Title">Professional Control</h3>
+          <p data-i18n="FeatureSection.Cards.PrecisionTools.Description">Take full control with 'Spectral Weaver' wavelet tools. Manually adjust structural clarity, detail recovery, and film grain for a custom, professional finish.</p>
+        </div>
+
+        <!-- Workflow & Security -->
         <div class="feature-card fade-in">
           <div class="feature-icon">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -262,10 +307,10 @@
               <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
             </svg>
           </div>
-          <h3 data-i18n="FeatureSection.Cards.Batch.Title">Revive your entire album</h3>
-          <p data-i18n="FeatureSection.Cards.Batch.Description">Don't do it one-by-one. Drop in a folder of 500 photos and let the app work through the night. Your computer does the work, you get the results.</p>
+          <h3 data-i18n="FeatureSection.Cards.Batch.Title">Revive Entire Albums</h3>
+          <p data-i18n="FeatureSection.Cards.Batch.Description">Don't do it one-by-one. Drop in a folder of 500 photos and let the app work. Desktop performance for pro-grade speed on all your archives.</p>
         </div>
-        
+
         <div class="feature-card fade-in">
           <div class="feature-icon">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -273,9 +318,9 @@
             </svg>
           </div>
           <h3 data-i18n="FeatureSection.Cards.Privacy.Title">Absolute Privacy</h3>
-          <p data-i18n="FeatureSection.Cards.Privacy.Description">Your family photos never leave your device. We don't have servers. We don't have accounts. Your private moments stay exactly where they belong: with you.</p>
+          <p data-i18n="FeatureSection.Cards.Privacy.Description">Your family photos never leave your device. We don't have servers. We don't have accounts. Your moments stay exactly where they belong: with you.</p>
         </div>
-        
+
         <div class="feature-card fade-in">
           <div class="feature-icon">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -285,17 +330,7 @@
             </svg>
           </div>
           <h3 data-i18n="FeatureSection.Cards.Performance.Title">Native Speed</h3>
-          <p data-i18n="FeatureSection.Cards.Performance.Description">Built with high-performance technology that won't slow you down. No long uploads, no waiting lists. Just instant results on your screen.</p>
-        </div>
-        
-        <div class="feature-card fade-in">
-          <div class="feature-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
-            </svg>
-          </div>
-          <h3 data-i18n="FeatureSection.Cards.Safety.Title">Your originals are safe</h3>
-          <p data-i18n="FeatureSection.Cards.Safety.Description">We never touch your original files. Compare, tweak, and experiment freely knowing that your digital heirlooms are perfectly preserved.</p>
+          <p data-i18n="FeatureSection.Cards.Performance.Description">Built with high-performance technology that utilizes your local NPU and GPU. No long uploads, no waiting lists—just instant results on your screen.</p>
         </div>
       </div>
     </div>
@@ -310,11 +345,11 @@
       </div>
       
       <div class="showcase-grid stagger-children">
-        <!-- Item 1: Showcase 3 -->
-        <div class="showcase-item fade-in">
+        <!-- Item 1: The Great Depression (Now top row) -->
+        <div class="showcase-item showcase-portrait fade-in">
           <div class="comparison-slider" data-slider>
-            <img class="comparison-img comparison-img-after" src="assets/images/Showcase3_color.png" alt="Restored historical scene 3" data-i18n-alt="ShowcaseSection.Items.Showcase3.Alt">
-            <img class="comparison-img comparison-img-before" src="assets/images/Showcase3.jpg" alt="Original age-worn photo" data-i18n-alt="ShowcaseSection.Items.Showcase3.AltBefore">
+            <img class="comparison-img comparison-img-after" src="assets/images/Showcase6_color.png" alt="Restored historical scene 6" data-i18n-alt="ShowcaseSection.Items.Showcase6.Alt">
+            <img class="comparison-img comparison-img-before" src="assets/images/Showcase6.jpg" alt="Original historical scene" data-i18n-alt="ShowcaseSection.Items.Showcase6.AltBefore">
             <div class="comparison-handle">
               <div class="comparison-grip">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15,18 9,12 15,6"></polyline></svg>
@@ -325,16 +360,16 @@
             <div class="comparison-label comparison-label-after" data-i18n="Hero.Comparison.Restored">Derustified</div>
           </div>
           <div class="showcase-caption">
-            <h3 data-i18n="ShowcaseSection.Items.Showcase3.Title">Dusty Memories</h3>
-            <p data-i18n="ShowcaseSection.Items.Showcase3.Caption">Restoring the grit and detail of 20th century life.</p>
+            <h3 data-i18n="ShowcaseSection.Items.Showcase6.Title">The Great Depression</h3>
+            <p data-i18n="ShowcaseSection.Items.Showcase6.Caption">Preserving the depth of historical struggle in color.</p>
           </div>
         </div>
 
-        <!-- Item 2: Showcase 4 -->
-        <div class="showcase-item fade-in">
+        <!-- Item 2: Woman Dress (Scratch Removal Focus) -->
+        <div class="showcase-item showcase-portrait fade-in">
           <div class="comparison-slider" data-slider>
-            <img class="comparison-img comparison-img-after" src="assets/images/Showcase4_color.png" alt="Restored historical photo" data-i18n-alt="ShowcaseSection.Items.Showcase4.Alt">
-            <img class="comparison-img comparison-img-before" src="assets/images/Showcase4.jpg" alt="Original faded photo" data-i18n-alt="ShowcaseSection.Items.Showcase4.AltBefore">
+            <img class="comparison-img comparison-img-after" src="assets/images/woman_dress_color_cropped.png" alt="Restored woman in dress" data-i18n-alt="ShowcaseSection.Items.WomanDress.Alt">
+            <img class="comparison-img comparison-img-before" src="assets/images/woman_dress_bw_cropped.png" alt="Original scratched photo" data-i18n-alt="ShowcaseSection.Items.WomanDress.AltBefore">
             <div class="comparison-handle">
               <div class="comparison-grip">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15,18 9,12 15,6"></polyline></svg>
@@ -345,13 +380,13 @@
             <div class="comparison-label comparison-label-after" data-i18n="Hero.Comparison.Restored">Derustified</div>
           </div>
           <div class="showcase-caption">
-            <h3 data-i18n="ShowcaseSection.Items.Showcase4.Title">Human Resilience</h3>
-            <p data-i18n="ShowcaseSection.Items.Showcase4.Caption">Bringing focus and color to iconic moments.</p>
+            <h3 data-i18n="ShowcaseSection.Items.WomanDress.Title">Heal Scratches</h3>
+            <p data-i18n="ShowcaseSection.Items.WomanDress.Caption">Professional-grade removal of physical damage and paper tears.</p>
           </div>
         </div>
 
         <!-- Item 3: Showcase 5 (Migrant Mother) -->
-        <div class="showcase-item fade-in">
+        <div class="showcase-item showcase-portrait fade-in">
           <div class="comparison-slider" data-slider>
             <img class="comparison-img comparison-img-after" src="assets/images/Showcase5_color.png" alt="Restored migrant mother" data-i18n-alt="ShowcaseSection.Items.Showcase5.Alt">
             <img class="comparison-img comparison-img-before" src="assets/images/Showcase5.jpg" alt="Original faded portrait" data-i18n-alt="ShowcaseSection.Items.Showcase5.AltBefore">
@@ -370,11 +405,11 @@
           </div>
         </div>
 
-        <!-- Item 4: Showcase 6 -->
+        <!-- Item 4: Dusty Memories (Now bottom row) -->
         <div class="showcase-item fade-in">
           <div class="comparison-slider" data-slider>
-            <img class="comparison-img comparison-img-after" src="assets/images/Showcase6_color.png" alt="Restored historical scene 6" data-i18n-alt="ShowcaseSection.Items.Showcase6.Alt">
-            <img class="comparison-img comparison-img-before" src="assets/images/Showcase6.jpg" alt="Original historical scene" data-i18n-alt="ShowcaseSection.Items.Showcase6.AltBefore">
+            <img class="comparison-img comparison-img-after" src="assets/images/Showcase3_color.png" alt="Restored historical scene 3" data-i18n-alt="ShowcaseSection.Items.Showcase3.Alt">
+            <img class="comparison-img comparison-img-before" src="assets/images/Showcase3.jpg" alt="Original age-worn photo" data-i18n-alt="ShowcaseSection.Items.Showcase3.AltBefore">
             <div class="comparison-handle">
               <div class="comparison-grip">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15,18 9,12 15,6"></polyline></svg>
@@ -385,8 +420,8 @@
             <div class="comparison-label comparison-label-after" data-i18n="Hero.Comparison.Restored">Derustified</div>
           </div>
           <div class="showcase-caption">
-            <h3 data-i18n="ShowcaseSection.Items.Showcase6.Title">The Great Depression</h3>
-            <p data-i18n="ShowcaseSection.Items.Showcase6.Caption">Preserving the depth of historical struggle in color.</p>
+            <h3 data-i18n="ShowcaseSection.Items.Showcase3.Title">Dusty Memories</h3>
+            <p data-i18n="ShowcaseSection.Items.Showcase3.Caption">Restoring the grit and detail of 20th century life.</p>
           </div>
         </div>
 
@@ -517,6 +552,19 @@
           </button>
           <div class="faq-answer">
             <p data-i18n="FAQSection.Questions.Q6.A">No, the recolored images may have historical inaccuracies. The AI models are trained to restore color or to upscale images based on large samples of training data and often succeeds in correct output. Inaccurecies or inadequate coloring of images may occur, and Derustify does not gurarantee perfect results for all images.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span data-i18n="FAQSection.Questions.Q7.Q">Are there manual editing tools?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="12" y1="5" x2="12" y2="19"></line>
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p data-i18n="FAQSection.Questions.Q7.A">Yes. Beyond automatic restoration, Derustify includes 'Spectral Weaver' tools. These allow you to manually adjust fine details, structure, and grain using professional wavelet-domain processing—giving you photoshop-level control over the final result.</p>
           </div>
         </div>
       </div>

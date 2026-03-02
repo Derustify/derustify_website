@@ -16,7 +16,7 @@
   "Hero": {
     "Badge": "· Ohne Abo   · Funktioniert offline   · Keine Registrierung   · Ganz Privat",
     "Title": "Private Fotorestaurierung",
-    "Description": "Hören Sie auf, monatliche Gebühren zu zahlen oder mit Ihren Daten zu bezahlen, um Ihre eigenen Fotos zu sehen. Derustify restauriert Ihre Bilder mit KI direkt auf dem Gerät, wodurch Ihre Erinnerungen zu 100 % privat und allein Ihr Eigentum bleiben. Nutzen Sie es kostenlos oder zahlen Sie einmalig, um verbesserte Qualität und Funktionen zu erhalten.",
+    "Description": "Hören Sie auf, monatliche Gebühren zu zahlen. Derustify stellt Ihre Bilder wieder her – schärft Gesichter, entfernt Kratzer und fügt realistische Farben hinzu – direkt auf Ihrem Gerät.",
     "Buttons": {
       "GooglePlay": "Android (Demnächst)",
       "Windows": "Windows (Demnächst)"
@@ -28,7 +28,7 @@
     },
     "Slides": {
       "Riverfront": { "Alt": "Kolorierte New Yorker Uferpromenade von 1931", "AltBefore": "Originales Schwarz-Weiß-Foto der New Yorker Uferpromenade" },
-      "OldMan": { "Alt": "Restauriertes Foto eines nachdenklichen alten Mannes", "AltBefore": "Originales verblasstes Foto eines alten Mannes" },
+      "BoyPortrait": { "Alt": "Restauriertes Jungenporträt mit lebensechten Farben", "AltBefore": "Originales beschädigtes Porträt eines Jungen" },
       "Showcase1": { "Alt": "Restaurierte historische Straßenszene", "AltBefore": "Originales beschädigtes Foto" },
       "Showcase2": { "Alt": "Restauriertes historisches Porträt", "AltBefore": "Originales verblasstes Foto" }
     }
@@ -40,28 +40,40 @@
     },
     "Cards": {
       "Denoising": {
-        "Title": "Körnung wegwischen",
-        "Description": "Entfernen Sie jahrzehntelangen digitalen „Rost“ und „Sandigkeit“ sofort. Wir machen verschwommene Gesichter wieder scharf, damit Sie die Person sehen, nicht die Pixel. Derustify+-Nutzer erhalten eine zusätzliche Qualitätsausgabe."
+        "Title": "High-Fidelity Entrauschen",
+        "Description": "Entfernen Sie digitalen 'Rost' und Filmkorn aus Jahrzehnten, während feine Details erhalten bleiben. Unsere adaptive KI sorgt für einen sauberen, natürlichen Look."
       },
       "Colorization": {
-        "Title": "Lebendige, naturgetreue Farben",
-        "Description": "Hauchen Sie der schwarz-weißen Familiengeschichte neues Leben ein. Unsere KI versteht Ihre Fotos und fügt Farben hinzu, die echt aussehen, nicht gemalt."
+        "Title": "Lebensechte Kolorierung",
+        "Description": "Hauchen Sie der schwarz-weißen Familiengeschichte neues Leben ein. Unsere KI versteht Ihre Fotos und fügt Farben hinzu, die echt wirken."
+      },
+      "ScratchRemoval": {
+        "Title": "Kratzer & Risse heilen",
+        "Description": "Löschen Sie Falten, Knicke und physische Schäden an gescannten Fotos. Unsere Inpainting-Engine stellt fehlende Bereiche wieder her und klont die ursprüngliche Körnung."
+      },
+      "FaceRestoration": {
+        "Title": "Scharfe Gesichtswiederherstellung",
+        "Description": "Fortschrittliche Erkennung und Verbesserung bringen Klarheit in Gesichter, die unscharf, verblasst oder niedrig auflösend sind, und stellen Ausdrücke präzise wieder her."
+      },
+      "PhotoScanner": {
+        "Title": "Intelligenter Perspektiv-Scanner",
+        "Description": "Verwandeln Sie Ihr Telefon in einen High-End-Flachbettscanner. Erkennt Bildkanten automatisch und korrigiert Linsenverzerrungen für die perfekte digitale Archivierung."
       },
       "Batch": {
-        "Title": "Beleben Sie Ihr gesamtes Album",
-        "Description": "Scannen Sie alte Fotos direkt von Ihrer Wand oder Ihrem Familienalbum mit der Gerätekamera, oder importieren Sie vorab gescannte Fotos aus Ihrer Galerie. Fügen Sie mehrere Bilder gleichzeitig hinzu und lassen Sie die App die Arbeit machen."
+        "Title": "Ganze Alben wiederbeleben",
+        "Description": "Digitalisieren Sie nicht alles einzeln. Werfen Sie einen Ordner mit 500 Fotos hinein und lassen Sie die App arbeiten. Desktop-Performance für Profi-Geschwindigkeit."
       },
       "Privacy": {
-        "Title": "Absolute Privatsphäre",
+        "Title": "Absoluter Datenschutz",
         "Description": "Ihre Familienfotos verlassen niemals Ihr Gerät. Wir haben keine Server. Wir haben keine Konten. Ihre privaten Momente bleiben genau dort, wo sie hingehören: bei Ihnen."
       },
       "Performance": {
         "Title": "Native Geschwindigkeit",
-        "Description": "Entwickelt mit Hochleistungstechnologie, die Sie nicht ausbremst. Ergebnisse direkt auf Ihrem Bildschirm, auch ohne Internet oder im Flugmodus."
+        "Description": "Gebaut mit Hochleistungstechnologie, die Ihre lokale NPU und GPU nutzt. Keine langen Uploads, keine Wartelisten – nur sofortige Ergebnisse auf Ihrem Bildschirm."
       },
-      "Safety": {
-        "Title": "Intelligente Verarbeitung",
-        "Description": "Unsere App wählt individuell die beste Verarbeitungsmethode für jedes Foto aus. Derustify+-Nutzer haben die volle Kontrolle über die Einstellungen und können das perfekte Ergebnis feinabstimmen."
+      "PrecisionTools": {
+        "Title": "Professionelle Kontrolle",
+        "Description": "Übernehmen Sie die volle Kontrolle mit den 'Spectral Weaver' Wavelet-Tools. Passen Sie Klarheit, Detailwiederherstellung und Filmkorn manuell an."
       }
     }
   },
@@ -77,11 +89,11 @@
         "Alt": "Kolorierte historische Szene",
         "AltBefore": "Originales altersschwaches Foto"
       },
-      "Showcase4": {
-        "Title": "Menschliche Resilienz",
-        "Caption": "Fokus und Farbe in ikonische Momente bringen.",
-        "Alt": "Restauriertes historisches Foto",
-        "AltBefore": "Originales verblasstes Foto"
+      "WomanDress": {
+        "Title": "Kratzer heilen",
+        "Caption": "Professionelle Entfernung von physischen Schäden und Rissen im Papier.",
+        "Alt": "Restaurierte Frau im Kleid",
+        "AltBefore": "Originales verkratztes Foto"
       },
       "Showcase6": {
         "Title": "Die Weltwirtschaftskrise",
@@ -136,8 +148,12 @@
         "A": "Absolut. Es ist das perfekte Geschenk für den Familienhistoriker, für Ihre Großeltern oder jeden in der Familie, der restaurierte Erinnerungen zu schätzen weiß. Einmal kaufen, auf dem Familien-PC installieren und einen Nachmittag damit verbringen, das Familienarchiv gemeinsam zu retten."
       },
       "Q6": {
-        "Q": "Sind die neu eingefärbten Bilder historisch korrekt?",
-        "A": "Nein, die neu eingefärbten Bilder können historische Ungenauigkeiten aufweisen. Die KI-Modelle sind darauf trainiert, Farben wiederherzustellen oder Bilder basierend auf großen Mengen an Trainingsdaten zu skalieren und erzielen oft korrekte Ergebnisse. Ungenauigkeiten oder unzureichende Einfärbung von Bildern können vorkommen, und Derustify garantiert keine perfekten Ergebnisse für alle Bilder."
+        "Q": "Sind die nachkolorierten Bilder historisch korrekt?",
+        "A": "Nein, die nachkolorierten Bilder können historische Ungenauigkeiten aufweisen. Die KI-Modelle sind darauf trainiert, Farben wiederherzustellen oder Bilder auf der Grundlage großer Mengen von Trainingsdaten hochzuskalieren, was oft zu korrekten Ergebnissen führt. Ungenauigkeiten oder unzureichende Farbgebung können jedoch vorkommen."
+      },
+      "Q7": {
+        "Q": "Gibt es manuelle Bearbeitungswerkzeuge?",
+        "A": "Ja. Über die automatische Wiederherstellung hinaus enthält Derustify die 'Spectral Weaver'-Werkzeuge. Diese ermöglichen es Ihnen, feine Details, Struktur und Körnung manuell mit professioneller Wavelet-Verarbeitung anzupassen."
       }
     }
   },
