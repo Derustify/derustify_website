@@ -84,10 +84,14 @@
         </div>
         
         <button class="mobile-menu-btn" aria-label="Toggle menu">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <svg class="menu-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <line x1="3" y1="6" x2="21" y2="6"></line>
             <line x1="3" y1="12" x2="21" y2="12"></line>
             <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+          <svg class="close-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
           </svg>
         </button>
       </nav>
@@ -98,7 +102,6 @@
   <section class="hero section">
     <div class="container hero-inner">
       <div class="hero-content fade-in">
-        <div class="coming-soon-badge fade-in" data-i18n="Hero.ComingSoonBadge">Coming Soon</div>
         <h1 class="heading-xl hero-title" data-i18n="Hero.Title">
           100% private photo restoration.
         </h1>
@@ -208,9 +211,6 @@
           </div>
         </div>
         
-        <div class="hero-badge" data-i18n="Hero.Badge">
-          · Subscription free · Works offline · No registration · Just Yours
-        </div>
       </div>
     </div>
   </section>
@@ -551,7 +551,7 @@
             </svg>
           </button>
           <div class="faq-answer">
-            <p data-i18n="FAQSection.Questions.Q6.A">No, the recolored images may have historical inaccuracies. The AI models are trained to restore color or to upscale images based on large samples of training data and often succeeds in correct output. Inaccurecies or inadequate coloring of images may occur, and Derustify does not gurarantee perfect results for all images.</p>
+            <p data-i18n="FAQSection.Questions.Q6.A">No, the recolored images may have historical inaccuracies. The AI models are trained to restore color or to upscale images based on large samples of training data and often succeeds in correct output. Inaccuracies or inadequate coloring of images may occur, and Derustify does not guarantee perfect results for all images.</p>
           </div>
         </div>
 

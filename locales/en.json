@@ -149,7 +149,7 @@
       },
       "Q6": {
         "Q": "Are the recolored images historically accurate?",
-        "A": "No, the recolored images may have historical inaccuracies. The AI models are trained to restore color or to upscale images based on large samples of training data and often succeeds in correct output. Inaccurecies or inadequate coloring of images may occur, and Derustify does not gurarantee perfect results for all images."
+        "A": "No, the recolored images may have historical inaccuracies. The AI models are trained to restore color or to upscale images based on large samples of training data and often succeed in producing correct output. Inaccuracies or inadequate coloring of images may occur, and Derustify does not guarantee perfect results for all images."
       },
       "Q7": {
         "Q": "Are there manual editing tools?",

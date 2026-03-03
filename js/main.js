@@ -139,9 +139,9 @@ class ComparisonSlider {
     document.addEventListener('mousemove', (e) => this.onDrag(e));
     document.addEventListener('mouseup', () => this.endDrag());
     
-    // Touch events
-    this.container.addEventListener('touchstart', (e) => this.startDrag(e), { passive: true });
-    document.addEventListener('touchmove', (e) => this.onDrag(e), { passive: true });
+    // Touch events — NOT passive so we can preventDefault to stop page scroll
+    this.container.addEventListener('touchstart', (e) => this.startDrag(e), { passive: false });
+    document.addEventListener('touchmove', (e) => this.onDrag(e), { passive: false });
     document.addEventListener('touchend', () => this.endDrag());
     
     // Keyboard support
@@ -169,7 +169,7 @@ class ComparisonSlider {
   onDrag(e) {
     if (!this.isDragging) return;
     
-    e.preventDefault?.();
+    e.preventDefault();
     
     const rect = this.container.getBoundingClientRect();
     const clientX = e.touches ? e.touches[0].clientX : e.clientX;
@@ -274,6 +274,8 @@ class ScrollAnimations {
 class MobileNav {
   constructor() {
     this.btn = document.querySelector('.mobile-menu-btn');
+    this.menuIcon = this.btn?.querySelector('.menu-icon');
+    this.closeIcon = this.btn?.querySelector('.close-icon');
     this.nav = document.querySelector('.nav-links');
     this.cta = document.querySelector('.nav-cta');
     this.isOpen = false;
@@ -290,10 +292,18 @@ class MobileNav {
     document.querySelectorAll('.nav-link').forEach(link => {
       link.addEventListener('click', () => this.close());
     });
+
+    // Close on click outside
+    document.addEventListener('click', (e) => {
+      if (this.isOpen && !this.btn.contains(e.target) && !this.nav.contains(e.target)) {
+        this.close();
+      }
+    });
   }
   
   toggle() {
     this.isOpen = !this.isOpen;
+    this.updateIcon();
     
     if (this.isOpen) {
       this.nav.style.display = 'flex';
@@ -315,9 +325,15 @@ class MobileNav {
       this.close();
     }
   }
+
+  updateIcon() {
+    if (this.menuIcon) this.menuIcon.style.display = this.isOpen ? 'none' : 'block';
+    if (this.closeIcon) this.closeIcon.style.display = this.isOpen ? 'block' : 'none';
+  }
   
   close() {
     this.isOpen = false;
+    this.updateIcon();
     this.nav.style = '';
     if (this.cta) {
       this.cta.style = '';
