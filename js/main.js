@@ -115,6 +115,51 @@ class I18n {
 // Global instance
 const i18n = new I18n();
 
+// ===== Theme Manager (Dark Mode) =====
+class ThemeManager {
+  constructor() {
+    this.themeToggle = document.getElementById('theme-toggle');
+    this.init();
+  }
+
+  init() {
+    // Check saved preference or system preference
+    const savedTheme = localStorage.getItem('derustify-theme');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    
+    // Default to dark mode if no saved preference, or if preference is 'dark'
+    if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
+      this.setTheme('dark');
+    } else {
+      this.setTheme('light');
+    }
+
+    if (this.themeToggle) {
+      this.themeToggle.addEventListener('click', () => this.toggleTheme());
+    }
+  }
+
+  toggleTheme() {
+    const isDark = document.body.classList.contains('dark-theme');
+    this.setTheme(isDark ? 'light' : 'dark');
+  }
+
+  setTheme(theme) {
+    if (theme === 'dark') {
+      document.body.classList.add('dark-theme');
+      localStorage.setItem('derustify-theme', 'dark');
+      if (this.themeToggle) this.themeToggle.setAttribute('aria-label', 'Switch to light mode');
+    } else {
+      document.body.classList.remove('dark-theme');
+      localStorage.setItem('derustify-theme', 'light');
+      if (this.themeToggle) this.themeToggle.setAttribute('aria-label', 'Switch to dark mode');
+    }
+  }
+}
+
+// Global instance
+const themeManager = new ThemeManager();
+
 // ===== Comparison Slider =====
 class ComparisonSlider {
   constructor(element) {
@@ -422,6 +467,7 @@ class HeroShowcase {
     this.currentIndex = 0;
     this.interval = null;
     this.sliders = [];
+    this.isInteracting = false;
     
     this.init();
   }
@@ -432,6 +478,16 @@ class HeroShowcase {
       const sliderEl = slide.querySelector('.comparison-slider');
       if (sliderEl) {
         this.sliders[index] = new ComparisonSlider(sliderEl);
+        
+        // Listen for interactions to pause the auto-cycle
+        sliderEl.addEventListener('mousedown', () => this.pauseAutoCycle());
+        sliderEl.addEventListener('touchstart', () => this.pauseAutoCycle(), { passive: true });
+        
+        // Resume after delay when interaction ends
+        const resumeEvents = ['mouseup', 'mouseleave', 'touchend', 'touchcancel'];
+        resumeEvents.forEach(evt => {
+          sliderEl.addEventListener(evt, () => this.startAutoCycleWithDelay());
+        });
       }
     });
     
@@ -439,7 +495,7 @@ class HeroShowcase {
     this.dots.forEach((dot, index) => {
       dot.addEventListener('click', () => {
         this.goTo(index);
-        this.startAutoCycle(); // Reset timer
+        this.startAutoCycleWithDelay(); // Reset timer on manual nav
       });
     });
     
@@ -465,13 +521,34 @@ class HeroShowcase {
   }
   
   next() {
-    const nextIndex = (this.currentIndex + 1) % this.slides.length;
-    this.goTo(nextIndex);
+    // Only advance if the user isn't interacting with the current slider
+    if (!this.isInteracting) {
+      const nextIndex = (this.currentIndex + 1) % this.slides.length;
+      this.goTo(nextIndex);
+    }
   }
   
   startAutoCycle() {
     if (this.interval) clearInterval(this.interval);
+    this.isInteracting = false;
     this.interval = setInterval(() => this.next(), 6000); // 6 seconds
+  }
+  
+  pauseAutoCycle() {
+    this.isInteracting = true;
+    if (this.interval) {
+      clearInterval(this.interval);
+      this.interval = null;
+    }
+  }
+  
+  startAutoCycleWithDelay() {
+    // Ensure that if the interaction actually ended, we mark it false and restart the timer
+    setTimeout(() => {
+        // Double check there are no active touches or mouse downs currently being tracked globally
+        // For simplicity, we just reset the timer.
+        this.startAutoCycle();
+    }, 500); // Slight delay before giving up "interacting" state to avoid jitter
   }
 }
 

@@ -29,6 +29,27 @@
   --section-padding: 6rem 1.5rem;
 }
 
+body.dark-theme {
+  --bg-primary: #0f172a;
+  --bg-secondary: #1e293b;
+  --bg-tertiary: #334155;
+  --bg-elevated: #3f4f66;
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+  --accent-primary: #e2e8f0;
+  --accent-hover: #f8fafc;
+  --accent-gradient: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%);
+  --glass-bg: rgba(255, 255, 255, 0.06);
+  --glass-bg-elevated: rgba(255, 255, 255, 0.10);
+  --glass-border: rgba(255, 255, 255, 0.12);
+  --glass-plate-bg: rgba(30, 41, 59, 0.95);
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.25), 0 2px 4px rgba(0, 0, 0, 0.15);
+  --shadow-lg: 0 20px 40px -12px rgba(0, 0, 0, 0.5), 0 8px 16px rgba(0, 0, 0, 0.2);
+  --shadow-xl: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -144,6 +165,24 @@ a {
   cursor: pointer;
   transition: all var(--transition-normal);
   text-decoration: none;
+  position: relative;
+}
+
+.coming-soon-badge {
+  position: absolute;
+  top: -10px;
+  right: -5px;
+  background: var(--bg-elevated);
+  color: var(--text-primary);
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--glass-border);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  z-index: 10;
 }
 
 .btn-primary {
@@ -297,9 +336,47 @@ a {
   line-height: 1;
 }
 
-.header.scrolled .lang-trigger {
+.header.scrolled .lang-trigger,
+.header.scrolled .theme-toggle {
   background: var(--glass-bg-elevated);
 }
+
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all var(--transition-normal);
+  color: var(--text-secondary);
+}
+
+.theme-toggle:hover {
+  background: var(--glass-bg-elevated);
+  border-color: rgba(15, 23, 42, 0.15);
+  transform: translateY(-1px);
+  color: var(--text-primary);
+}
+
+.theme-toggle svg {
+  width: 18px;
+  height: 18px;
+  transition: transform var(--transition-normal);
+}
+
+body.dark-theme .theme-toggle-moon {
+  display: none;
+}
+
+body:not(.dark-theme) .theme-toggle-sun {
+  display: none;
+}
+
 
 .lang-trigger:hover {
   background: var(--glass-bg-elevated);
@@ -698,6 +775,110 @@ a {
   color: var(--accent-primary);
 }
 
+/* Feature Comparison Table */
+.comparison-section {
+  background: var(--bg-primary);
+  position: relative;
+  z-index: 2;
+}
+
+.table-container {
+  overflow-x: auto;
+  margin-top: 2rem;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--shadow-lg);
+  background: var(--bg-elevated);
+}
+
+.feature-table {
+  width: 100%;
+  min-width: 600px;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.feature-table th,
+.feature-table td {
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.feature-table th {
+  font-weight: 600;
+  font-size: 1.125rem;
+  color: var(--text-primary);
+  background: var(--bg-secondary);
+  position: sticky;
+  top: 0;
+}
+
+.feature-table th:not(:first-child) {
+  text-align: center;
+}
+
+.feature-table td {
+  color: var(--text-secondary);
+}
+
+.feature-table td:not(:first-child) {
+  text-align: center;
+}
+
+.feature-table tr:last-child th,
+.feature-table tr:last-child td {
+  border-bottom: none;
+}
+
+.feature-table .col-free,
+.feature-table .col-pro {
+  width: 20%;
+}
+
+.feature-table .col-pro {
+  background: var(--glass-bg);
+}
+
+.feature-table th.col-pro {
+  background: var(--bg-tertiary);
+}
+
+.feature-table .check-icon {
+  color: #10b981;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+
+.feature-table .x-icon {
+  color: var(--text-muted);
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.feature-table .pro-badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+  background: var(--accent-gradient);
+  color: white;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+.comparison-note {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 0.875rem;
+  color: var(--text-muted);
+}
+
+
+
 .feature-card h3 {
   font-size: 1.125rem;
   font-weight: 600;
@@ -835,6 +1016,23 @@ a {
 
 .cta .btn-secondary:hover {
   background: rgba(255, 255, 255, 0.25);
+}
+
+/* Dark Theme CTA Overrides */
+body.dark-theme .cta,
+body.dark-theme .cta .heading-lg {
+  color: var(--bg-primary);
+  -webkit-text-fill-color: var(--bg-primary);
+}
+
+body.dark-theme .cta .btn-secondary {
+  background: rgba(15, 23, 42, 0.05);
+  border-color: rgba(15, 23, 42, 0.2);
+  color: var(--bg-primary);
+}
+
+body.dark-theme .cta .btn-secondary:hover {
+  background: rgba(15, 23, 42, 0.1);
 }
 
 .footer {

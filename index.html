@@ -7,8 +7,20 @@
   <meta name="keywords" content="photo restoration, AI colorization, denoise, old photos, image enhancement">
   <title>Derustify - AI Photo Restoration</title>
   
+  <!-- SEO & Open Graph Tags -->
+  <meta property="og:title" content="Derustify - 100% Private Offline Photo Restoration">
+  <meta property="og:description" content="Stop paying monthly fees to big tech. Derustify is a professional-grade AI photo restorer that runs entirely on your own device.">
+  <meta property="og:image" content="https://derustify.com/assets/images/Showcase6_color.webp">
+  <meta property="og:url" content="https://derustify.com/">
+  <meta property="og:type" content="website">
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Derustify - Offline Photo Restoration">
+  <meta name="twitter:description" content="Breathe life into old photos without sacrificing privacy.">
+  <meta name="twitter:image" content="https://derustify.com/assets/images/Showcase6_color.webp">
+  
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="assets/icons/favicon.png">
+  <link rel="icon" type="image/png" href="assets/icons/favicon.webp">
   
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,6 +45,23 @@
           <li><a href="#showcase" class="nav-link" data-i18n="Navigation.Showcase">Gallery</a></li>
           <li><a href="#faq" class="nav-link" data-i18n="Navigation.FAQ">Common Questions</a></li>
         </ul>
+
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+          <svg class="theme-toggle-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="theme-toggle-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
 
         <div class="language-selector" id="language-selector">
           <button class="lang-trigger" aria-label="Select Language" aria-expanded="false" id="lang-trigger">
@@ -107,17 +136,19 @@
         </h1>
         
         <p class="hero-description" data-i18n="Hero.Description">
-          Stop paying monthly fees to big tech just to see your own photos. Derustify is the professional-grade photo restorer that runs 100% on your hardware. One payment. Yours forever.
+          Stop paying tech giants just to see your own photos. Derustify is the professional-grade restorer that runs 100% on your hardware. Use the app for free, or buy once for unlimited high-end results.
         </p>
         
         <div class="hero-buttons">
           <a href="#" class="btn btn-primary">
+            <span class="coming-soon-badge" data-i18n="Hero.ComingSoonBadge">Coming Soon</span>
             <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
               <path d="M3 20.5v-17c0-.84 1.01-1.28 1.62-.7l12.01 8.5c.5.35.5 1.05 0 1.4l-12 8.5c-.62.58-1.63.14-1.63-.7z"/>
             </svg>
             <span data-i18n="Hero.Buttons.GooglePlay">Android App</span>
           </a>
           <a href="#" class="btn btn-secondary">
+            <span class="coming-soon-badge" data-i18n="Hero.ComingSoonBadge">Coming Soon</span>
             <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <rect x="2" y="3" width="20" height="14" rx="2"></rect>
               <path d="M8 21h8"></path>
@@ -133,8 +164,14 @@
           <!-- Slide 1: Riverfront -->
           <div class="hero-slide active">
             <div class="comparison-slider" data-hero-slider>
-              <img class="comparison-img comparison-img-after" src="assets/images/Riverfront_color.png" alt="Restored New York Riverfront 1931" data-i18n-alt="Hero.Slides.Riverfront.Alt">
-              <img class="comparison-img comparison-img-before" src="assets/images/Riverfront.jpg" alt="Original New York Riverfront 1931" data-i18n-alt="Hero.Slides.Riverfront.AltBefore">
+              <picture class="comparison-img comparison-img-after">
+                <source srcset="assets/images/Riverfront_color.webp" type="image/webp">
+                <img src="assets/images/Riverfront_color.png" alt="Restored New York Riverfront 1931" data-i18n-alt="Hero.Slides.Riverfront.Alt">
+              </picture>
+              <picture class="comparison-img comparison-img-before">
+                <source srcset="assets/images/Riverfront.webp" type="image/webp">
+                <img src="assets/images/Riverfront.jpg" alt="Original New York Riverfront 1931" data-i18n-alt="Hero.Slides.Riverfront.AltBefore">
+              </picture>
               
               <div class="comparison-handle">
                 <div class="comparison-grip">
@@ -151,8 +188,14 @@
           <!-- Slide 2: Boy Portrait -->
           <div class="hero-slide">
             <div class="comparison-slider" data-hero-slider>
-              <img class="comparison-img comparison-img-after hero-img-boy" src="assets/images/boy_portrait_color_cropped.png" alt="Restored boy portrait" data-i18n-alt="Hero.Slides.BoyPortrait.Alt">
-              <img class="comparison-img comparison-img-before hero-img-boy" src="assets/images/boy_portrait_bw_cropped.png" alt="Original damaged boy portrait" data-i18n-alt="Hero.Slides.BoyPortrait.AltBefore">
+              <picture class="comparison-img comparison-img-after hero-img-boy">
+                <source srcset="assets/images/boy_portrait_color_cropped.webp" type="image/webp">
+                <img src="assets/images/boy_portrait_color_cropped.png" alt="Restored boy portrait" data-i18n-alt="Hero.Slides.BoyPortrait.Alt">
+              </picture>
+              <picture class="comparison-img comparison-img-before hero-img-boy">
+                <source srcset="assets/images/boy_portrait_bw_cropped.webp" type="image/webp">
+                <img src="assets/images/boy_portrait_bw_cropped.png" alt="Original damaged boy portrait" data-i18n-alt="Hero.Slides.BoyPortrait.AltBefore">
+              </picture>
               
               <div class="comparison-handle">
                 <div class="comparison-grip">
@@ -169,8 +212,14 @@
           <!-- Slide 3: Showcase 1 -->
           <div class="hero-slide">
             <div class="comparison-slider" data-hero-slider>
-              <img class="comparison-img comparison-img-after" src="assets/images/Showcase1_color.png" alt="Restored historical scene 1" data-i18n-alt="Hero.Slides.Showcase1.Alt">
-              <img class="comparison-img comparison-img-before" src="assets/images/Showcase1.jpg" alt="Original historical scene 1" data-i18n-alt="Hero.Slides.Showcase1.AltBefore">
+              <picture class="comparison-img comparison-img-after">
+                <source srcset="assets/images/Showcase1_color.webp" type="image/webp">
+                <img src="assets/images/Showcase1_color.png" alt="Restored historical scene 1" data-i18n-alt="Hero.Slides.Showcase1.Alt">
+              </picture>
+              <picture class="comparison-img comparison-img-before">
+                <source srcset="assets/images/Showcase1.webp" type="image/webp">
+                <img src="assets/images/Showcase1.jpg" alt="Original historical scene 1" data-i18n-alt="Hero.Slides.Showcase1.AltBefore">
+              </picture>
               
               <div class="comparison-handle">
                 <div class="comparison-grip">
@@ -187,8 +236,14 @@
           <!-- Slide 4: Showcase 2 -->
           <div class="hero-slide">
             <div class="comparison-slider" data-hero-slider>
-              <img class="comparison-img comparison-img-after" src="assets/images/Showcase2_color.png" alt="Restored historical scene 2" data-i18n-alt="Hero.Slides.Showcase2.Alt">
-              <img class="comparison-img comparison-img-before" src="assets/images/Showcase2.jpg" alt="Original historical scene 2" data-i18n-alt="Hero.Slides.Showcase2.AltBefore">
+              <picture class="comparison-img comparison-img-after">
+                <source srcset="assets/images/Showcase2_color.webp" type="image/webp">
+                <img src="assets/images/Showcase2_color.png" alt="Restored historical scene 2" data-i18n-alt="Hero.Slides.Showcase2.Alt">
+              </picture>
+              <picture class="comparison-img comparison-img-before">
+                <source srcset="assets/images/Showcase2.webp" type="image/webp">
+                <img src="assets/images/Showcase2.jpg" alt="Original historical scene 2" data-i18n-alt="Hero.Slides.Showcase2.AltBefore">
+              </picture>
               
               <div class="comparison-handle">
                 <div class="comparison-grip">
@@ -348,8 +403,14 @@
         <!-- Item 1: The Great Depression (Now top row) -->
         <div class="showcase-item showcase-portrait fade-in">
           <div class="comparison-slider" data-slider>
-            <img class="comparison-img comparison-img-after" src="assets/images/Showcase6_color.png" alt="Restored historical scene 6" data-i18n-alt="ShowcaseSection.Items.Showcase6.Alt">
-            <img class="comparison-img comparison-img-before" src="assets/images/Showcase6.jpg" alt="Original historical scene" data-i18n-alt="ShowcaseSection.Items.Showcase6.AltBefore">
+            <picture class="comparison-img comparison-img-after">
+                <source srcset="assets/images/Showcase6_color.webp" type="image/webp">
+                <img src="assets/images/Showcase6_color.png" alt="Restored historical scene 6" data-i18n-alt="ShowcaseSection.Items.Showcase6.Alt">
+            </picture>
+            <picture class="comparison-img comparison-img-before">
+                <source srcset="assets/images/Showcase6.webp" type="image/webp">
+                <img src="assets/images/Showcase6.jpg" alt="Original historical scene" data-i18n-alt="ShowcaseSection.Items.Showcase6.AltBefore">
+            </picture>
             <div class="comparison-handle">
               <div class="comparison-grip">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15,18 9,12 15,6"></polyline></svg>
@@ -368,8 +429,14 @@
         <!-- Item 2: Woman Dress (Scratch Removal Focus) -->
         <div class="showcase-item showcase-portrait fade-in">
           <div class="comparison-slider" data-slider>
-            <img class="comparison-img comparison-img-after" src="assets/images/woman_dress_color_cropped.png" alt="Restored woman in dress" data-i18n-alt="ShowcaseSection.Items.WomanDress.Alt">
-            <img class="comparison-img comparison-img-before" src="assets/images/woman_dress_bw_cropped.png" alt="Original scratched photo" data-i18n-alt="ShowcaseSection.Items.WomanDress.AltBefore">
+            <picture class="comparison-img comparison-img-after">
+                <source srcset="assets/images/woman_dress_color_cropped.webp" type="image/webp">
+                <img src="assets/images/woman_dress_color_cropped.png" alt="Restored woman in dress" data-i18n-alt="ShowcaseSection.Items.WomanDress.Alt">
+            </picture>
+            <picture class="comparison-img comparison-img-before">
+                <source srcset="assets/images/woman_dress_bw_cropped.webp" type="image/webp">
+                <img src="assets/images/woman_dress_bw_cropped.png" alt="Original scratched photo" data-i18n-alt="ShowcaseSection.Items.WomanDress.AltBefore">
+            </picture>
             <div class="comparison-handle">
               <div class="comparison-grip">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15,18 9,12 15,6"></polyline></svg>
@@ -388,8 +455,14 @@
         <!-- Item 3: Showcase 5 (Migrant Mother) -->
         <div class="showcase-item showcase-portrait fade-in">
           <div class="comparison-slider" data-slider>
-            <img class="comparison-img comparison-img-after" src="assets/images/Showcase5_color.png" alt="Restored migrant mother" data-i18n-alt="ShowcaseSection.Items.Showcase5.Alt">
-            <img class="comparison-img comparison-img-before" src="assets/images/Showcase5.jpg" alt="Original faded portrait" data-i18n-alt="ShowcaseSection.Items.Showcase5.AltBefore">
+            <picture class="comparison-img comparison-img-after">
+                <source srcset="assets/images/Showcase5_color.webp" type="image/webp">
+                <img src="assets/images/Showcase5_color.png" alt="Restored migrant mother" data-i18n-alt="ShowcaseSection.Items.Showcase5.Alt">
+            </picture>
+            <picture class="comparison-img comparison-img-before">
+                <source srcset="assets/images/Showcase5.webp" type="image/webp">
+                <img src="assets/images/Showcase5.jpg" alt="Original faded portrait" data-i18n-alt="ShowcaseSection.Items.Showcase5.AltBefore">
+            </picture>
             <div class="comparison-handle">
               <div class="comparison-grip">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15,18 9,12 15,6"></polyline></svg>
@@ -408,8 +481,14 @@
         <!-- Item 4: Dusty Memories (Now bottom row) -->
         <div class="showcase-item fade-in">
           <div class="comparison-slider" data-slider>
-            <img class="comparison-img comparison-img-after" src="assets/images/Showcase3_color.png" alt="Restored historical scene 3" data-i18n-alt="ShowcaseSection.Items.Showcase3.Alt">
-            <img class="comparison-img comparison-img-before" src="assets/images/Showcase3.jpg" alt="Original age-worn photo" data-i18n-alt="ShowcaseSection.Items.Showcase3.AltBefore">
+            <picture class="comparison-img comparison-img-after">
+                <source srcset="assets/images/Showcase3_color.webp" type="image/webp">
+                <img src="assets/images/Showcase3_color.png" alt="Restored historical scene 3" data-i18n-alt="ShowcaseSection.Items.Showcase3.Alt">
+            </picture>
+            <picture class="comparison-img comparison-img-before">
+                <source srcset="assets/images/Showcase3.webp" type="image/webp">
+                <img src="assets/images/Showcase3.jpg" alt="Original age-worn photo" data-i18n-alt="ShowcaseSection.Items.Showcase3.AltBefore">
+            </picture>
             <div class="comparison-handle">
               <div class="comparison-grip">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15,18 9,12 15,6"></polyline></svg>
@@ -428,8 +507,14 @@
         <!-- Item 5: Louis Armstrong -->
         <div class="showcase-item fade-in">
           <div class="comparison-slider" data-slider>
-            <img class="comparison-img comparison-img-after" src="assets/images/Louis_color.png" alt="Restored Louis Armstrong" data-i18n-alt="ShowcaseSection.Items.Louis.Alt">
-            <img class="comparison-img comparison-img-before" src="assets/images/Louis.jpg" alt="Original aged photo" data-i18n-alt="ShowcaseSection.Items.Louis.AltBefore">
+            <picture class="comparison-img comparison-img-after">
+                <source srcset="assets/images/Louis_color.webp" type="image/webp">
+                <img src="assets/images/Louis_color.png" alt="Restored Louis Armstrong" data-i18n-alt="ShowcaseSection.Items.Louis.Alt">
+            </picture>
+             <picture class="comparison-img comparison-img-before">
+                <source srcset="assets/images/Louis.webp" type="image/webp">
+                <img src="assets/images/Louis.jpg" alt="Original aged photo" data-i18n-alt="ShowcaseSection.Items.Louis.AltBefore">
+            </picture>
             <div class="comparison-handle">
               <div class="comparison-grip">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15,18 9,12 15,6"></polyline></svg>
@@ -448,8 +533,14 @@
         <!-- Item 6: Broadway -->
         <div class="showcase-item fade-in">
           <div class="comparison-slider" data-slider>
-            <img class="comparison-img comparison-img-after" src="assets/images/Broadway_color.png" alt="Restored Broadway" data-i18n-alt="ShowcaseSection.Items.Broadway.Alt">
-            <img class="comparison-img comparison-img-before" src="assets/images/Broadway.jpg" alt="Original black and white photo" data-i18n-alt="ShowcaseSection.Items.Broadway.AltBefore">
+            <picture class="comparison-img comparison-img-after">
+                <source srcset="assets/images/Broadway_color.webp" type="image/webp">
+                <img src="assets/images/Broadway_color.png" alt="Restored Broadway" data-i18n-alt="ShowcaseSection.Items.Broadway.Alt">
+            </picture>
+            <picture class="comparison-img comparison-img-before">
+                <source srcset="assets/images/Broadway.webp" type="image/webp">
+                <img src="assets/images/Broadway.jpg" alt="Original black and white photo" data-i18n-alt="ShowcaseSection.Items.Broadway.AltBefore">
+            </picture>
             <div class="comparison-handle">
               <div class="comparison-grip">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15,18 9,12 15,6"></polyline></svg>
@@ -464,6 +555,72 @@
             <p data-i18n="ShowcaseSection.Items.Broadway.Caption">Bringing 1931 Broadway back in vivid, accurate color.</p>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feature Comparison Section -->
+  <section class="section comparison-section" id="comparison">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2 class="heading-lg" data-i18n="ComparisonSection.Header.Title">The power of pro, without the subscription</h2>
+        <p data-i18n="ComparisonSection.Header.Subtitle">See exactly what you get when you upgrade to Derustify+.</p>
+      </div>
+
+      <div class="table-container fade-in">
+        <table class="feature-table">
+          <thead>
+            <tr>
+              <th data-i18n="ComparisonSection.Table.Features">Features</th>
+              <th class="col-free" data-i18n="ComparisonSection.Table.Free">Free Version</th>
+              <th class="col-pro">
+                <span data-i18n="ComparisonSection.Table.Pro">Derustify+</span>
+                <span class="pro-badge">PRO</span>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-i18n="ComparisonSection.Features.AIModels">Premium AI Models</td>
+              <td><svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></td>
+              <td class="col-pro"><svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></td>
+            </tr>
+            <tr>
+              <td data-i18n="ComparisonSection.Features.FaceRestore">Ultra-Sharp Face Restore</td>
+              <td><svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></td>
+              <td class="col-pro"><svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></td>
+            </tr>
+            <tr>
+              <td data-i18n="ComparisonSection.Features.ExportRes">Export Resolution</td>
+              <td data-i18n="ComparisonSection.Values.Capped1080">Capped (1080px)</td>
+              <td class="col-pro"><strong data-i18n="ComparisonSection.Values.FullRes">Full Resolution (4K+)</strong></td>
+            </tr>
+            <tr>
+              <td data-i18n="ComparisonSection.Features.Watermark">Export Watermark</td>
+              <td data-i18n="ComparisonSection.Values.Watermarked">Watermarked</td>
+              <td class="col-pro"><strong data-i18n="ComparisonSection.Values.NoWatermark">None</strong></td>
+            </tr>
+            <tr>
+              <td data-i18n="ComparisonSection.Features.Batch">Batch Processing</td>
+              <td data-i18n="ComparisonSection.Values.OneAtATime">1 image at a time</td>
+              <td class="col-pro"><strong data-i18n="ComparisonSection.Values.Unlimited">Up to 20 (Mobile) / 500 (Windows)</strong></td>
+            </tr>
+            <tr>
+              <td data-i18n="ComparisonSection.Features.ProSliders">Manual Pro Controls</td>
+              <td><svg class="x-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></td>
+              <td class="col-pro"><svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></td>
+            </tr>
+            <tr>
+              <td data-i18n="ComparisonSection.Features.Format">Custom Output (JPEG/PNG)</td>
+              <td><svg class="x-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></td>
+              <td class="col-pro"><svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      
+      <div class="comparison-note fade-in">
+        <p data-i18n="ComparisonSection.Note.WindowsIncluded">* The Windows version of Derustify includes all Pro features by default.</p>
       </div>
     </div>
   </section>
@@ -578,12 +735,14 @@
       <p class="fade-in" data-i18n="CTASection.Subtitle">Download Derustify today. Own the technology. Keep the memories.</p>
       <div class="cta-buttons fade-in">
         <a href="#" class="btn btn-secondary">
+          <span class="coming-soon-badge" data-i18n="Hero.ComingSoonBadge">Coming Soon</span>
           <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
             <path d="M3 20.5v-17c0-.84 1.01-1.28 1.62-.7l12.01 8.5c.5.35.5 1.05 0 1.4l-12 8.5c-.62.58-1.63.14-1.63-.7z"/>
           </svg>
           <span data-i18n="CTASection.Buttons.GooglePlay">Download for Android</span>
         </a>
         <a href="#" class="btn btn-secondary">
+          <span class="coming-soon-badge" data-i18n="Hero.ComingSoonBadge">Coming Soon</span>
           <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <rect x="2" y="3" width="20" height="14" rx="2"></rect>
             <path d="M8 21h8"></path>

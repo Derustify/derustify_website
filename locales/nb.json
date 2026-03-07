@@ -16,7 +16,7 @@
   "Hero": {
     "Badge": "· Uten abonnement   · Fungerer offline   · Ingen registrering   · Bare dine",
     "Title": "Privat bilde-restaurering",
-    "Description": "Oppleve fremtidens fotorestaurering. Derustify kommer snart til din enhet.",
+    "Description": "Slutt å betale teknologigiganter bare for å se dine egne bilder. Derustify er den profesjonelle bilde-restaurereren som kjører 100 % på maskinvaren din. Bruk appen gratis, eller kjøp den én gang for ubegrenset, privat prosessering.",
     "Buttons": {
       "GooglePlay": "Android (Snart)",
       "Windows": "Windows (Snart)"
@@ -27,10 +27,22 @@
       "Restored": "Restaurert"
     },
     "Slides": {
-      "Riverfront": { "Alt": "Fargelagt New York Riverfront fra 1931", "AltBefore": "Originalt svart-hvitt bilde av New York Riverfront" },
-      "BoyPortrait": { "Alt": "Restaurert gutt-portrett med naturtro farger", "AltBefore": "Originalt skadet bilde av en gutt" },
-      "Showcase1": { "Alt": "Restaurert historisk gatescene", "AltBefore": "Originalt skadet bilde" },
-      "Showcase2": { "Alt": "Restaurert historisk portrett", "AltBefore": "Originalt falmet bilde" }
+      "Riverfront": {
+        "Alt": "Fargelagt New York Riverfront fra 1931",
+        "AltBefore": "Originalt svart-hvitt bilde av New York Riverfront"
+      },
+      "BoyPortrait": {
+        "Alt": "Restaurert gutt-portrett med naturtro farger",
+        "AltBefore": "Originalt skadet bilde av en gutt"
+      },
+      "Showcase1": {
+        "Alt": "Restaurert historisk gatescene",
+        "AltBefore": "Originalt skadet bilde"
+      },
+      "Showcase2": {
+        "Alt": "Restaurert historisk portrett",
+        "AltBefore": "Originalt falmet bilde"
+      }
     }
   },
   "FeatureSection": {
@@ -61,15 +73,15 @@
       },
       "Batch": {
         "Title": "Gjenoppliv Hele Album",
-        "Description": "Ikke gjør det ett og ett. Slipp inn en mappe med 500 bilder og la appen jobbe. Desktop-ytelse for proff hastighet på alle dine arkiver."
+        "Description": "Ikke gjør det én etter én. Slipp inn en mappe med bilder og la appen gjøre jobben. Ubegrenset lokal prosessering for alle arkivene dine."
       },
       "Privacy": {
         "Title": "Absolutt Personvern",
         "Description": "Familiebildene dine forlater aldri enheten din. Vi har ikke servere eller kontoer. Minnene dine forblir nøyaktig der de hører hjemme: hos deg."
       },
       "Performance": {
-        "Title": "Nativ Hastighet",
-        "Description": "Bygget med høyytelsesteknologi som utnytter din lokale NPU og GPU. Ingen lange opplastinger eller ventelister – bare umiddelbare resultater."
+        "Title": "Maskinvareakselerert",
+        "Description": "Bygget med høyytelsesteknologi som utnytter den lokale maskinvaren din. Ingen lange skyopplastinger, ingen prosesseringskøer—enheten din gjør det tunge arbeidet."
       },
       "PrecisionTools": {
         "Title": "Profesjonell Kontroll",
@@ -128,32 +140,32 @@
     },
     "Questions": {
       "Q1": {
-        "Q": "Hvorfor er det ingen abonnement?",
-        "A": "Fordi du ikke skal trenge å 'leie' programvare for å se på dine egne bilder. Moderne selskaper bruker abonnementer for å dekke dyre skybehandlingskostnader. Siden Derustify kjører på DIN datamaskin eller telefon, har vi ingen serverkostnader å sende videre til deg. Du kjøper den, du eier den. Punktum."
+        "Q": "Why is there no subscription?",
+        "A": "Because you shouldn't have to 'rent' software to look at your own photos. Modern app companies rely on subscriptions to cover their expensive cloud servers. Since Derustify runs entirely locally on your device, we don't have those server costs to pass on to you. You buy it once, and you own it forever. Period."
       },
       "Q2": {
-        "Q": "Er det virkelig privat?",
-        "A": "Ja. 100 %. Vi kan fysisk ikke se bildene dine. All AI-magien skjer inne i enhetens minne. Ingen internettforbindelse er nødvendig for å restaurere bilder."
+        "Q": "Is it really private?",
+        "A": "Yes. 100%. We physically cannot see your photos, and we don't even require an account. All the AI magic happens directly inside your device's memory. No internet connection is ever required to restore your images, meaning your family history stays exactly where it belongs: with you."
       },
       "Q3": {
-        "Q": "Vil det fungere på min enhet?",
-        "A": "Derustify er bygget for moderne Windows (10/11) og Android (8.0+). Hvis du har en grei telefon eller en datamaskin med grafikkort, vil det være utrolig raskt. Hvis enheten din er eldre, fungerer det fortsatt – det tar bare noen ekstra sekunder å 'rense' hvert bilde."
+        "Q": "What's the catch with the Free version?",
+        "A": "The free version uses the exact same powerful AI models as the Pro version to process your images! We just add a small watermark to the corner, cap the export resolution to standard HD (1080p), and process photos one at a time. Upgrading to Pro removes the watermark, unlocks massive full-resolution 4K exports, opens up our manual pro tools, and lets you batch-process entire albums at once."
       },
       "Q4": {
-        "Q": "Hva er haken med gratisversjonen?",
-        "A": "Gratisversjonen har all kraften til Pro-versjonen. Vi legger bare til et lite vannmerke i hjørnet av dine eksporterte bilder. Oppgradering til Pro fjerner vannmerket og låser opp batchbehandling for de store boksene med familiebilder på loftet."
+        "Q": "Don't I need a powerful device to run AI?",
+        "A": "Not at all! Derustify is highly optimized to run perfectly fine on everyday phones and normal laptops. Because the AI is bundled directly into the app, your device does the processing itself. The only thing affected by your device's performance is speed: a brand-new phone might restore a photo in 10 seconds, while an older device might take a minute. Either way, the stunning final quality is exactly the same!"
       },
       "Q5": {
-        "Q": "Kan jeg bruke det som en gave?",
-        "A": "Absolutt. Det er den perfekte gaven til familiehistorikeren, til besteforeldrene dine eller alle i familien som ville sette pris på restaurerte minner. Kjøp det én gang, installer det på familiens PC, og tilbring en ettermiddag med å redde familiearkivene sammen."
+        "Q": "What kind of editing tools do I get?",
+        "A": "Think of Derustify as a streamlined, lightweight version of professional photo editing software. The AI automatically does the heavy lifting for you—removing noise, colorizing, and healing scratches. If you want more control, upgrading to Pro unlocks our 'Spectral Weaver' tools, giving you sliders to manually adjust fine details, film grain, and image structure, plus a retouching brush for the ultimate custom finish."
       },
       "Q6": {
-        "Q": "Er bildene med farger historisk korrekte?",
-        "A": "Nei, bildene med farger kan ha historiske unøyaktigheter. AI-modellene er trent til å gjenopprette farger eller oppskalere bilder basert på store mengder treningsdata og lykkes ofte med korrekt utdata. Unøyaktigheter eller utilstrekkelig fargelegging av bilder kan forekomme."
+        "Q": "Are the recolorings historically accurate?",
+        "A": "Not always. The AI doesn't definitively know what color your grandfather's specific tie was in 1945. Instead, it makes a highly educated guess based on training from millions of photos, ensuring things like skin tones, skies, and foliage look incredibly realistic and natural. While it often is correct, some historical inaccuracies in clothing or car colors can occur!"
       },
       "Q7": {
-        "Q": "Finnes det manuelle redigeringsverktøy?",
-        "A": "Ja. Utover automatisk gjenoppretting inkluderer Derustify 'Spectral Weaver'-verktøy. Disse lar deg manuelt justere detaljer, struktur og korning ved hjelp av profesjonell bølgeform-prosessering."
+        "Q": "My result wasn't what I expected. What can I do?",
+        "A": "AI is incredibly powerful, but some severely damaged photos need a little extra help! If a photo doesn't look quite right, try turning off certain features and running the steps individually, or try processing the image a second time for extra clarity. If you really want that perfect finish, Derustify+ (Pro) unlocks manual retouching and cloning tools so you can personally clean up stubborn scratches and fine-tune the final result."
       }
     }
   },
@@ -181,6 +193,37 @@
     "EULA": {
       "Title": "Lisensavtale",
       "Notice": "Standard personlig brukslisens for Derustify."
+    }
+  },
+  "ComparisonSection": {
+    "Header": {
+      "Title": "Kraften til Pro, uten abonnement",
+      "Subtitle": "Se nøyaktig hva du får når du oppgraderer til Derustify+."
+    },
+    "Table": {
+      "Features": "Funksjoner",
+      "Free": "Gratisversjon",
+      "Pro": "Derustify+"
+    },
+    "Features": {
+      "AIModels": "Premium AI-modeller",
+      "FaceRestore": "Ultra-skarp ansiktsgjenoppretting",
+      "ExportRes": "Eksportoppløsning",
+      "Watermark": "Vannmerke",
+      "Batch": "Satsvis prosessering",
+      "ProSliders": "Manuelle Pro-kontroller",
+      "Format": "Tilpasset utdata (JPEG/PNG)"
+    },
+    "Values": {
+      "Capped1080": "Begrenset (1080px)",
+      "FullRes": "Full oppløsning (4K+)",
+      "Watermarked": "Vannmerket",
+      "NoWatermark": "Ingen",
+      "OneAtATime": "1 bilde om gangen",
+      "Unlimited": "Opptil 20 (Mobil) / 500 (Windows)"
+    },
+    "Note": {
+      "WindowsIncluded": "* Windows-versjonen av Derustify inkluderer alle Pro-funksjoner som standard."
     }
   }
 }

@@ -16,7 +16,7 @@
   "Hero": {
     "Badge": "· Sans abonnement   · Fonctionne hors ligne   · Sans inscription   · Rien qu'à vous",
     "Title": "Restauration de photos privée",
-    "Description": "Arrêtez de payer des abonnements. Derustify restaure vos images —netteté des visages, suppression des rayures et ajout de couleurs réalistes— directement sur votre appareil.",
+    "Description": "Cessez de payer les géants de la technologie juste pour voir vos propres photos. Derustify est un restaurateur de qualité professionnelle qui s'exécute à 100 % sur votre matériel. Utilisez l'application gratuitement, ou achetez-la une fois pour un traitement privé et illimité.",
     "Buttons": {
       "GooglePlay": "Android (Bientôt)",
       "Windows": "Windows (Bientôt)"
@@ -27,10 +27,22 @@
       "Restored": "Restaurée"
     },
     "Slides": {
-      "Riverfront": { "Alt": "Riverfront de New York de 1931 colorisé", "AltBefore": "Photo originale en noir et blanc du Riverfront de New York" },
-      "BoyPortrait": { "Alt": "Portrait de garçon restauré avec des couleurs réalistes", "AltBefore": "Portrait original de garçon endommagé" },
-      "Showcase1": { "Alt": "Scène de rue historique restaurée", "AltBefore": "Photo originale endommagée" },
-      "Showcase2": { "Alt": "Portrait historique restauré", "AltBefore": "Photo originale délavée" }
+      "Riverfront": {
+        "Alt": "Riverfront de New York de 1931 colorisé",
+        "AltBefore": "Photo originale en noir et blanc du Riverfront de New York"
+      },
+      "BoyPortrait": {
+        "Alt": "Portrait de garçon restauré avec des couleurs réalistes",
+        "AltBefore": "Portrait original de garçon endommagé"
+      },
+      "Showcase1": {
+        "Alt": "Scène de rue historique restaurée",
+        "AltBefore": "Photo originale endommagée"
+      },
+      "Showcase2": {
+        "Alt": "Portrait historique restauré",
+        "AltBefore": "Photo originale délavée"
+      }
     }
   },
   "FeatureSection": {
@@ -61,15 +73,15 @@
       },
       "Batch": {
         "Title": "Ranimez des Albums Entiers",
-        "Description": "Ne le faites pas un par un. Déposez un dossier de 500 photos et laissez l'application travailler. Des performances professionnelles sur tous vos écrans."
+        "Description": "Ne le faites pas un par un. Déposez un dossier de photos et laissez l'application travailler. Traitement local sans limite pour toutes vos archives."
       },
       "Privacy": {
         "Title": "Confidentialité Absolue",
         "Description": "Vos photos de famille ne quittent jamais votre appareil. Pas de serveurs, pas de comptes. Vos moments restent là où ils doivent être : chez vous."
       },
       "Performance": {
-        "Title": "Vitesse Native",
-        "Description": "Conçu avec une technologie exploitant votre NPU et GPU local. Pas d'attente ni de téléchargement long — des résultats instantanés sur votre écran."
+        "Title": "Accélération matérielle",
+        "Description": "Conçu avec une technologie haute performance qui utilise votre matériel local. Pas de longs téléchargements vers le cloud, pas de files d'attente : votre appareil fait le gros du travail."
       },
       "PrecisionTools": {
         "Title": "Contrôle Professionnel",
@@ -128,32 +140,32 @@
     },
     "Questions": {
       "Q1": {
-        "Q": "Pourquoi n'y a-t-il pas d'abonnement ?",
-        "A": "Parce que vous ne devriez pas avoir à 'louer' un logiciel pour regarder vos propres photos. Les entreprises modernes utilisent les abonnements pour couvrir les coûts élevés du traitement en nuage. Comme Derustify fonctionne sur VOTRE ordinateur ou téléphone, nous n'avons pas de coûts de serveur à vous répercuter. Vous l'achetez, vous le possédez. Point."
+        "Q": "Why is there no subscription?",
+        "A": "Because you shouldn't have to 'rent' software to look at your own photos. Modern app companies rely on subscriptions to cover their expensive cloud servers. Since Derustify runs entirely locally on your device, we don't have those server costs to pass on to you. You buy it once, and you own it forever. Period."
       },
       "Q2": {
-        "Q": "Est-ce vraiment privé ?",
-        "A": "Oui. À 100 %. Nous ne pouvons physiquement pas voir vos photos. Toute la magie de l'IA se produit dans la mémoire de votre appareil. Aucune connexion Internet n'est requise pour restaurer les images."
+        "Q": "Is it really private?",
+        "A": "Yes. 100%. We physically cannot see your photos, and we don't even require an account. All the AI magic happens directly inside your device's memory. No internet connection is ever required to restore your images, meaning your family history stays exactly where it belongs: with you."
       },
       "Q3": {
-        "Q": "Cela fonctionnera-t-il sur mon appareil ?",
-        "A": "Derustify est conçu pour Windows moderne (10/11) et Android (8.0+). Si vous avez un téléphone correct ou un ordinateur avec une carte graphique, ce sera incroyablement rapide. Si votre appareil est plus ancien, cela fonctionne toujours — cela prend juste quelques secondes de plus pour 'nettoyer' chaque photo."
+        "Q": "What's the catch with the Free version?",
+        "A": "The free version uses the exact same powerful AI models as the Pro version to process your images! We just add a small watermark to the corner, cap the export resolution to standard HD (1080p), and process photos one at a time. Upgrading to Pro removes the watermark, unlocks massive full-resolution 4K exports, opens up our manual pro tools, and lets you batch-process entire albums at once."
       },
       "Q4": {
-        "Q": "Quel est le piège avec la version gratuite ?",
-        "A": "La version gratuite possède toute la puissance de la version Pro. Nous ajoutons simplement un petit filigrane dans le coin de vos images exportées. Passer à Pro supprime le filigrane et débloque le traitement par lots pour ces grandes caisses de photos de famille au grenier."
+        "Q": "Don't I need a powerful device to run AI?",
+        "A": "Not at all! Derustify is highly optimized to run perfectly fine on everyday phones and normal laptops. Because the AI is bundled directly into the app, your device does the processing itself. The only thing affected by your device's performance is speed: a brand-new phone might restore a photo in 10 seconds, while an older device might take a minute. Either way, the stunning final quality is exactly the same!"
       },
       "Q5": {
-        "Q": "Puis-je l'offrir en cadeau ?",
-        "A": "Absolument. C'est le cadeau parfait pour l'historien de la famille, pour vos grands-parents ou toute personne de la famille qui apprécierait des souvenirs restaurés. Achetez-le une fois, installez-le sur le PC familial et passez un après-midi à sauver ensemble les archives familiales."
+        "Q": "What kind of editing tools do I get?",
+        "A": "Think of Derustify as a streamlined, lightweight version of professional photo editing software. The AI automatically does the heavy lifting for you—removing noise, colorizing, and healing scratches. If you want more control, upgrading to Pro unlocks our 'Spectral Weaver' tools, giving you sliders to manually adjust fine details, film grain, and image structure, plus a retouching brush for the ultimate custom finish."
       },
       "Q6": {
-        "Q": "Les images recolorées sont-elles historiquement exactes ?",
-        "A": "Non, les images recolorées peuvent présenter des inexactitudes historiques. Les modèles d'IA sont entraînés à restaurer les couleurs ou à mettre à l'échelle les images sur la base d'un grand nombre de données d'entraînement et parviennent souvent à un résultat correct. Des inexactitudes ou une colorisation inadéquate peuvent survenir."
+        "Q": "Are the recolorings historically accurate?",
+        "A": "Not always. The AI doesn't definitively know what color your grandfather's specific tie was in 1945. Instead, it makes a highly educated guess based on training from millions of photos, ensuring things like skin tones, skies, and foliage look incredibly realistic and natural. While it often is correct, some historical inaccuracies in clothing or car colors can occur!"
       },
       "Q7": {
-        "Q": "Existe-t-il des outils d'édition manuelle ?",
-        "A": "Oui. Au-delà de la restauration automatique, Derustify inclut les outils 'Spectral Weaver'. Ils vous permettent d'ajuster manuellement les détails, la structure et le grain grâce à un traitement wavelet professionnel."
+        "Q": "My result wasn't what I expected. What can I do?",
+        "A": "AI is incredibly powerful, but some severely damaged photos need a little extra help! If a photo doesn't look quite right, try turning off certain features and running the steps individually, or try processing the image a second time for extra clarity. If you really want that perfect finish, Derustify+ (Pro) unlocks manual retouching and cloning tools so you can personally clean up stubborn scratches and fine-tune the final result."
       }
     }
   },
@@ -181,6 +193,37 @@
     "EULA": {
       "Title": "Contrat de licence",
       "Notice": "Licence d'utilisation personnelle standard pour Derustify."
+    }
+  },
+  "ComparisonSection": {
+    "Header": {
+      "Title": "La puissance Pro, sans abonnement",
+      "Subtitle": "Découvrez exactement ce que vous obtenez avec Derustify+."
+    },
+    "Table": {
+      "Features": "Fonctionnalités",
+      "Free": "Version Gratuite",
+      "Pro": "Derustify+"
+    },
+    "Features": {
+      "AIModels": "Modèles d'IA Premium",
+      "FaceRestore": "Restauration faciale ultra-nette",
+      "ExportRes": "Résolution d'exportation",
+      "Watermark": "Filigrane",
+      "Batch": "Traitement par lots",
+      "ProSliders": "Contrôles Pro manuels",
+      "Format": "Sortie personnalisée (JPEG/PNG)"
+    },
+    "Values": {
+      "Capped1080": "Plafonné (1080px)",
+      "FullRes": "Pleine résolution (4K+)",
+      "Watermarked": "Filigrané",
+      "NoWatermark": "Aucun",
+      "OneAtATime": "1 image à la fois",
+      "Unlimited": "Jusqu'à 20 (Mobile) / 500 (Windows)"
+    },
+    "Note": {
+      "WindowsIncluded": "* La version Windows de Derustify inclut toutes les fonctionnalités Pro par défaut."
     }
   }
 }

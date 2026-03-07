@@ -16,7 +16,7 @@
   "Hero": {
     "Badge": "· 无需订阅   · 离线工作   · 无需注册   · 仅属于您",
     "Title": "私人照片修复",
-    "Description": "告别按月付费。Derustify 直接在您的设备上修复图像——锐化面部、消除划痕并添加逼真的色彩。",
+    "Description": "停止仅仅为了看自己的照片而向科技巨头付费。Derustify 是一款 100% 在您的硬件上运行的专业级修复工具。免费使用应用程序，或者一次性购买以获得无限的私密处理。",
     "Buttons": {
       "GooglePlay": "Android (即将推出)",
       "Windows": "Windows (即将推出)"
@@ -27,10 +27,22 @@
       "Restored": "修复后"
     },
     "Slides": {
-      "Riverfront": { "Alt": "修复后的 1931 年纽约河滨照片", "AltBefore": "原始纽约河滨黑白照片" },
-      "BoyPortrait": { "Alt": "色彩逼真的已修复男孩肖像", "AltBefore": "原始受损的男孩肖像" },
-      "Showcase1": { "Alt": "修复后的历史街道场景", "AltBefore": "原始受损照片" },
-      "Showcase2": { "Alt": "修复后的历史肖像", "AltBefore": "原始褪色照片" }
+      "Riverfront": {
+        "Alt": "修复后的 1931 年纽约河滨照片",
+        "AltBefore": "原始纽约河滨黑白照片"
+      },
+      "BoyPortrait": {
+        "Alt": "色彩逼真的已修复男孩肖像",
+        "AltBefore": "原始受损的男孩肖像"
+      },
+      "Showcase1": {
+        "Alt": "修复后的历史街道场景",
+        "AltBefore": "原始受损照片"
+      },
+      "Showcase2": {
+        "Alt": "修复后的历史肖像",
+        "AltBefore": "原始褪色照片"
+      }
     }
   },
   "FeatureSection": {
@@ -61,15 +73,15 @@
       },
       "Batch": {
         "Title": "批量唤醒相册",
-        "Description": "无需逐一处理。放入包含 500 张照片的文件夹，让应用自动运行。为您的所有档案提供专业级的桌面性能。"
+        "Description": "不要一张张地处理。将一个照片文件夹拖入即可让应用程序开始工作。为您所有的档案提供无限制的本地处理。"
       },
       "Privacy": {
         "Title": "绝对隐私",
         "Description": "您的全家福永远不会离开您的设备。我们没有服务器，没有账户。您的私人时刻只属于您自己。"
       },
       "Performance": {
-        "Title": "原生速度",
-        "Description": "基于利用您本地 NPU 和 GPU 的高性能技术构建。无需漫长的上传或排队——结果即刻呈现在屏幕上。"
+        "Title": "硬件加速",
+        "Description": "采用利用您本地硬件的高性能技术构建。没有漫长的云端上传，没有处理队列——由您的设备完成繁重的工作。"
       },
       "PrecisionTools": {
         "Title": "专业级控制",
@@ -128,32 +140,32 @@
     },
     "Questions": {
       "Q1": {
-        "Q": "为什么没有订阅制？",
-        "A": "因为您不应该为了查看自己的照片而“租赁”软件。现代公司使用订阅制来支付昂贵的云处理费用。由于 Derustify 在您的电脑或手机上运行，我们不需要将服务器成本转嫁给您。一次购买，终身拥有。"
+        "Q": "Why is there no subscription?",
+        "A": "Because you shouldn't have to 'rent' software to look at your own photos. Modern app companies rely on subscriptions to cover their expensive cloud servers. Since Derustify runs entirely locally on your device, we don't have those server costs to pass on to you. You buy it once, and you own it forever. Period."
       },
       "Q2": {
-        "Q": "真的隐私吗？",
-        "A": "是的，100% 隐私。我们无法看到您的照片。所有的 AI 修复工作都在您的设备内存中完成。无需互联网连接即可修复图像。"
+        "Q": "Is it really private?",
+        "A": "Yes. 100%. We physically cannot see your photos, and we don't even require an account. All the AI magic happens directly inside your device's memory. No internet connection is ever required to restore your images, meaning your family history stays exactly where it belongs: with you."
       },
       "Q3": {
-        "Q": "能在我的设备上运行吗？",
-        "A": "Derustify 专为现代 Windows (10/11) 和 Android (8.0+) 段构建。如果您拥有主流配置的手机或带有显卡的电脑，处理速度会非常快。即使设备较旧也能运行，只是修复单张照片的时间会稍长几秒。"
+        "Q": "What's the catch with the Free version?",
+        "A": "The free version uses the exact same powerful AI models as the Pro version to process your images! We just add a small watermark to the corner, cap the export resolution to standard HD (1080p), and process photos one at a time. Upgrading to Pro removes the watermark, unlocks massive full-resolution 4K exports, opens up our manual pro tools, and lets you batch-process entire albums at once."
       },
       "Q4": {
-        "Q": "免费版有什么限制？",
-        "A": "免费版拥有与专业版完全相同的修复能力。唯一的区别是，我们会在您导出的图像角落添加一个小水印。升级到专业版可以去除水印，并解锁批量处理功能，适合处理阁楼里那一箱箱繁杂的家底照片。"
+        "Q": "Don't I need a powerful device to run AI?",
+        "A": "Not at all! Derustify is highly optimized to run perfectly fine on everyday phones and normal laptops. Because the AI is bundled directly into the app, your device does the processing itself. The only thing affected by your device's performance is speed: a brand-new phone might restore a photo in 10 seconds, while an older device might take a minute. Either way, the stunning final quality is exactly the same!"
       },
       "Q5": {
-        "Q": "可以作为礼物送人吗？",
-        "A": "当然可以。它是送给家族史记录者、祖父母或任何珍惜被修复回忆的人的完美礼物。购买一次，安装在家庭电脑上，度过一个共同拯救家族档案的下午。"
+        "Q": "What kind of editing tools do I get?",
+        "A": "Think of Derustify as a streamlined, lightweight version of professional photo editing software. The AI automatically does the heavy lifting for you—removing noise, colorizing, and healing scratches. If you want more control, upgrading to Pro unlocks our 'Spectral Weaver' tools, giving you sliders to manually adjust fine details, film grain, and image structure, plus a retouching brush for the ultimate custom finish."
       },
       "Q6": {
-        "Q": "重新着色的图像在历史上是否准确？",
-        "A": "不，重新着色的图像可能存在历史缺陷。AI 模型经过训练，可以根据大量训练数据样本恢复颜色或放大图像，并且通常能成功输出正确结果。但可能会出现不准确或着色不充分的情况。"
+        "Q": "Are the recolorings historically accurate?",
+        "A": "Not always. The AI doesn't definitively know what color your grandfather's specific tie was in 1945. Instead, it makes a highly educated guess based on training from millions of photos, ensuring things like skin tones, skies, and foliage look incredibly realistic and natural. While it often is correct, some historical inaccuracies in clothing or car colors can occur!"
       },
       "Q7": {
-        "Q": "有手动编辑工具吗？",
-        "A": "有。除了自动修复，Derustify 还包含 'Spectral Weaver' 工具。这些工具允许您通过专业级小波处理手动调整细节、结构和颗粒。"
+        "Q": "My result wasn't what I expected. What can I do?",
+        "A": "AI is incredibly powerful, but some severely damaged photos need a little extra help! If a photo doesn't look quite right, try turning off certain features and running the steps individually, or try processing the image a second time for extra clarity. If you really want that perfect finish, Derustify+ (Pro) unlocks manual retouching and cloning tools so you can personally clean up stubborn scratches and fine-tune the final result."
       }
     }
   },
@@ -181,6 +193,37 @@
     "EULA": {
       "Title": "许可协议",
       "Notice": "Derustify 标准个人使用许可。"
+    }
+  },
+  "ComparisonSection": {
+    "Header": {
+      "Title": "无需订阅，尽享专业功能",
+      "Subtitle": "看看升级到 Derustify+ 后您将获得什么。"
+    },
+    "Table": {
+      "Features": "功能",
+      "Free": "免费版",
+      "Pro": "Derustify+"
+    },
+    "Features": {
+      "AIModels": "高级 AI 模型",
+      "FaceRestore": "超清晰面部修复",
+      "ExportRes": "导出分辨率",
+      "Watermark": "导出水印",
+      "Batch": "批量处理",
+      "ProSliders": "手动专业控件",
+      "Format": "自定义输出 (JPEG/PNG)"
+    },
+    "Values": {
+      "Capped1080": "上限 (1080px)",
+      "FullRes": "全分辨率 (4K+)",
+      "Watermarked": "带水印",
+      "NoWatermark": "无",
+      "OneAtATime": "一次 1 张图像",
+      "Unlimited": "最多 20 (手机) / 500 (Windows)"
+    },
+    "Note": {
+      "WindowsIncluded": "* Derustify 的 Windows 版本默认包含所有专业功能。"
     }
   }
 }
