@@ -81,7 +81,7 @@
       },
       "Performance": {
         "Title": "Hardware Accelerated",
-        "Description": "Built with high-performance technology that utilizes your local hardware. No long cloud uploads, no processing queues—your device does the heavy lifting."
+        "Description": "Built with high-performance, optimized AI that runs directly on your local hardware. No long cloud uploads or processing queues—it works perfectly even on normal, everyday devices."
       },
       "PrecisionTools": {
         "Title": "Professional Control",
@@ -153,7 +153,7 @@
       },
       "Q4": {
         "Q": "Don't I need a powerful device to run AI?",
-        "A": "Not at all! Derustify is highly optimized to run perfectly fine on everyday phones and normal laptops. Because the AI is bundled directly into the app, your device does the processing itself. The only thing affected by your device's performance is speed: a brand-new phone might restore a photo in 10 seconds, while an older device might take a minute. Either way, the stunning final quality is exactly the same!"
+        "A": "Not at all! Derustify is highly optimized to run perfectly fine on everyday phones and normal laptops. Because the AI is bundled directly into the app, your device does the processing itself. The only thing affected by your device's performance is speed: a brand-new phone might restore a photo in 10 seconds, while an older device might take a minute. However, very old devices may not be able to run the AI models at all. We recommend at least 4GB of RAM for a smooth experience."
       },
       "Q5": {
         "Q": "What kind of editing tools do I get?",
@@ -166,6 +166,10 @@
       "Q7": {
         "Q": "My result wasn't what I expected. What can I do?",
         "A": "AI is incredibly powerful, but some severely damaged photos need a little extra help! If a photo doesn't look quite right, try turning off certain features and running the steps individually, or try processing the image a second time for extra clarity. If you really want that perfect finish, Derustify+ (Pro) unlocks manual retouching and cloning tools so you can personally clean up stubborn scratches and fine-tune the final result."
+      },
+      "Q8": {
+        "Q": "What is the difference between Windows and Mobile?",
+        "A": "The mobile app is tailored for portability, giving your phone incredible AI processing power with a Free version and an optional Derustify+ (Pro) upgrade. The Windows version is designed as premium desktop software that includes all Derustify+ Pro features by default. It utilizes your PC to run larger and better AI models for a premium result, unlocking massive batch processing capabilities and supporting stunningly huge 8K exports."
       }
     }
   },

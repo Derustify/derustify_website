@@ -81,7 +81,7 @@
       },
       "Performance": {
         "Title": "Accélération matérielle",
-        "Description": "Conçu avec une technologie haute performance qui utilise votre matériel local. Pas de longs téléchargements vers le cloud, pas de files d'attente : votre appareil fait le gros du travail."
+        "Description": "Conçu avec une IA optimisée de haute performance qui s'exécute directement sur votre matériel local. Pas de longs téléchargements vers le cloud ni de files d'attente : cela fonctionne parfaitement même sur des appareils normaux du quotidien."
       },
       "PrecisionTools": {
         "Title": "Contrôle Professionnel",
@@ -140,32 +140,36 @@
     },
     "Questions": {
       "Q1": {
-        "Q": "Why is there no subscription?",
-        "A": "Because you shouldn't have to 'rent' software to look at your own photos. Modern app companies rely on subscriptions to cover their expensive cloud servers. Since Derustify runs entirely locally on your device, we don't have those server costs to pass on to you. You buy it once, and you own it forever. Period."
+        "Q": "Pourquoi n'y a-t-il pas d'abonnement ?",
+        "A": "Parce que vous ne devriez pas avoir à « louer » un logiciel pour regarder vos propres photos. Les entreprises d'applications modernes s'appuient sur les abonnements pour couvrir leurs serveurs cloud coûteux. Étant donné que Derustify fonctionne entièrement localement sur votre appareil, nous n'avons pas ces coûts de serveur à vous répercuter. Vous l'achetez une fois et il vous appartient pour toujours. Point final."
       },
       "Q2": {
-        "Q": "Is it really private?",
-        "A": "Yes. 100%. We physically cannot see your photos, and we don't even require an account. All the AI magic happens directly inside your device's memory. No internet connection is ever required to restore your images, meaning your family history stays exactly where it belongs: with you."
+        "Q": "Est-ce vraiment privé ?",
+        "A": "Oui. 100 %. Nous ne pouvons physiquement pas voir vos photos et nous ne demandons même pas de compte. Toute la magie de l'IA se produit directement dans la mémoire de votre appareil. Aucune connexion Internet n'est requise pour restaurer vos images, ce qui signifie que votre histoire familiale reste exactement là où elle doit être : avec vous."
       },
       "Q3": {
-        "Q": "What's the catch with the Free version?",
-        "A": "The free version uses the exact same powerful AI models as the Pro version to process your images! We just add a small watermark to the corner, cap the export resolution to standard HD (1080p), and process photos one at a time. Upgrading to Pro removes the watermark, unlocks massive full-resolution 4K exports, opens up our manual pro tools, and lets you batch-process entire albums at once."
+        "Q": "Quel est le piège avec la version gratuite ?",
+        "A": "La version gratuite utilise exactement les mêmes modèles d'IA puissants que la version Pro pour traiter vos images ! Nous ajoutons simplement un petit filigrane dans le coin, limitons la résolution d'exportation au HD standard (1080p) et traitons les photos une par une. La mise à niveau vers Pro supprime le filigrane, débloque des exportations massives en 4K en pleine résolution, ouvre nos outils manuels pro et vous permet de traiter des albums entiers par lots."
       },
       "Q4": {
-        "Q": "Don't I need a powerful device to run AI?",
-        "A": "Not at all! Derustify is highly optimized to run perfectly fine on everyday phones and normal laptops. Because the AI is bundled directly into the app, your device does the processing itself. The only thing affected by your device's performance is speed: a brand-new phone might restore a photo in 10 seconds, while an older device might take a minute. Either way, the stunning final quality is exactly the same!"
+        "Q": "N'ai-je pas besoin d'un appareil puissant pour faire fonctionner l'IA ?",
+        "A": "Pas du tout ! Derustify est hautement optimisé pour fonctionner parfaitement sur les téléphones quotidiens et les ordinateurs portables normaux. Étant donné que l'IA est intégrée directement dans l'application, votre appareil effectue lui-même le traitement. La seule chose qui est affectée par les performances de votre appareil est la vitesse : un téléphone tout neuf peut restaurer une photo en 10 secondes, tandis qu'un appareil plus ancien peut prendre une minute. Cependant, les appareils très anciens peuvent ne pas être en mesure d'exécuter les modèles d'IA du tout. Nous recommandons au moins 4 Go de RAM pour une expérience fluide."
       },
       "Q5": {
-        "Q": "What kind of editing tools do I get?",
-        "A": "Think of Derustify as a streamlined, lightweight version of professional photo editing software. The AI automatically does the heavy lifting for you—removing noise, colorizing, and healing scratches. If you want more control, upgrading to Pro unlocks our 'Spectral Weaver' tools, giving you sliders to manually adjust fine details, film grain, and image structure, plus a retouching brush for the ultimate custom finish."
+        "Q": "Quel genre d'outils d'édition est-ce que je reçois ?",
+        "A": "Considérez Derustify comme une version simplifiée et légère d'un logiciel de retouche photo professionnel. L'IA fait automatiquement le gros du travail pour vous – en supprimant le bruit, en colorisant et en réparant les rayures. Si vous voulez plus de contrôle, la mise à niveau vers Pro débloque nos outils « Spectral Weaver », vous offrant des curseurs pour ajuster manuellement les détails fins, le grain du film et la structure de l'image, ainsi qu'un pinceau de retouche pour la finition personnalisée ultime."
       },
       "Q6": {
-        "Q": "Are the recolorings historically accurate?",
-        "A": "Not always. The AI doesn't definitively know what color your grandfather's specific tie was in 1945. Instead, it makes a highly educated guess based on training from millions of photos, ensuring things like skin tones, skies, and foliage look incredibly realistic and natural. While it often is correct, some historical inaccuracies in clothing or car colors can occur!"
+        "Q": "Les recolorations sont-elles historiquement exactes ?",
+        "A": "Pas toujours. L'IA ne sait pas de manière définitive quelle était la couleur de la cravate spécifique de votre grand-père en 1945. Au lieu de cela, elle fait une supposition très éclairée basée sur un entraînement de millions de photos, garantissant que des éléments tels que les tons de chair, le ciel et le feuillage ont l'air incroyablement réalistes et naturels. Bien qu'elle ait souvent raison, certaines inexactitudes historiques dans les couleurs des vêtements ou des voitures peuvent se produire !"
       },
       "Q7": {
-        "Q": "My result wasn't what I expected. What can I do?",
-        "A": "AI is incredibly powerful, but some severely damaged photos need a little extra help! If a photo doesn't look quite right, try turning off certain features and running the steps individually, or try processing the image a second time for extra clarity. If you really want that perfect finish, Derustify+ (Pro) unlocks manual retouching and cloning tools so you can personally clean up stubborn scratches and fine-tune the final result."
+        "Q": "Mon résultat n'a pas été celui que j'attendais. Que puis-je faire ?",
+        "A": "L'IA est incroyablement puissante, mais certaines photos gravement endommagées ont besoin d'un peu d'aide supplémentaire ! Si une photo ne semble pas tout à fait correcte, essayez de désactiver certaines fonctions et d'exécuter les étapes individuellement, ou essayez de traiter l'image une deuxième fois pour plus de clarté. Si vous voulez vraiment cette finition parfaite, Derustify+ (Pro) débloque des outils manuels de retouche et de clonage afin que vous puissiez personnellement nettoyer les rayures tenaces et peaufiner le résultat final."
+      },
+      "Q8": {
+        "Q": "Quelle est la différence entre Windows et Mobile ?",
+        "A": "L'application mobile est conçue pour la portabilité, offrant à votre téléphone une incroyable puissance de traitement IA avec une version gratuite et une mise à niveau optionnelle Derustify+ (Pro). La version Windows est conçue comme un logiciel de bureau premium qui inclut toutes les fonctionnalités Derustify+ Pro par défaut. Elle utilise votre PC pour exécuter des modèles d'IA plus grands et meilleurs pour un résultat premium, débloquant des capacités massives de traitement par lots et prenant en charge des exportations 8K impressionnantes."
       }
     }
   },

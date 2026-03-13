@@ -81,7 +81,7 @@
       },
       "Performance": {
         "Title": "Maskinvareakselerert",
-        "Description": "Bygget med høyytelsesteknologi som utnytter den lokale maskinvaren din. Ingen lange skyopplastinger, ingen prosesseringskøer—enheten din gjør det tunge arbeidet."
+        "Description": "Bygget med høyytelses, optimalisert AI som kjører direkte på din lokale maskinvare. Ingen lange skyopplastinger eller behandlingskøer – det fungerer perfekt selv på normale, hverdagslige enheter."
       },
       "PrecisionTools": {
         "Title": "Profesjonell Kontroll",
@@ -140,32 +140,36 @@
     },
     "Questions": {
       "Q1": {
-        "Q": "Why is there no subscription?",
-        "A": "Because you shouldn't have to 'rent' software to look at your own photos. Modern app companies rely on subscriptions to cover their expensive cloud servers. Since Derustify runs entirely locally on your device, we don't have those server costs to pass on to you. You buy it once, and you own it forever. Period."
+        "Q": "Hvorfor er det ikke noe abonnement?",
+        "A": "Fordi du ikke skal trenge å «leie» programvare for å se på dine egne bilder. Moderne app-selskaper er avhengige av abonnementer for å dekke sine dyre skyservere. Siden Derustify kjører helt lokalt på enheten din, har vi ikke disse serverkostnadene som vi må sende videre til deg. Du kjøper den én gang, og den er din for alltid. Punktum."
       },
       "Q2": {
-        "Q": "Is it really private?",
-        "A": "Yes. 100%. We physically cannot see your photos, and we don't even require an account. All the AI magic happens directly inside your device's memory. No internet connection is ever required to restore your images, meaning your family history stays exactly where it belongs: with you."
+        "Q": "Er det virkelig privat?",
+        "A": "Ja. 100 %. Vi kan fysisk ikke se bildene dine, og vi krever ikke engang en konto. All AI-magien skjer direkte i enhetens minne. Ingen internettforbindelse er nødvendig for å gjenopprette bildene dine, noe som betyr at familiehistorien din forblir nøyaktig der den hører hjemme: hos deg."
       },
       "Q3": {
-        "Q": "What's the catch with the Free version?",
-        "A": "The free version uses the exact same powerful AI models as the Pro version to process your images! We just add a small watermark to the corner, cap the export resolution to standard HD (1080p), and process photos one at a time. Upgrading to Pro removes the watermark, unlocks massive full-resolution 4K exports, opens up our manual pro tools, and lets you batch-process entire albums at once."
+        "Q": "Hva er haken med gratisversjonen?",
+        "A": "Gratisversjonen bruker nøyaktig de samme kraftige AI-modellene som Pro-versjonen for å behandle bildene dine! Vi legger bare til et lite vannmerke i hjørnet, begrenser eksportoppløsningen til standard HD (1080p), og behandler bilder ett om gangen. Oppgradering til Pro fjerner vannmerket, låser opp massive 4K-eksporter i full oppløsning, gir deg tilgang til våre manuelle pro-verktøy, og lar deg batch-behandle hele album samtidig."
       },
       "Q4": {
-        "Q": "Don't I need a powerful device to run AI?",
-        "A": "Not at all! Derustify is highly optimized to run perfectly fine on everyday phones and normal laptops. Because the AI is bundled directly into the app, your device does the processing itself. The only thing affected by your device's performance is speed: a brand-new phone might restore a photo in 10 seconds, while an older device might take a minute. Either way, the stunning final quality is exactly the same!"
+        "Q": "Trenger jeg ikke en kraftig enhet for å kjøre AI?",
+        "A": "Slett ikke! Derustify er høyt optimalisert for å fungere helt fint på vanlige telefoner og normale bærbare datamaskiner. Fordi AI-en er inkludert direkte i appen, gjør enheten din selve behandlingen. Det eneste som påvirkes av enhetens ytelse er hastigheten: en helt ny telefon kan gjenopprette et bilde på 10 sekunder, mens en eldre enhet kan bruke et minutt. Imidlertid kan svært gamle enheter kanskje ikke kjøre AI-modellene i det hele tatt. Vi anbefaler minst 4 GB RAM for en jevn opplevelse."
       },
       "Q5": {
-        "Q": "What kind of editing tools do I get?",
-        "A": "Think of Derustify as a streamlined, lightweight version of professional photo editing software. The AI automatically does the heavy lifting for you—removing noise, colorizing, and healing scratches. If you want more control, upgrading to Pro unlocks our 'Spectral Weaver' tools, giving you sliders to manually adjust fine details, film grain, and image structure, plus a retouching brush for the ultimate custom finish."
+        "Q": "Hva slags redigeringsverktøy får jeg?",
+        "A": "Tenk på Derustify som en strømlinjeformet, lett versjon av profesjonell bildebehandlingsprogramvare. AI-en gjør automatisk det tunge arbeidet for deg – fjerner støy, fargelegger og reparerer riper. Hvis du vil ha mer kontroll, låser oppgradering til Pro opp våre «Spectral Weaver»-verktøy, som gir deg glidebrytere for å manuelt justere fine detaljer, filmkorn og bildestruktur, pluss en retusjeringspensel for den ultimate tilpassede finishen."
       },
       "Q6": {
-        "Q": "Are the recolorings historically accurate?",
-        "A": "Not always. The AI doesn't definitively know what color your grandfather's specific tie was in 1945. Instead, it makes a highly educated guess based on training from millions of photos, ensuring things like skin tones, skies, and foliage look incredibly realistic and natural. While it often is correct, some historical inaccuracies in clothing or car colors can occur!"
+        "Q": "Er fargeleggingen historisk korrekt?",
+        "A": "Ikke alltid. AI-en vet ikke definitivt hvilken farge bestefarens spesifikke slips hadde i 1945. I stedet gjør den en kvalifisert gjetning basert på trening fra millioner av bilder, noe som sikrer at ting som hudtoner, himmel og vegetasjon ser utrolig realistisk og naturlig ut. Selv om den ofte har rett, kan noen historiske unøyaktigheter i klær eller bilfarger forekomme!"
       },
       "Q7": {
-        "Q": "My result wasn't what I expected. What can I do?",
-        "A": "AI is incredibly powerful, but some severely damaged photos need a little extra help! If a photo doesn't look quite right, try turning off certain features and running the steps individually, or try processing the image a second time for extra clarity. If you really want that perfect finish, Derustify+ (Pro) unlocks manual retouching and cloning tools so you can personally clean up stubborn scratches and fine-tune the final result."
+        "Q": "Resultatet mitt var ikke det jeg forventet. Hva kan jeg gjøre?",
+        "A": "AI er utrolig kraftig, men noen alvorlig skadede bilder trenger litt ekstra hjelp! Hvis et bilde ikke ser helt riktig ut, kan du prøve å slå av visse funksjoner og kjøre trinnene individuelt, eller prøve å behandle bildet en gang til for ekstra klarhet. Hvis du virkelig vil ha den perfekte finishen, låser Derustify+ (Pro) opp manuelle retusjerings- og kloningsverktøy, slik at du personlig kan rydde opp i gjenstridige riper og finjustere sluttresultatet."
+      },
+      "Q8": {
+        "Q": "Hva er forskjellen mellom Windows og mobil?",
+        "A": "Mobilappen er bygget for bærbarhet, og gir telefonen din utrolig AI-behandlingskraft med en gratisversjon og en valgfri Derustify+ (Pro)-oppgradering. Windows-versjonen er designet som premium skrivebordsprogramvare som inkluderer alle Derustify+ Pro-funksjonene som standard. Den utnytter PC-en din til å kjøre større og bedre AI-modeller for et premium resultat, låser opp massive evner for batchbehandling og støtter fantastisk store 8K-eksporter."
       }
     }
   },

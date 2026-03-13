@@ -81,7 +81,7 @@
       },
       "Performance": {
         "Title": "ハードウェア・アクセラレーション",
-        "Description": "ローカル ハードウェアを活用する高性能テクノロジーで構築。時間のかかるクラウドへのアップロードや処理の順番待ちはありません。お使いのデバイスが全力を尽くします。"
+        "Description": "ローカルハードウェア上で直接実行される、最適化された高性能なAIで構築されています。時間のかかるクラウドへのアップロードや処理の順番待ちはありません。日常的に使用する一般的なデバイスであっても完璧に動作します。"
       },
       "PrecisionTools": {
         "Title": "プロ仕様のコントロール",
@@ -140,32 +140,36 @@
     },
     "Questions": {
       "Q1": {
-        "Q": "Why is there no subscription?",
-        "A": "Because you shouldn't have to 'rent' software to look at your own photos. Modern app companies rely on subscriptions to cover their expensive cloud servers. Since Derustify runs entirely locally on your device, we don't have those server costs to pass on to you. You buy it once, and you own it forever. Period."
+        "Q": "なぜサブスクリプションがないのですか？",
+        "A": "自分の写真を見るためにソフトウェアを「レンタル」する必要はないはずだからです。現代のアプリ企業の多くは、高額なクラウドサーバーの維持費を賄うためにサブスクリプションに依存しています。Derustifyは基本的にお客様のデバイス上でローカルに動作するため、そのようなサーバーコストをお客様に転嫁する必要がありません。一度購入すれば、永久にあなたのものです。それだけです。"
       },
       "Q2": {
-        "Q": "Is it really private?",
-        "A": "Yes. 100%. We physically cannot see your photos, and we don't even require an account. All the AI magic happens directly inside your device's memory. No internet connection is ever required to restore your images, meaning your family history stays exactly where it belongs: with you."
+        "Q": "本当にプライベートですか？",
+        "A": "はい、100%です。私たちは物理的にあなたの写真を見ることはできませんし、アカウントの作成すら必要ありません。AIの魔法はすべてデバイスのメモリ内で直接実行されます。画像の復元にインターネット接続は一切不要で、家族の歴史は本来あるべき場所、つまりあなたの元に留まります。"
       },
       "Q3": {
-        "Q": "What's the catch with the Free version?",
-        "A": "The free version uses the exact same powerful AI models as the Pro version to process your images! We just add a small watermark to the corner, cap the export resolution to standard HD (1080p), and process photos one at a time. Upgrading to Pro removes the watermark, unlocks massive full-resolution 4K exports, opens up our manual pro tools, and lets you batch-process entire albums at once."
+        "Q": "無料版には何か制限がありますか？",
+        "A": "無料版でも、Pro版と全く同じ強力なAIモデルを使用して画像を処理できます！唯一の違いは、画像の隅に小さなウォーターマーク（透かし）が入ること、書き出し解像度が標準HD（1080p）に制限されること、そして写真を1枚ずつ処理することです。Proにアップグレードすると、ウォーターマークが削除され、4Kのフル解像度での書き出しが可能になり、手動のプロ用ツールが開放され、アルバム全体を一括処理できるようになります。"
       },
       "Q4": {
-        "Q": "Don't I need a powerful device to run AI?",
-        "A": "Not at all! Derustify is highly optimized to run perfectly fine on everyday phones and normal laptops. Because the AI is bundled directly into the app, your device does the processing itself. The only thing affected by your device's performance is speed: a brand-new phone might restore a photo in 10 seconds, while an older device might take a minute. Either way, the stunning final quality is exactly the same!"
+        "Q": "AIを動かすには高性能なデバイスが必要ですか？",
+        "A": "いいえ、全く必要ありません。Derustifyは一般的なスマートフォンや通常のノートパソコンで問題なく動作するように高度に最適化されています。AIはアプリ自体に組み込まれているため、デバイス自身が処理を行います。デバイスの性能によって変わるのは処理速度だけで、最新の電話なら10秒、古いデバイスなら1分かかるかもしれません。ただし、非常に古いデバイスではAIモデルをまったく実行できない場合があります。スムーズに動作させるには、4GB以上のRAMを推奨します。"
       },
       "Q5": {
-        "Q": "What kind of editing tools do I get?",
-        "A": "Think of Derustify as a streamlined, lightweight version of professional photo editing software. The AI automatically does the heavy lifting for you—removing noise, colorizing, and healing scratches. If you want more control, upgrading to Pro unlocks our 'Spectral Weaver' tools, giving you sliders to manually adjust fine details, film grain, and image structure, plus a retouching brush for the ultimate custom finish."
+        "Q": "どのような編集ツールが使えますか？",
+        "A": "Derustifyは、プロ仕様の画像編集ソフトウェアを使いやすく軽量化したものだと考えてください。AIが自動的にノイズ除去、着色、傷の修正といった重労働をこなします。さらにコントロールが必要な場合は、Proにアップグレードすることで「Spectral Weaver」ツールが開放され、細部、フィルム粒子、画像構造をスライダーで手動調整できるようになります。また、究極の仕上げのためのレタッチブラシも利用可能です。"
       },
       "Q6": {
-        "Q": "Are the recolorings historically accurate?",
-        "A": "Not always. The AI doesn't definitively know what color your grandfather's specific tie was in 1945. Instead, it makes a highly educated guess based on training from millions of photos, ensuring things like skin tones, skies, and foliage look incredibly realistic and natural. While it often is correct, some historical inaccuracies in clothing or car colors can occur!"
+        "Q": "彩色は歴史的に正確ですか？",
+        "A": "必ずしもそうとは限りません。AIは、1945年にあなたの祖父が締めていたネクタイの正確な色を知っているわけではありません。その代わり、数百万枚の写真データに基づいた高度な推論を行い、肌のトーン、空、植物などが驚くほどリアルで自然に見えるように色を付けます。多くの場合正解に近い色になりますが、衣服や車の色などで歴史的な不一致が生じることがあります。"
       },
       "Q7": {
-        "Q": "My result wasn't what I expected. What can I do?",
-        "A": "AI is incredibly powerful, but some severely damaged photos need a little extra help! If a photo doesn't look quite right, try turning off certain features and running the steps individually, or try processing the image a second time for extra clarity. If you really want that perfect finish, Derustify+ (Pro) unlocks manual retouching and cloning tools so you can personally clean up stubborn scratches and fine-tune the final result."
+        "Q": "結果が期待通りでない場合はどうすればいいですか？",
+        "A": "AIは非常に強力ですが、激しく損傷した写真には少し手助けが必要な場合があります。期待通りにいかない場合は、特定の機能をオフにして各ステップを個別に実行したり、より鮮明にするためにもう一度処理を試したりしてください。完璧な仕上げを目指すなら、Derustify+（Pro）で手動のレタッチやクローンツールを使用し、頑固な傷を自分で取り除いて最終結果を微調整することができます。"
+      },
+      "Q8": {
+        "Q": "Windows版とモバイル版の違いは何ですか？",
+        "A": "モバイルアプリは携帯性を重視して構築されており、無料版とオプションのDerustify+ (Pro) アップグレードにより、お使いの携帯電話に信じられないほどのAI処理能力をもたらします。Windows版は、すべてのDerustify+ Pro機能がデフォルトで含まれるプレミアムデスクトップソフトウェアとして設計されています。PCを利用して、より大規模で優れたAIモデルを実行し、プレミアムな結果をもたらし、大規模なバッチ処理機能のロックを解除し、驚くほど巨大な8Kエクスポートをサポートします。"
       }
     }
   },

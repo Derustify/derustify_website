@@ -81,7 +81,7 @@
       },
       "Performance": {
         "Title": "硬件加速",
-        "Description": "采用利用您本地硬件的高性能技术构建。没有漫长的云端上传，没有处理队列——由您的设备完成繁重的工作。"
+        "Description": "采用直接在您本地硬件上运行的、经过优化的高性能 AI 构建。没有漫长的云端上传或处理队列——即使在普通的日常设备上也能完美运行。"
       },
       "PrecisionTools": {
         "Title": "专业级控制",
@@ -140,32 +140,36 @@
     },
     "Questions": {
       "Q1": {
-        "Q": "Why is there no subscription?",
-        "A": "Because you shouldn't have to 'rent' software to look at your own photos. Modern app companies rely on subscriptions to cover their expensive cloud servers. Since Derustify runs entirely locally on your device, we don't have those server costs to pass on to you. You buy it once, and you own it forever. Period."
+        "Q": "为什么没有订阅费用？",
+        "A": "因为您不应该为了查看自己的照片而“租赁”软件。现代应用程序公司依靠订阅来支付昂贵的云服务器费用。由于 Derustify 完全在您的设备本地运行，我们没有这些需要转交给您的服务器成本。您只需购买一次，即可永久拥有。就这么简单。"
       },
       "Q2": {
-        "Q": "Is it really private?",
-        "A": "Yes. 100%. We physically cannot see your photos, and we don't even require an account. All the AI magic happens directly inside your device's memory. No internet connection is ever required to restore your images, meaning your family history stays exactly where it belongs: with you."
+        "Q": "它真的隐私吗？",
+        "A": "是的，100%。我们物理上无法看到您的照片，甚至不需要您注册账户。所有的 AI 魔法都直接在您设备的内存中进行。修复图像不需要任何互联网连接，这意味着您的家庭历史会留在它原本所属的地方：您的身边。"
       },
       "Q3": {
-        "Q": "What's the catch with the Free version?",
-        "A": "The free version uses the exact same powerful AI models as the Pro version to process your images! We just add a small watermark to the corner, cap the export resolution to standard HD (1080p), and process photos one at a time. Upgrading to Pro removes the watermark, unlocks massive full-resolution 4K exports, opens up our manual pro tools, and lets you batch-process entire albums at once."
+        "Q": "免费版有什么限制？",
+        "A": "免费版使用与 Pro 版完全相同的强大 AI 模型来处理您的图像！我们只是在角落添加了一个小水印，将导出分辨率限制为标准高清 (1080p)，并且一次只能处理一张照片。升级到 Pro 会移除水印，解锁全分辨率的 4K 导出，开放我们的手动专业工具，并允许您一次批量处理整个相册。"
       },
       "Q4": {
-        "Q": "Don't I need a powerful device to run AI?",
-        "A": "Not at all! Derustify is highly optimized to run perfectly fine on everyday phones and normal laptops. Because the AI is bundled directly into the app, your device does the processing itself. The only thing affected by your device's performance is speed: a brand-new phone might restore a photo in 10 seconds, while an older device might take a minute. Either way, the stunning final quality is exactly the same!"
+        "Q": "我不需要一台性能很强的设备来运行 AI 吗？",
+        "A": "完全不需要！Derustify 经过高度优化，可以在日常使用的手机和普通笔记本电脑上完美运行。由于 AI 直接打包在应用中，您的设备会自行完成处理。受设备性能影响的唯一因素是速度：一台全新的手机可能在 10 秒内修复一张照片，而旧设备可能需要一分钟。然而，非常旧的设备可能完全无法运行 AI 模型。我们建议至少 4GB 的 RAM 以获得流畅的体验。"
       },
       "Q5": {
-        "Q": "What kind of editing tools do I get?",
-        "A": "Think of Derustify as a streamlined, lightweight version of professional photo editing software. The AI automatically does the heavy lifting for you—removing noise, colorizing, and healing scratches. If you want more control, upgrading to Pro unlocks our 'Spectral Weaver' tools, giving you sliders to manually adjust fine details, film grain, and image structure, plus a retouching brush for the ultimate custom finish."
+        "Q": "我能得到什么样的编辑工具？",
+        "A": "可以将 Derustify 看作是专业照片编辑软件的精简、轻巧版本。AI 会自动为您完成繁重的工作——去除噪点、着色和修复划痕。如果您想要更多控制权，升级到 Pro 会解锁我们的“Spectral Weaver”工具，为您提供手动调整精细细节、胶片颗粒和图像结构的滑块，以及用于最终自定义修整的修图刷。"
       },
       "Q6": {
-        "Q": "Are the recolorings historically accurate?",
-        "A": "Not always. The AI doesn't definitively know what color your grandfather's specific tie was in 1945. Instead, it makes a highly educated guess based on training from millions of photos, ensuring things like skin tones, skies, and foliage look incredibly realistic and natural. While it often is correct, some historical inaccuracies in clothing or car colors can occur!"
+        "Q": "着色在历史上准确吗？",
+        "A": "并不总是。AI 并不能肯定地知道您祖父在 1945 年戴的那条领带具体是什么颜色。相反，它会根据数百万张照片的训练做出高度准确的猜测，确保皮肤色调、天空和植被等看起来非常真实自然。虽然它通常是正确的，但衣物或汽车颜色方面可能会出现一些历史性的偏差。"
       },
       "Q7": {
-        "Q": "My result wasn't what I expected. What can I do?",
-        "A": "AI is incredibly powerful, but some severely damaged photos need a little extra help! If a photo doesn't look quite right, try turning off certain features and running the steps individually, or try processing the image a second time for extra clarity. If you really want that perfect finish, Derustify+ (Pro) unlocks manual retouching and cloning tools so you can personally clean up stubborn scratches and fine-tune the final result."
+        "Q": "结果不如我预期的那样，我该怎么办？",
+        "A": "AI 非常强大，但一些严重损坏的照片需要一点额外的帮助！如果照片看起来不完全正确，请尝试关闭某些功能并单独运行各个步骤，或者尝试对图像进行第二次处理以获得额外的清晰度。如果您真的想要那种完美的最终效果，Derustify+ (Pro) 会解锁手动修图和克隆工具，这样您就可以亲自清理顽固的划痕，并精细调整最终结果。"
+      },
+      "Q8": {
+        "Q": "Windows 版和移动版之间有什么区别？",
+        "A": "移动应用程序专为便携性而打造，通过免费版本和可选的 Derustify+ (Pro) 升级，为您的手机带来令人难以置信的 AI 处理能力。Windows 版本被设计为一款高级桌面软件，默认包含所有 Derustify+ Pro 功能。它利用您的 PC 运行更大、更好的 AI 模型以获得优质结果，解锁大规模批处理功能，并支持令人惊叹的大幅 8K 导出。"
       }
     }
   },
