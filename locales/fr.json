@@ -11,14 +11,14 @@
     "Features": "Pourquoi Derustify ?",
     "Showcase": "Galerie",
     "FAQ": "Questions courantes",
-    "Download": "Bientôt"
+    "Download": "Télécharger"
   },
   "Hero": {
     "Badge": "· Sans abonnement   · Fonctionne hors ligne   · Sans inscription   · Rien qu'à vous",
     "Title": "Restauration de photos privée",
     "Description": "Cessez de payer les géants de la technologie juste pour voir vos propres photos. Derustify est un restaurateur de qualité professionnelle qui s'exécute à 100 % sur votre matériel. Utilisez l'application gratuitement, ou achetez-la une fois pour un traitement privé et illimité.",
     "Buttons": {
-      "GooglePlay": "Android (Bientôt)",
+      "GooglePlay": "Disponible sur Android",
       "Windows": "Windows (Bientôt)"
     },
     "ComingSoonBadge": "Bientôt",
@@ -175,9 +175,9 @@
   },
   "CTASection": {
     "Title": "Ne laissez pas vos souvenirs s'effacer.",
-    "Subtitle": "Derustify arrive bientôt sur Windows et Android. Pas de cloud, pas d'abonnement, juste vos souvenirs.",
+    "Subtitle": "Téléchargez Derustify pour Android dès maintenant. Windows arrive bientôt. Pas de cloud, pas d'abonnement, juste vos souvenirs.",
     "Buttons": {
-      "GooglePlay": "Bientôt sur Android",
+      "GooglePlay": "Télécharger pour Android",
       "Windows": "Bientôt sur Windows"
     }
   },

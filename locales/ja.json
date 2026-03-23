@@ -11,14 +11,14 @@
     "Features": "Derustifyを選ぶ理由",
     "Showcase": "ギャラリー",
     "FAQ": "よくある質問",
-    "Download": "近日公開"
+    "Download": "アプリを入手"
   },
   "Hero": {
     "Badge": "· サブスクリプションなし   · オフラインで動作   · 登録不要   · あなただけのもの",
     "Title": "プライベートな写真修復",
     "Description": "自分の写真を見るためだけに巨大ハイテク企業にお金を払うのはやめましょう。Derustify は、ハードウェアで完全に動作するプロ仕様の復元ツールです。アプリを無料で使用するか、一度購入して無制限でプライベートな処理をご利用ください。",
     "Buttons": {
-      "GooglePlay": "Android (近日公開)",
+      "GooglePlay": "Android で入手",
       "Windows": "Windows (近日公開)"
     },
     "ComingSoonBadge": "近日公開",
@@ -175,9 +175,9 @@
   },
   "CTASection": {
     "Title": "思い出を色あせさせないでください。",
-    "Subtitle": "Derustifyは近日中にWindowsとAndroidで公開予定です。クラウド不要、月額料金なし、あなたの思い出を大切に。",
+    "Subtitle": "DerustifyをAndroidで今すぐダウンロード。Windowsは近日公開予定です。クラウド不要、月額料金なし、あなたの思い出を大切に。",
     "Buttons": {
-      "GooglePlay": "近日公開 (Android)",
+      "GooglePlay": "Android 版をダウンロード",
       "Windows": "近日公開 (Windows)"
     }
   },

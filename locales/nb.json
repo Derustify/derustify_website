@@ -11,14 +11,14 @@
     "Features": "Hvorfor Derustify?",
     "Showcase": "Galleri",
     "FAQ": "Vanlige spørsmål",
-    "Download": "Kommer snart"
+    "Download": "Last ned appen"
   },
   "Hero": {
     "Badge": "· Uten abonnement   · Fungerer offline   · Ingen registrering   · Bare dine",
     "Title": "Privat bilde-restaurering",
     "Description": "Slutt å betale teknologigiganter bare for å se dine egne bilder. Derustify er den profesjonelle bilde-restaurereren som kjører 100 % på maskinvaren din. Bruk appen gratis, eller kjøp den én gang for ubegrenset, privat prosessering.",
     "Buttons": {
-      "GooglePlay": "Android (Snart)",
+      "GooglePlay": "Få den på Android",
       "Windows": "Windows (Snart)"
     },
     "ComingSoonBadge": "Kommer snart",
@@ -175,9 +175,9 @@
   },
   "CTASection": {
     "Title": "Ikke la minnene dine falme bort.",
-    "Subtitle": "Derustify kommer snart til Windows og Android. Ingen sky, ingen månedlige gebyrer, bare dine minner.",
+    "Subtitle": "Last ned Derustify for Android i dag. Windows kommer snart. Ingen sky, ingen månedlige gebyrer, bare dine minner.",
     "Buttons": {
-      "GooglePlay": "Kommer snart til Android",
+      "GooglePlay": "Last ned for Android",
       "Windows": "Kommer snart til Windows"
     }
   },
