@@ -149,7 +149,7 @@
       },
       "Q3": {
         "Q": "Hva er haken med gratisversjonen?",
-        "A": "Gratisversjonen bruker nøyaktig de samme kraftige AI-modellene som Pro-versjonen for å behandle bildene dine! Vi legger bare til et lite vannmerke i hjørnet, begrenser eksportoppløsningen til standard HD (1080p), og behandler bilder ett om gangen. Oppgradering til Pro fjerner vannmerket, låser opp massive 4K-eksporter i full oppløsning, gir deg tilgang til våre manuelle pro-verktøy, og lar deg batch-behandle hele album samtidig."
+        "A": "Gratisversjonen bruker nøyaktig de samme kraftige AI-modellene som Pro-versjonen til å behandle bildene dine – helt uten vannmerker. For å holde prosjektet bærekraftig, begrenser vi gratisnivået til eksport i standard HD (1080p) og behandling av ett bilde om gangen. Oppgradering til Pro låser opp massive 4K-eksporter i full oppløsning, gir tilgang til våre manuelle pro-verktøy, og lar deg batch-behandle hele album samtidig."
       },
       "Q4": {
         "Q": "Trenger jeg ikke en kraftig enhet for å kjøre AI?",
@@ -169,7 +169,7 @@
       },
       "Q8": {
         "Q": "Hva er forskjellen mellom Windows og mobil?",
-        "A": "Mobilappen er bygget for bærbarhet, og gir telefonen din utrolig AI-behandlingskraft med en gratisversjon og en valgfri Derustify+ (Pro)-oppgradering. Windows-versjonen er designet som premium skrivebordsprogramvare som inkluderer alle Derustify+ Pro-funksjonene som standard. Den utnytter PC-en din til å kjøre større og bedre AI-modeller for et premium resultat, låser opp massive evner for batchbehandling og støtter fantastisk store 8K-eksporter."
+        "A": "Både mobil- og Windows-appene er skreddersydd for sine respektive plattformer og tilbyr AI-restaurering på profesjonelt nivå. Begge versjonene tilbyr et gratisnivå for å komme i gang, med en engangsopplåsing av Derustify+ (Pro) tilgjengelig for de som ønsker maksimal kvalitet og kontroll. Windows-versjonen utnytter PC-ens maskinvare til å kjøre enda større AI-modeller, noe som støtter massiv batch-prosessering og eksport i fantastisk høy oppløsning."
       }
     }
   },
@@ -213,7 +213,6 @@
       "AIModels": "Premium AI-modeller",
       "FaceRestore": "Ultra-skarp ansiktsgjenoppretting",
       "ExportRes": "Eksportoppløsning",
-      "Watermark": "Vannmerke",
       "Batch": "Satsvis prosessering",
       "ProSliders": "Manuelle Pro-kontroller",
       "Format": "Tilpasset utdata (JPEG/PNG)"
@@ -221,13 +220,11 @@
     "Values": {
       "Capped1080": "Begrenset (1080px)",
       "FullRes": "Full oppløsning (4K+)",
-      "Watermarked": "Vannmerket",
-      "NoWatermark": "Ingen",
       "OneAtATime": "1 bilde om gangen",
       "Unlimited": "Opptil 20 (Mobil) / 500 (Windows)"
     },
     "Note": {
-      "WindowsIncluded": "* Windows-versjonen av Derustify inkluderer alle Pro-funksjoner som standard."
+      "WindowsIncluded": "* Begge plattformer tilbyr en gratisversjon med en valgfri engangsoppgradering til Derustify+."
     }
   }
 }

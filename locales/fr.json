@@ -149,7 +149,7 @@
       },
       "Q3": {
         "Q": "Quel est le piège avec la version gratuite ?",
-        "A": "La version gratuite utilise exactement les mêmes modèles d'IA puissants que la version Pro pour traiter vos images ! Nous ajoutons simplement un petit filigrane dans le coin, limitons la résolution d'exportation au HD standard (1080p) et traitons les photos une par une. La mise à niveau vers Pro supprime le filigrane, débloque des exportations massives en 4K en pleine résolution, ouvre nos outils manuels pro et vous permet de traiter des albums entiers par lots."
+        "A": "La version gratuite utilise exactement les mêmes modèles d'IA puissants que la version Pro pour traiter vos images — et ce, sans aucun filigrane. Pour que le projet reste viable, nous limitons la version gratuite aux exportations en HD standard (1080p) et au traitement des photos une par une. La mise à niveau vers Pro débloque des exportations massives en 4K en pleine résolution, donne accès à nos outils manuels pro et vous permet de traiter des albums entiers par lots."
       },
       "Q4": {
         "Q": "N'ai-je pas besoin d'un appareil puissant pour faire fonctionner l'IA ?",
@@ -169,7 +169,7 @@
       },
       "Q8": {
         "Q": "Quelle est la différence entre Windows et Mobile ?",
-        "A": "L'application mobile est conçue pour la portabilité, offrant à votre téléphone une incroyable puissance de traitement IA avec une version gratuite et une mise à niveau optionnelle Derustify+ (Pro). La version Windows est conçue comme un logiciel de bureau premium qui inclut toutes les fonctionnalités Derustify+ Pro par défaut. Elle utilise votre PC pour exécuter des modèles d'IA plus grands et meilleurs pour un résultat premium, débloquant des capacités massives de traitement par lots et prenant en charge des exportations 8K impressionnantes."
+        "A": "Les applications mobile et Windows sont adaptées à leurs plateformes respectives et offrent une restauration par IA de niveau professionnel. Les deux versions proposent un niveau gratuit pour commencer, avec un déblocage unique de Derustify+ (Pro) disponible pour ceux qui souhaitent une qualité et un contrôle maximaux. La version Windows utilise le matériel de votre PC pour exécuter des modèles d'IA encore plus grands, permettant un traitement par lots massif et des exportations d'une résolution impressionnante."
       }
     }
   },
@@ -213,7 +213,6 @@
       "AIModels": "Modèles d'IA Premium",
       "FaceRestore": "Restauration faciale ultra-nette",
       "ExportRes": "Résolution d'exportation",
-      "Watermark": "Filigrane",
       "Batch": "Traitement par lots",
       "ProSliders": "Contrôles Pro manuels",
       "Format": "Sortie personnalisée (JPEG/PNG)"
@@ -221,13 +220,11 @@
     "Values": {
       "Capped1080": "Plafonné (1080px)",
       "FullRes": "Pleine résolution (4K+)",
-      "Watermarked": "Filigrané",
-      "NoWatermark": "Aucun",
       "OneAtATime": "1 image à la fois",
       "Unlimited": "Jusqu'à 20 (Mobile) / 500 (Windows)"
     },
     "Note": {
-      "WindowsIncluded": "* La version Windows de Derustify inclut toutes les fonctionnalités Pro par défaut."
+      "WindowsIncluded": "* Les deux plateformes proposent une version gratuite avec une mise à jour optionnelle en achat unique vers Derustify+."
     }
   }
 }

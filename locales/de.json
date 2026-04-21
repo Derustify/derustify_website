@@ -149,7 +149,7 @@
       },
       "Q3": {
         "Q": "Wo ist der Haken bei der kostenlosen Version?",
-        "A": "Die kostenlose Version verwendet genau dieselben leistungsstarken KI-Modelle wie die Pro-Version, um Ihre Bilder zu verarbeiten! Wir fügen lediglich ein kleines Wasserzeichen in der Ecke hinzu, begrenzen die Exportauflösung auf Standard-HD (1080p) und verarbeiten Fotos nacheinander. Ein Upgrade auf Pro entfernt das Wasserzeichen, schaltet massive 4K-Exporte in voller Auflösung frei, ermöglicht den Zugriff auf unsere manuellen Pro-Tools und lässt Sie ganze Alben auf einmal im Stapel verarbeiten."
+        "A": "Die kostenlose Version verwendet genau dieselben leistungsstarken KI-Modelle wie die Pro-Version zur Verarbeitung Ihrer Bilder – und das ganz ohne Wasserzeichen. Um das Projekt nachhaltig zu gestalten, begrenzen wir die kostenlose Stufe auf Standard-HD-Exporte (1080p) und die Verarbeitung einzelner Fotos. Ein Upgrade auf Pro schaltet riesige 4K-Exporte in voller Auflösung frei, bietet Zugriff auf unsere manuellen Pro-Tools und ermöglicht die Stapelverarbeitung ganzer Alben."
       },
       "Q4": {
         "Q": "Benötige ich kein leistungsstarkes Gerät, um KI auszuführen?",
@@ -169,7 +169,7 @@
       },
       "Q8": {
         "Q": "Was ist der Unterschied zwischen Windows und Mobile?",
-        "A": "Die mobile App ist auf Portabilität ausgelegt und verleiht Ihrem Telefon unglaubliche KI-Verarbeitungsleistung mit einer kostenlosen Version und einem optionalen Derustify+ (Pro) Upgrade. Die Windows-Version ist als Premium-Desktop-Software konzipiert, die standardmäßig alle Derustify+ Pro-Funktionen enthält. Sie nutzt Ihren PC, um größere und bessere KI-Modelle für ein Premium-Ergebnis auszuführen, schaltet massive Stapelverarbeitungsmöglichkeiten frei und unterstützt atemberaubend riesige 8K-Exporte."
+        "A": "Sowohl die Mobile- als auch die Windows-App sind auf ihre jeweiligen Plattformen zugeschnitten und bieten KI-Restaurierung auf professionellem Niveau. Beide Versionen bieten eine kostenlose Stufe für den Einstieg, mit einer einmaligen Derustify+ (Pro)-Freischaltung für diejenigen, die maximale Qualität und Kontrolle wünschen. Die Windows-Version nutzt die Hardware Ihres PCs, um noch größere KI-Modelle auszuführen, und unterstützt massive Stapelverarbeitung und erstaunlich hochauflösende Exporte."
       }
     }
   },
@@ -213,7 +213,6 @@
       "AIModels": "Premium AI-Modelle",
       "FaceRestore": "Gestochen scharfe Gesichtsrestauration",
       "ExportRes": "Exportauflösung",
-      "Watermark": "Export-Wasserzeichen",
       "Batch": "Stapelverarbeitung",
       "ProSliders": "Manuelle Pro-Steuerung",
       "Format": "Benutzerdefinierte Ausgabe (JPEG/PNG)"
@@ -221,13 +220,11 @@
     "Values": {
       "Capped1080": "Begrenzt (1080px)",
       "FullRes": "Volle Auflösung (4K+)",
-      "Watermarked": "Mit Wasserzeichen",
-      "NoWatermark": "Keines",
       "OneAtATime": "1 Bild nach dem anderen",
       "Unlimited": "Bis zu 20 (Mobil) / 500 (Windows)"
     },
     "Note": {
-      "WindowsIncluded": "* Die Windows-Version von Derustify enthält standardmäßig alle Pro-Funktionen."
+      "WindowsIncluded": "* Beide Plattformen bieten eine kostenlose Version mit einem optionalen einmaligen Upgrade auf Derustify+."
     }
   }
 }
