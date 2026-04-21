@@ -19,7 +19,7 @@
     "Description": "自分の写真を見るためだけに巨大ハイテク企業にお金を払うのはやめましょう。Derustify は、ハードウェアで完全に動作するプロ仕様の復元ツールです。アプリを無料で使用するか、一度購入して無制限でプライベートな処理をご利用ください。",
     "Buttons": {
       "GooglePlay": "Android で入手",
-      "Windows": "Windows (近日公開)"
+      "Windows": "Windows で入手"
     },
     "ComingSoonBadge": "近日公開",
     "Comparison": {
@@ -175,10 +175,10 @@
   },
   "CTASection": {
     "Title": "思い出を色あせさせないでください。",
-    "Subtitle": "DerustifyをAndroidで今すぐダウンロード。Windowsは近日公開予定です。クラウド不要、月額料金なし、あなたの思い出を大切に。",
+    "Subtitle": "Derustify を Android または Windows で今すぐダウンロード。クラウド不要、月額料金なし、あなたの思い出を大切に。",
     "Buttons": {
       "GooglePlay": "Android 版をダウンロード",
-      "Windows": "近日公開 (Windows)"
+      "Windows": "Windows 版をダウンロード"
     }
   },
   "Footer": {

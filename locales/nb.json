@@ -19,7 +19,7 @@
     "Description": "Slutt å betale teknologigiganter bare for å se dine egne bilder. Derustify er den profesjonelle bilde-restaurereren som kjører 100 % på maskinvaren din. Bruk appen gratis, eller kjøp den én gang for ubegrenset, privat prosessering.",
     "Buttons": {
       "GooglePlay": "Få den på Android",
-      "Windows": "Windows (Snart)"
+      "Windows": "Hent til Windows"
     },
     "ComingSoonBadge": "Kommer snart",
     "Comparison": {
@@ -175,10 +175,10 @@
   },
   "CTASection": {
     "Title": "Ikke la minnene dine falme bort.",
-    "Subtitle": "Last ned Derustify for Android i dag. Windows kommer snart. Ingen sky, ingen månedlige gebyrer, bare dine minner.",
+    "Subtitle": "Last ned Derustify til Android eller Windows i dag. Ingen sky, ingen månedsavgifter, bare minnene dine.",
     "Buttons": {
-      "GooglePlay": "Last ned for Android",
-      "Windows": "Kommer snart til Windows"
+      "GooglePlay": "Last ned til Android",
+      "Windows": "Last ned til Windows"
     }
   },
   "Footer": {

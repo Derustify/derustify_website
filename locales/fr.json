@@ -19,7 +19,7 @@
     "Description": "Cessez de payer les géants de la technologie juste pour voir vos propres photos. Derustify est un restaurateur de qualité professionnelle qui s'exécute à 100 % sur votre matériel. Utilisez l'application gratuitement, ou achetez-la une fois pour un traitement privé et illimité.",
     "Buttons": {
       "GooglePlay": "Disponible sur Android",
-      "Windows": "Windows (Bientôt)"
+      "Windows": "Obtenez-le sur Windows"
     },
     "ComingSoonBadge": "Bientôt",
     "Comparison": {
@@ -175,10 +175,10 @@
   },
   "CTASection": {
     "Title": "Ne laissez pas vos souvenirs s'effacer.",
-    "Subtitle": "Téléchargez Derustify pour Android dès maintenant. Windows arrive bientôt. Pas de cloud, pas d'abonnement, juste vos souvenirs.",
+    "Subtitle": "Téléchargez Derustify pour Android ou Windows dès aujourd'hui. Pas de cloud, pas d'abonnement mensuel, juste vos souvenirs.",
     "Buttons": {
       "GooglePlay": "Télécharger pour Android",
-      "Windows": "Bientôt sur Windows"
+      "Windows": "Télécharger pour Windows"
     }
   },
   "Footer": {

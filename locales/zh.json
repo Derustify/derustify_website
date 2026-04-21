@@ -19,7 +19,7 @@
     "Description": "停止仅仅为了看自己的照片而向科技巨头付费。Derustify 是一款 100% 在您的硬件上运行的专业级修复工具。免费使用应用程序，或者一次性购买以获得无限的私密处理。",
     "Buttons": {
       "GooglePlay": "Android 版下载",
-      "Windows": "Windows (即将推出)"
+      "Windows": "在 Windows 上获取"
     },
     "ComingSoonBadge": "即将推出",
     "Comparison": {
@@ -175,10 +175,10 @@
   },
   "CTASection": {
     "Title": "不要让您的回忆消失。",
-    "Subtitle": "立即下载 Derustify Android 版。Windows 版即将推出。无云端，无月费，只为您珍藏回忆。",
+    "Subtitle": "立即下载 Android 或 Windows 版 Derustify。无需云端，无月费，只有您的回忆。",
     "Buttons": {
       "GooglePlay": "下载 Android 版",
-      "Windows": "即将推出 (Windows)"
+      "Windows": "下载 Windows 版"
     }
   },
   "Footer": {

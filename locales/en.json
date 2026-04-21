@@ -19,7 +19,7 @@
     "Description": "Stop paying tech giants just to see your own photos. Derustify is a professional-grade restorer that runs 100% on your hardware. Use the app for free, or buy once for unlimited, private processing.",
     "Buttons": {
       "GooglePlay": "Get it on Android",
-      "Windows": "Windows (Soon)"
+      "Windows": "Get it on Windows"
     },
     "ComingSoonBadge": "Coming Soon",
     "Comparison": {
@@ -175,10 +175,10 @@
   },
   "CTASection": {
     "Title": "Don't let your memories fade away.",
-    "Subtitle": "Download Derustify for Android today. Windows coming soon. No cloud, no monthly fees, just your memories.",
+    "Subtitle": "Download Derustify for Android or Windows today. No cloud, no monthly fees, just your memories.",
     "Buttons": {
       "GooglePlay": "Download for Android",
-      "Windows": "Coming Soon for Windows"
+      "Windows": "Download for Windows"
     }
   },
   "Footer": {
